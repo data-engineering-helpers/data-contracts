@@ -42,6 +42,13 @@ these companies.
 * Link to the article: https://medium.com/@tombaeyens/data-contracts-the-missing-foundation-3c7a98544d2a
 * Publisher: Medium
 
+### Data contracts wrapped 2022
+* Title: Data contracts wrapped - 2022
+* Date: December 2022
+* Author: Shirshanka Das ([Shirshanka Das on LinkedIn](https://www.linkedin.com/in/shirshankadas/))
+* Link to the article: https://medium.com/datahub-project/data-contracts-wrapped-2022-470e0c43365d
+* Publisher: Medium
+
 ### Data contracts in practice
 * Title: Data contracts in practice
 * Date: December 2022
