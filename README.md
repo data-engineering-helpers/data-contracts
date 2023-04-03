@@ -49,6 +49,12 @@ these companies.
 * Link to the article: https://benn.substack.com/p/data-contracts
 * Publisher: Substack
 
+### Interfaces and breaking stuff
+* Title: Interfaces and breaking stuff
+* Date: July 2022
+* Author: Tristan Handy ([Tristan Handy on Substack](https://substack.com/profile/1135298-tristan-handy), [Tristan Handy on LinkedIn](https://www.linkedin.com/in/tristanhandy/))
+* Link to the article: https://roundup.getdbt.com/p/interfaces-and-breaking-stuff
+
 ### Shifting left on governance: DataHub and schema annotations
 * Title: Shifting left on governance: DataHub and schema annotations
 * Date: May 2022
