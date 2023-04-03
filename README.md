@@ -42,6 +42,13 @@ these companies.
 * Link to the article: https://medium.com/@tombaeyens/data-contracts-the-missing-foundation-3c7a98544d2a
 * Publisher: Medium
 
+### Fine, let us talk about data contracts
+* Title: Fine, let's talk about data contracts
+* Date: September 2022
+* Author: Benn Stancil ([Benn Stancil on Substack](https://benn.substack.com/about), [Benn Stancil on LinkedIn](https://www.linkedin.com/in/benn-stancil/))
+* Link to the article: https://benn.substack.com/p/data-contracts
+* Publisher: Substack
+
 ### Shifting left on governance: DataHub and schema annotations
 * Title: Shifting left on governance: DataHub and schema annotations
 * Date: May 2022
