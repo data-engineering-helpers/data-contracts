@@ -54,6 +54,7 @@ these companies.
 * Date: July 2022
 * Author: Tristan Handy ([Tristan Handy on Substack](https://substack.com/profile/1135298-tristan-handy), [Tristan Handy on LinkedIn](https://www.linkedin.com/in/tristanhandy/))
 * Link to the article: https://roundup.getdbt.com/p/interfaces-and-breaking-stuff
+* Publisher: Substack
 
 ### Shifting left on governance: DataHub and schema annotations
 * Title: Shifting left on governance: DataHub and schema annotations
@@ -110,8 +111,8 @@ these companies.
 
 ### Improving data quality with data contracts
 * Title: Improving data quality with data contracts
-* Date: 
-* Author: 
+* Date: December 2021
+* Author: Andrew Jones ([Andrew Jones on LinkedIn](https://www.linkedin.com/in/andrewrhysjones))
 * Link to the article: https://medium.com/gocardless-tech/improving-data-quality-with-data-contracts-238041e35698
 * Publisher: Medium
 
