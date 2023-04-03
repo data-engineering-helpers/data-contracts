@@ -56,6 +56,15 @@ these companies.
 * Link to the article: https://barrmoses.medium.com/implementing-data-contracts-7-key-learnings-d214a5947d5e
 * Publisher: Medium
 
+### Yet another post on Data Contracts
+* Title: Yet another post on Data Contracts
+* Date: September 2022
+* Author: David Jayatillake ([David Jayatillake on Substack](https://substack.com/profile/64081583-david-jayatillake),
+  [David Jayatillake on LinkedIn](https://www.linkedin.com/in/david-jayatillake/))
+* Part 1: https://davidsj.substack.com/p/yet-another-post-on-data-contracts
+* Part 2: https://davidsj.substack.com/p/yet-another-post-on-data-contracts-9f0
+* Part 3: https://davidsj.substack.com/p/yet-another-post-on-data-contracts-dad
+
 ### An Engineer's guide to Data Contracts
 * Title: An Engineer's guide to Data Contracts
 * Date: October 2022
@@ -82,14 +91,14 @@ these companies.
 * Link to the article: https://dataproducts.substack.com/p/the-rise-of-data-contracts
 
 # Specifications
-* Data contract as code (DCaC) principle: The data contracts must be specified thanks
+* Data contract as code (DCaC) principle: the data contracts must be specified thanks
   to an [Interface Definition Language (IDL)](https://en.wikipedia.org/wiki/Interface_description_language),
   for instance [Smithy](https://smithy.io/) or [Protobuf](https://protobuf.dev/)
 * Shift-left principle: as much as meta-data as possible should be written directly
   within the IDL-based data contracts, potentially through annotations and/or
   naming conventions as comments
 * The idea behind the two above-mentioned principles is to have the IDL-based specifications
-  incarnating the
+  materializing the
   [single version of the truth (SVOT)](https://en.wikipedia.org/wiki/Single_version_of_the_truth)
   for the data sets, while benefitting from the whole automation and tooling that an open standard
   such as Smithy and Protobuf bring
