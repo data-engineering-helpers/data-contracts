@@ -130,6 +130,13 @@ these companies.
 * Link to the article: https://dataproducts.substack.com/p/the-rise-of-data-contracts
 * Publisher: Substack
 
+### Data contracts at GoCardless, 6 months on
+* Title: Data contracts at GoCardless, 6 months on
+* Date: May 2022
+* Author: Andrew Jones
+* Link to the article: https://medium.com/gocardless-tech/data-contracts-at-gocardless-6-months-on-bbf24a37206e
+* Publisher: Medium
+
 ### Improving data quality with data contracts
 * Title: Improving data quality with data contracts
 * Date: December 2021
