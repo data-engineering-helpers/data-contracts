@@ -144,19 +144,19 @@ these companies.
 * Link to the article: https://medium.com/gocardless-tech/improving-data-quality-with-data-contracts-238041e35698
 * Publisher: Medium
 
-## Tools and frameworks
+# Tools and frameworks
 
-### Schemata
+## Schemata
 * Homepage: [GitHub - Schemata](https://github.com/ananthdurai/schemata)
 * Underlying technology: Protobuf
 
-### OpenDataMesh
+## OpenDataMesh
 * Title: Data Product Descriptor Specification
 * Homepage: https://dpds.opendatamesh.org
 * An open specification that declaratively defines a data product in all its components
   using a JSON or YAML descriptor document. It is released under Apache 2.0 license.
 
-### API specifications
+## API specifications
 * [Protobuf](https://protobuf.dev/)
 * [OpenAPI](https://www.openapis.org/)
 * [AsyncAPI spec](https://www.asyncapi.com/docs/reference/specification/v2.6.0)
