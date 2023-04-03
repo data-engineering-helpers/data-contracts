@@ -42,6 +42,13 @@ these companies.
 * Link to the article: https://medium.com/@tombaeyens/data-contracts-the-missing-foundation-3c7a98544d2a
 * Publisher: Medium
 
+### Data contracts in practice
+* Title: Data contracts in practice
+* Date: December 2022
+* Author: Andrea Gioia ([Andrea Gioia on LinkedIn](https://www.linkedin.com/in/andreagioia/))
+* Link to the article: https://betterprogramming.pub/data-contracts-in-practice-93e58d324f34
+* Publihser: Medium
+
 ### Fine, let us talk about data contracts
 * Title: Fine, let's talk about data contracts
 * Date: September 2022
