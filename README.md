@@ -56,6 +56,13 @@ these companies.
 * Link to the article: https://benn.substack.com/p/data-contracts
 * Publisher: Substack
 
+### Data contracts - From zero to hero
+* Title: Data contracts - From zero to hero
+* Date: September 2022
+* Author: Mehdi Ouazza ([Mehdi Ouazza on LinkedIn](https://www.linkedin.com/in/mehd-io/))
+* Link to the article: https://towardsdatascience.com/data-contracts-from-zero-to-hero-343717ac4d5e
+* Publisher: Medium
+
 ### Interfaces and breaking stuff
 * Title: Interfaces and breaking stuff
 * Date: July 2022
