@@ -64,6 +64,7 @@ these companies.
 * Part 1: https://davidsj.substack.com/p/yet-another-post-on-data-contracts
 * Part 2: https://davidsj.substack.com/p/yet-another-post-on-data-contracts-9f0
 * Part 3: https://davidsj.substack.com/p/yet-another-post-on-data-contracts-dad
+* Publisher: Substack
 
 ### An Engineer's guide to Data Contracts
 * Title: An Engineer's guide to Data Contracts
@@ -71,24 +72,35 @@ these companies.
 * Authors: Chad Sanderson and Adrian Kreuziger
 * Part 1: https://dataproducts.substack.com/p/an-engineers-guide-to-data-contracts
 * Part 2: https://dataproducts.substack.com/p/an-engineers-guide-to-data-contracts-6df
+* Publisher: Substack
 
 ### Data contracts for the warehouse
 * Title: Data contracts for the warehouse
 * Date: January 2023
 * Authors: Chad Sanderson and Daniel Dicker
 * Link to the web site/blog: https://dataproducts.substack.com/p/data-contracts-for-the-warehouse
+* Publisher: Substack
 
 ### The production-grade Data Pipeline
 * Title: The production-grade Data Pipeline
 * Date: September 2022
 * Author: Chad Sanderson
 * Link to the article: https://dataproducts.substack.com/p/the-production-grade-data-pipeline
+* Publisher: Substack
 
 ### The rise of data contracts
 * Title: The rise of data contracts
 * Date: August 2022
 * Author: Chad Sanderson
 * Link to the article: https://dataproducts.substack.com/p/the-rise-of-data-contracts
+* Publisher: Substack
+
+### Improving data quality with data contracts
+* Title: Improving data quality with data contracts
+* Date: 
+* Author: 
+* Link to the article: https://medium.com/gocardless-tech/improving-data-quality-with-data-contracts-238041e35698
+* Publisher: Medium
 
 # Specifications
 * Data contract as code (DCaC) principle: the data contracts must be specified thanks
