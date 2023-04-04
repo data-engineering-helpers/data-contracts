@@ -109,6 +109,13 @@ This is the _data contract_.
 * Link to the article: https://medium.com/@tombaeyens/data-contracts-the-missing-foundation-3c7a98544d2a
 * Publisher: Medium
 
+### Data contracts for the warehouse
+* Title: Data contracts for the warehouse
+* Date: January 2023
+* Authors: Chad Sanderson and Daniel Dicker
+* Link to the web site/blog: https://dataproducts.substack.com/p/data-contracts-for-the-warehouse
+* Publisher: Substack
+
 ### Data contracts wrapped 2022
 * Title: Data contracts wrapped - 2022
 * Date: December 2022
@@ -122,6 +129,31 @@ This is the _data contract_.
 * Author: Andrea Gioia ([Andrea Gioia on LinkedIn](https://www.linkedin.com/in/andreagioia/))
 * Link to the article: https://betterprogramming.pub/data-contracts-in-practice-93e58d324f34
 * Publihser: Medium
+
+### An Engineer's guide to Data Contracts
+* Title: An Engineer's guide to Data Contracts
+* Date: October 2022
+* Authors: Chad Sanderson and Adrian Kreuziger
+* Part 1: https://dataproducts.substack.com/p/an-engineers-guide-to-data-contracts
+* Part 2: https://dataproducts.substack.com/p/an-engineers-guide-to-data-contracts-6df
+* Publisher: Substack
+
+### The production-grade Data Pipeline
+* Title: The production-grade Data Pipeline
+* Date: September 2022
+* Author: Chad Sanderson
+* Link to the article: https://dataproducts.substack.com/p/the-production-grade-data-pipeline
+* Publisher: Substack
+
+### Yet another post on Data Contracts
+* Title: Yet another post on Data Contracts
+* Date: September 2022
+* Author: David Jayatillake ([David Jayatillake on Substack](https://substack.com/profile/64081583-david-jayatillake),
+  [David Jayatillake on LinkedIn](https://www.linkedin.com/in/david-jayatillake/))
+* Part 1: https://davidsj.substack.com/p/yet-another-post-on-data-contracts
+* Part 2: https://davidsj.substack.com/p/yet-another-post-on-data-contracts-9f0
+* Part 3: https://davidsj.substack.com/p/yet-another-post-on-data-contracts-dad
+* Publisher: Substack
 
 ### Fine, let us talk about data contracts
 * Title: Fine, let's talk about data contracts
@@ -158,12 +190,12 @@ This is the _data contract_.
 * Link to the article: https://roundup.getdbt.com/p/interfaces-and-breaking-stuff
 * Publisher: Substack
 
-### Shifting left on governance: DataHub and schema annotations
-* Title: Shifting left on governance: DataHub and schema annotations
-* Date: May 2022
-* Author: Joshua Shinavier
-* Link to the article: https://engineering.linkedin.com/blog/2022/shifting-left-on-governance--datahub-and-schema-annotations
-* Publisher: LinkedIn
+### The rise of data contracts
+* Title: The rise of data contracts
+* Date: August 2022
+* Author: Chad Sanderson
+* Link to the article: https://dataproducts.substack.com/p/the-rise-of-data-contracts
+* Publisher: Substack
 
 ### Implementing Data Contracts: 7 Key Learnings
 * Title: Implementing Data Contracts: 7 Key Learnings
@@ -172,44 +204,12 @@ This is the _data contract_.
 * Link to the article: https://barrmoses.medium.com/implementing-data-contracts-7-key-learnings-d214a5947d5e
 * Publisher: Medium
 
-### Yet another post on Data Contracts
-* Title: Yet another post on Data Contracts
-* Date: September 2022
-* Author: David Jayatillake ([David Jayatillake on Substack](https://substack.com/profile/64081583-david-jayatillake),
-  [David Jayatillake on LinkedIn](https://www.linkedin.com/in/david-jayatillake/))
-* Part 1: https://davidsj.substack.com/p/yet-another-post-on-data-contracts
-* Part 2: https://davidsj.substack.com/p/yet-another-post-on-data-contracts-9f0
-* Part 3: https://davidsj.substack.com/p/yet-another-post-on-data-contracts-dad
-* Publisher: Substack
-
-### An Engineer's guide to Data Contracts
-* Title: An Engineer's guide to Data Contracts
-* Date: October 2022
-* Authors: Chad Sanderson and Adrian Kreuziger
-* Part 1: https://dataproducts.substack.com/p/an-engineers-guide-to-data-contracts
-* Part 2: https://dataproducts.substack.com/p/an-engineers-guide-to-data-contracts-6df
-* Publisher: Substack
-
-### Data contracts for the warehouse
-* Title: Data contracts for the warehouse
-* Date: January 2023
-* Authors: Chad Sanderson and Daniel Dicker
-* Link to the web site/blog: https://dataproducts.substack.com/p/data-contracts-for-the-warehouse
-* Publisher: Substack
-
-### The production-grade Data Pipeline
-* Title: The production-grade Data Pipeline
-* Date: September 2022
-* Author: Chad Sanderson
-* Link to the article: https://dataproducts.substack.com/p/the-production-grade-data-pipeline
-* Publisher: Substack
-
-### The rise of data contracts
-* Title: The rise of data contracts
-* Date: August 2022
-* Author: Chad Sanderson
-* Link to the article: https://dataproducts.substack.com/p/the-rise-of-data-contracts
-* Publisher: Substack
+### Shifting left on governance: DataHub and schema annotations
+* Title: Shifting left on governance: DataHub and schema annotations
+* Date: May 2022
+* Author: Joshua Shinavier
+* Link to the article: https://engineering.linkedin.com/blog/2022/shifting-left-on-governance--datahub-and-schema-annotations
+* Publisher: LinkedIn
 
 ### Data contracts at GoCardless, 6 months on
 * Title: Data contracts at GoCardless, 6 months on
