@@ -33,6 +33,9 @@ Data contracts
 * [Tools and frameworks](#tools-and-frameworks)
   * [Schemata](#schemata)
   * [OpenDataMesh](#opendatamesh)
+  * [Avro / Schema Registry](#avro--schema-registry)
+    * [Support by cloud vendors](#support-by-cloud-vendors)
+  * [Protocol buffers (Protobuf)](#protocol-buffers-protobuf)
   * [API specifications](#api-specifications)
 * [Specifications](#specifications)
 
