@@ -137,6 +137,20 @@ This is the _data contract_.
 * Link to the article: https://towardsdatascience.com/data-contracts-from-zero-to-hero-343717ac4d5e
 * Publisher: Medium
 
+### Contracts have consequences
+* Title: Contracts have consequences
+* Date: September 2022
+* Author: Tristan Hardy ([Tristan Hardy on Substack](https://substack.com/profile/1135298-tristan-handy))
+* Link to the article: https://roundup.getdbt.com/p/contracts-have-consequences
+* Publisher: Substack
+
+### Data Person: Attorney At Law
+* Title: Data Person: Attorney At Law
+* Date: September 2022
+* Author: Stephen Bailey ([Stephen Bailey on Substack](https://substack.com/profile/16953086-stephen-bailey), [Stephen Bailey on LinkedIn](https://www.linkedin.com/in/stkbailey/))
+* Link to the article: https://stkbailey.substack.com/p/data-person-attorney-at-law
+* Publisher: Substack
+
 ### Interfaces and breaking stuff
 * Title: Interfaces and breaking stuff
 * Date: July 2022
