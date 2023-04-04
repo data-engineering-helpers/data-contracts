@@ -36,6 +36,9 @@ Data contracts
   * [Avro / Schema Registry](#avro--schema-registry)
     * [Support by cloud vendors](#support-by-cloud-vendors)
   * [Protocol buffers (Protobuf)](#protocol-buffers-protobuf)
+  * [Buz](#buz)
+  * [Benthos](#benthos)
+  * [Memphis](#memphis)
   * [API specifications](#api-specifications)
 * [Specifications](#specifications)
 
