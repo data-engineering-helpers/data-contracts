@@ -24,8 +24,8 @@ Data contracts
     * [Data contracts \- From zero to hero](#data-contracts---from-zero-to-hero)
     * [Contracts have consequences](#contracts-have-consequences)
     * [Data Person: Attorney At Law](#data-person-attorney-at-law)
-    * [Interfaces and breaking stuff](#interfaces-and-breaking-stuff)
     * [The rise of data contracts](#the-rise-of-data-contracts)
+    * [Interfaces and breaking stuff](#interfaces-and-breaking-stuff)
     * [Implementing Data Contracts: 7 Key Learnings](#implementing-data-contracts-7-key-learnings)
     * [Shifting left on governance: DataHub and schema annotations](#shifting-left-on-governance-datahub-and-schema-annotations)
     * [Data contracts at GoCardless, 6 months on](#data-contracts-at-gocardless-6-months-on)
@@ -185,18 +185,18 @@ This is the _data contract_.
 * Link to the article: https://stkbailey.substack.com/p/data-person-attorney-at-law
 * Publisher: Substack
 
-### Interfaces and breaking stuff
-* Title: Interfaces and breaking stuff
-* Date: July 2022
-* Author: Tristan Handy ([Tristan Handy on Substack](https://substack.com/profile/1135298-tristan-handy), [Tristan Handy on LinkedIn](https://www.linkedin.com/in/tristanhandy/))
-* Link to the article: https://roundup.getdbt.com/p/interfaces-and-breaking-stuff
-* Publisher: Substack
-
 ### The rise of data contracts
 * Title: The rise of data contracts
 * Date: August 2022
 * Author: Chad Sanderson
 * Link to the article: https://dataproducts.substack.com/p/the-rise-of-data-contracts
+* Publisher: Substack
+
+### Interfaces and breaking stuff
+* Title: Interfaces and breaking stuff
+* Date: July 2022
+* Author: Tristan Handy ([Tristan Handy on Substack](https://substack.com/profile/1135298-tristan-handy), [Tristan Handy on LinkedIn](https://www.linkedin.com/in/tristanhandy/))
+* Link to the article: https://roundup.getdbt.com/p/interfaces-and-breaking-stuff
 * Publisher: Substack
 
 ### Implementing Data Contracts: 7 Key Learnings
