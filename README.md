@@ -252,6 +252,30 @@ This is the _data contract_.
 ## Protocol buffers (Protobuf)
 * [Protobuf homepage](https://protobuf.dev/)
 
+## Buz
+* [Buz homepage](https://buz.dev)
+* [GitHub - Buz](https://github.com/silverton-io/buz)
+* Overview: Buz is a system for collecting events from various sources,
+  validating data quality, and delivering them to where they need to be.
+
+## Benthos
+* [Benthos homepage](https://www.benthos.dev/)
+* [GitHub - Benthos](https://github.com/benthosdev/benthos)
+* Overview: Benthos is a high performance and resilient stream processor,
+  able to connect various sources and sinks in a range of brokering patterns
+  and perform hydration, enrichments, transformations and filters on payloads.
+
+## Memphis
+* [Memphis homepage](https://memphis.dev)
+* [GitHub - Memphis](https://github.com/memphisdev/memphis)
+* Overview: A simple, robust, and durable cloud-native message broker wrapped with
+  an entire ecosystem that enables cost-effective, fast, and reliable development
+  of modern queue-based use cases.
+  Memphis enables the building of modern queue-based applications that require
+  large volumes of streamed and enriched data, modern protocols, zero ops, rapid
+  development, extreme cost reduction, and a significantly lower amount of dev time
+  for data-oriented developers and data engineers.
+
 ## API specifications
 * [OpenAPI](https://www.openapis.org/)
 * [AsyncAPI spec](https://www.asyncapi.com/docs/reference/specification/v2.6.0)
