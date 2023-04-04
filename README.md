@@ -239,8 +239,17 @@ This is the _data contract_.
 * An open specification that declaratively defines a data product in all its components
   using a JSON or YAML descriptor document. It is released under Apache 2.0 license.
 
+## Avro / Schema Registry
+* [Schema Registry overview](https://docs.confluent.io/platform/current/schema-registry/index.html)
+* [Avro overview](https://avro.apache.org/docs/)
+
+### Support by cloud vendors
+* [AWS Glue Schema Registry](https://docs.aws.amazon.com/glue/latest/dg/schema-registry.html)
+
+## Protocol buffers (Protobuf)
+* [Protobuf homepage](https://protobuf.dev/)
+
 ## API specifications
-* [Protobuf](https://protobuf.dev/)
 * [OpenAPI](https://www.openapis.org/)
 * [AsyncAPI spec](https://www.asyncapi.com/docs/reference/specification/v2.6.0)
 * [DatastoreAPI](https://dpds.opendatamesh.org/resources/standards/dsapi-spec/)
