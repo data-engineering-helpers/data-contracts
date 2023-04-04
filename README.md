@@ -1,6 +1,41 @@
 Data contracts
 ==============
 
+# Table of Contents
+* [Overview](#overview)
+* [Definitions](#definitions)
+  * [Definition by David Jayatillake](#definition-by-david-jayatillake)
+  * [Definition by Andrew James](#definition-by-andrew-james)
+* [References](#references)
+  * [Web sites, blogs](#web-sites-blogs)
+    * [Data contracts for the warehouse on Substack](#data-contracts-for-the-warehouse-on-substack)
+    * [Data products, Chad Sanderson on Substack](#data-products-chad-sanderson-on-substack)
+  * [Collection of articles](#collection-of-articles)
+    * [Awesome data contracts](#awesome-data-contracts)
+  * [Articles](#articles)
+    * [Data contracts, the missing foundation](#data-contracts-the-missing-foundation)
+    * [Data contracts wrapped 2022](#data-contracts-wrapped-2022)
+    * [Data contracts in practice](#data-contracts-in-practice)
+    * [Fine, let us talk about data contracts](#fine-let-us-talk-about-data-contracts)
+    * [Data contracts \- From zero to hero](#data-contracts---from-zero-to-hero)
+    * [Interfaces and breaking stuff](#interfaces-and-breaking-stuff)
+    * [Shifting left on governance: DataHub and schema annotations](#shifting-left-on-governance-datahub-and-schema-annotations)
+    * [Implementing Data Contracts: 7 Key Learnings](#implementing-data-contracts-7-key-learnings)
+    * [Yet another post on Data Contracts](#yet-another-post-on-data-contracts)
+    * [An Engineer's guide to Data Contracts](#an-engineers-guide-to-data-contracts)
+    * [Data contracts for the warehouse](#data-contracts-for-the-warehouse)
+    * [The production\-grade Data Pipeline](#the-production-grade-data-pipeline)
+    * [The rise of data contracts](#the-rise-of-data-contracts)
+    * [Data contracts at GoCardless, 6 months on](#data-contracts-at-gocardless-6-months-on)
+    * [Improving data quality with data contracts](#improving-data-quality-with-data-contracts)
+* [Tools and frameworks](#tools-and-frameworks)
+  * [Schemata](#schemata)
+  * [OpenDataMesh](#opendatamesh)
+  * [API specifications](#api-specifications)
+* [Specifications](#specifications)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
+
 # Overview
 [This project](https://github.com/data-engineering-helpers/data-contracts)
 intends to document requirements and referential material to implement
