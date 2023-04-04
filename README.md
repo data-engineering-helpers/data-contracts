@@ -14,6 +14,38 @@ Even though the members of the GitHub organization may be employed by
 some companies, they speak on their personal behalf and do not represent
 these companies.
 
+# Definitions
+
+## Definition by David Jayatillake
+* Source: https://davidsj.substack.com/p/yet-another-post-on-data-contracts
+
+In short, **a Data Contract is an enforceable agreement on structure
+and format between the producer and consumer of data**.
+You could even define it in a simpler way:
+**a Data Contract is a guarantee on structure and format by a producer of data**.
+
+## Definition by Andrew James
+* Source: https://andrew-jones.com/blog/data-contracts/
+
+Almost all data platforms start with a
+[change data capture (CDC) service](https://en.wikipedia.org/wiki/Change_data_capture)
+to extract data from an organisations transactional databases - the source of truth
+for their most valuable data. That data is then transformed, joined,
+and aggregated to drive analysis, modelling, and other downstream services.
+
+However, this data has not been designed for these use cases - it has been designed
+to satisfy the needs and requirements of the source applications and their day-to-day use.
+It can then take significant effort to transform, deduce, and derive the data
+in order to make it useful for downstream use cases.
+
+Furthermore, breaking changes and data migrations will be a regular part of
+the applications evolution and will be done without knowledge of how it has been
+used downstream, leading to breaking changes affecting key reports and data-driven products.
+
+For downstream users to confidently build on this valuable data, they need to know
+the data they are using is accurate, complete, and future proof.
+This is the _data contract_.
+
 # References
 * [Architecture principles for data engineering pipelines on the Modern Data Stack (MDS)](https://github.com/data-engineering-helpers/architecture-principles)
 * Specifications/principles for a
