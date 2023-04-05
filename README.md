@@ -3,6 +3,7 @@ Data contracts
 
 # Table of Contents
 * [Overview](#overview)
+* [Specifications](#specifications)
 * [Definitions](#definitions)
   * [Definition by David Jayatillake](#definition-by-david-jayatillake)
   * [Definition by Andrew James](#definition-by-andrew-james)
@@ -40,7 +41,7 @@ Data contracts
   * [Benthos](#benthos)
   * [Memphis](#memphis)
   * [API specifications](#api-specifications)
-* [Specifications](#specifications)
+* [Exploration / Proof\-of\-Concept (PoC)](#exploration--proof-of-concept-poc)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
