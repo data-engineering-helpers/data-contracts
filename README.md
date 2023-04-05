@@ -57,6 +57,31 @@ Even though the members of the GitHub organization may be employed by
 some companies, they speak on their personal behalf and do not represent
 these companies.
 
+# Specifications
+* Data contract as code (DCaC) principle: the data contracts must be specified thanks
+  to an [Interface Definition Language (IDL)](https://en.wikipedia.org/wiki/Interface_description_language),
+  for instance [Smithy](https://smithy.io/), [Protobuf](https://protobuf.dev/),
+  [OpenDataMesh](https://dpds.opendatamesh.org/) or
+  [Schemata](https://github.com/ananthdurai/schemata)
+  
+* Shift-left principle: as much as meta-data as possible should be written directly
+  within the IDL-based data contracts, potentially through annotations and/or
+  naming conventions as comments
+  
+* The idea behind the two above-mentioned principles is to have the IDL-based specifications
+  materializing the
+  [single version of the truth (SVOT)](https://en.wikipedia.org/wiki/Single_version_of_the_truth)
+  for the data sets, while benefitting from the whole automation and tooling that an open standard
+  such as Smithy and Protobuf bring
+
+* The data contracts should support at least the following features:
+  + Data validation / Data quality - From the data contracts, we should be able to generate
+    specifications for specific tools such as Great Expectations, Deequ, dbt or SODA
+  + Generation of data schemas for a few specific compute enginees such as
+    [Spark data types](https://spark.apache.org/docs/latest/sql-ref-datatypes.html),
+    [Flink data types](https://nightlies.apache.org/flink/flink-docs-master/docs/dev/table/types/),
+    [Python Dataclasses](https://docs.python.org/3/library/dataclasses.html) or Pandas
+
 # Definitions
 
 ## Definition by David Jayatillake
@@ -284,16 +309,5 @@ This is the _data contract_.
 * [AsyncAPI spec](https://www.asyncapi.com/docs/reference/specification/v2.6.0)
 * [DatastoreAPI](https://dpds.opendatamesh.org/resources/standards/dsapi-spec/)
 
-# Specifications
-* Data contract as code (DCaC) principle: the data contracts must be specified thanks
-  to an [Interface Definition Language (IDL)](https://en.wikipedia.org/wiki/Interface_description_language),
-  for instance [Smithy](https://smithy.io/) or [Protobuf](https://protobuf.dev/)
-* Shift-left principle: as much as meta-data as possible should be written directly
-  within the IDL-based data contracts, potentially through annotations and/or
-  naming conventions as comments
-* The idea behind the two above-mentioned principles is to have the IDL-based specifications
-  materializing the
-  [single version of the truth (SVOT)](https://en.wikipedia.org/wiki/Single_version_of_the_truth)
-  for the data sets, while benefitting from the whole automation and tooling that an open standard
-  such as Smithy and Protobuf bring
-
+# Exploration / Proof-of-Concept (PoC)
+* [GitHub - Smithy - Quickstart guide](smithy/quickstart/)
