@@ -15,6 +15,7 @@ Data contracts
     * [Awesome data contracts](#awesome-data-contracts)
   * [Articles](#articles)
     * [Data contracts, the missing foundation](#data-contracts-the-missing-foundation)
+    * [Data engineering guide to data creation, a data contract perspective](#data-engineering-guide-to-data-creation-a-data-contract-perspective)
     * [Data contracts for the warehouse](#data-contracts-for-the-warehouse)
     * [Data contracts wrapped 2022](#data-contracts-wrapped-2022)
     * [Data contracts in practice](#data-contracts-in-practice)
@@ -142,6 +143,14 @@ This is the _data contract_.
 * Author: Tom Baeyens
 * Link to the article: https://medium.com/@tombaeyens/data-contracts-the-missing-foundation-3c7a98544d2a
 * Publisher: Medium
+
+### Data engineering guide to data creation, a data contract perspective
+* Title: An Engineering Guide to Data Creation - A Data Contract perspective
+* Date: March 2023
+* Author: Ananth Packkildurai
+* Part 1: https://www.dataengineeringweekly.com/p/an-engineering-guide-to-data-creation
+* Part 2: TBA
+* Publisher: Substack
 
 ### Data contracts for the warehouse
 * Title: Data contracts for the warehouse
