@@ -1,1 +1,3 @@
-.smithy.lsp.log
+/.smithy*.log
+/.vscode/
+/tmp/
