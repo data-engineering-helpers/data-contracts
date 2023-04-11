@@ -63,8 +63,7 @@ these companies.
 * Data contract as code (DCaC) principle: the data contracts must be specified thanks
   to an [Interface Definition Language (IDL)](https://en.wikipedia.org/wiki/Interface_description_language),
   for instance [Smithy](https://smithy.io/), [Protobuf](https://protobuf.dev/),
-  [OpenDataMesh](https://dpds.opendatamesh.org/) or
-  [Schemata](https://github.com/ananthdurai/schemata)
+  [OpenDataMesh](https://dpds.opendatamesh.org/) or [Avro](https://avro.apache.org/docs/)
   
 * Shift-left principle: as much as meta-data as possible should be written directly
   within the IDL-based data contracts, potentially through annotations and/or
@@ -74,7 +73,7 @@ these companies.
   materializing the
   [single version of the truth (SVOT)](https://en.wikipedia.org/wiki/Single_version_of_the_truth)
   for the data sets, while benefitting from the whole automation and tooling that an open standard
-  such as Smithy and Protobuf bring
+  such as OpenDataMesh, Smithy and Protobuf bring
 
 * The data contracts should support at least the following features:
   + Data validation / Data quality - From the data contracts, we should be able to generate
@@ -272,13 +271,20 @@ This is the _data contract_.
 
 ## Schemata
 * Homepage: [GitHub - Schemata](https://github.com/ananthdurai/schemata)
-* Underlying technology: Protobuf
+* Schema modeling framework for decentralized domain-driven ownership of data.
+  It combines a set of standard metadata definitions for each schema and data field
+  and a scoring algorithm to provide a feedback loop on how efficient the data modeling
+  of the data warehouse is. It supports ProtoBuf, dbt and Avro formats. It may support
+  OpenDataMesh and/or Smithy in the future
 
 ## OpenDataMesh
-* Title: Data Product Descriptor Specification
 * Homepage: https://dpds.opendatamesh.org
 * An open specification that declaratively defines a data product in all its components
   using a JSON or YAML descriptor document. It is released under Apache 2.0 license.
+
+## Smithy
+* Homepage: https://smithy.io/
+* Smithy is a language (IDL) for defining services and SDKs.
 
 ## Avro / Schema Registry
 * [Schema Registry overview](https://docs.confluent.io/platform/current/schema-registry/index.html)
