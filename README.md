@@ -117,7 +117,7 @@ This is the _data contract_.
 
 # References
 * [Architecture principles for data engineering pipelines on the Modern Data Stack (MDS)](https://github.com/data-engineering-helpers/architecture-principles)
-  + [Material for the Data platform - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles/glob/main/material/README.md)
+  + [Material for the Data platform - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles/blob/main/material/README.md)
 * Specifications/principles for a
   [data engineering pipeline deployment tool](https://github.com/data-engineering-helpers/data-pipeline-deployment)
 
