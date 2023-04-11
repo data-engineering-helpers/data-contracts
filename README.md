@@ -139,17 +139,17 @@ This is the _data contract_.
 ### Data contracts, the missing foundation
 * Title: Data contracts: The missing foundation
 * Date: March 2023
-* Author: Tom Baeyens
+* Author: Tom Baeyens ([Tom Baeyens on LinkedIn](https://www.linkedin.com/in/tombaeyens/), [Tom Baeyens on Medium](https://medium.com/@tombaeyens))
 * Link to the article: https://medium.com/@tombaeyens/data-contracts-the-missing-foundation-3c7a98544d2a
 * Publisher: Medium
 
 ### Data engineering guide to data creation, a data contract perspective
 * Title: An Engineering Guide to Data Creation - A Data Contract perspective
 * Date: March 2023
-* Author: Ananth Packkildurai
+* Author: Ananth Packkildurai ([Ananth Packkildurai on LinkedIn](https://www.linkedin.com/in/ananthdurai/), [Ananth Packkildurai on Substack](https://substack.com/profile/3520227-ananth-packkildurai), [Ananth Packkildurai on GitHub](https://github.com/ananthdurai))
 * Part 1: https://www.dataengineeringweekly.com/p/an-engineering-guide-to-data-creation
 * Part 2: TBA
-* Publisher: Substack
+* Publisher: [Data Engineering Weekly (DEW) newsletter on Substack](https://www.dataengineeringweekly.com/)
 
 ### Data contracts for the warehouse
 * Title: Data contracts for the warehouse
@@ -168,7 +168,7 @@ This is the _data contract_.
 ### Data contracts in practice
 * Title: Data contracts in practice
 * Date: December 2022
-* Author: Andrea Gioia ([Andrea Gioia on LinkedIn](https://www.linkedin.com/in/andreagioia/))
+* Author: Andrea Gioia ([Andrea Gioia on LinkedIn](https://www.linkedin.com/in/andreagioia/), [Andrea Gioia on Medium](https://medium.com/@andrea_gioia), [Andrea Gioia on GitHub](https://github.com/andrea-gioia))
 * Link to the article: https://betterprogramming.pub/data-contracts-in-practice-93e58d324f34
 * Publihser: Medium
 
