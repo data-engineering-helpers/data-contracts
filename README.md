@@ -154,7 +154,11 @@ This is the _data contract_.
 ### Data contracts for the warehouse
 * Title: Data contracts for the warehouse
 * Date: January 2023
-* Authors: Chad Sanderson and Daniel Dicker
+* Authors:
+  + Chad Sanderson ([Chad Sanderson on LinkedIn](https://www.linkedin.com/in/chad-sanderson/),
+    [Chad Sanderson on Substack](https://substack.com/profile/12566999-chad-sanderson))
+  + Daniel Dicker ([Daniel Dicker on LinkedIn](https://www.linkedin.com/in/danieldicker/),
+    [Daniel Dicker on Substack](https://substack.com/profile/48987754-daniel-dicker))
 * Link to the web site/blog: https://dataproducts.substack.com/p/data-contracts-for-the-warehouse
 * Publisher: Substack
 
@@ -168,14 +172,19 @@ This is the _data contract_.
 ### Data contracts in practice
 * Title: Data contracts in practice
 * Date: December 2022
-* Author: Andrea Gioia ([Andrea Gioia on LinkedIn](https://www.linkedin.com/in/andreagioia/), [Andrea Gioia on Medium](https://medium.com/@andrea_gioia), [Andrea Gioia on GitHub](https://github.com/andrea-gioia))
+* Author: Andrea Gioia ([Andrea Gioia on LinkedIn](https://www.linkedin.com/in/andreagioia/),
+  [Andrea Gioia on Medium](https://medium.com/@andrea_gioia),
+  [Andrea Gioia on GitHub](https://github.com/andrea-gioia))
 * Link to the article: https://betterprogramming.pub/data-contracts-in-practice-93e58d324f34
 * Publihser: Medium
 
 ### An Engineer's guide to Data Contracts
 * Title: An Engineer's guide to Data Contracts
 * Date: October 2022
-* Authors: Chad Sanderson and Adrian Kreuziger
+* Authors:
+  + Chad Sanderson ([Chad Sanderson on LinkedIn](https://www.linkedin.com/in/chad-sanderson/),
+    [Chad Sanderson on Substack](https://substack.com/profile/12566999-chad-sanderson))
+  + Adrian Kreuziger
 * Part 1: https://dataproducts.substack.com/p/an-engineers-guide-to-data-contracts
 * Part 2: https://dataproducts.substack.com/p/an-engineers-guide-to-data-contracts-6df
 * Publisher: Substack
@@ -183,7 +192,8 @@ This is the _data contract_.
 ### The production-grade Data Pipeline
 * Title: The production-grade Data Pipeline
 * Date: September 2022
-* Author: Chad Sanderson
+* Author: Chad Sanderson ([Chad Sanderson on LinkedIn](https://www.linkedin.com/in/chad-sanderson/),
+          [Chad Sanderson on Substack](https://substack.com/profile/12566999-chad-sanderson))
 * Link to the article: https://dataproducts.substack.com/p/the-production-grade-data-pipeline
 * Publisher: Substack
 
@@ -200,7 +210,8 @@ This is the _data contract_.
 ### Fine, let us talk about data contracts
 * Title: Fine, let's talk about data contracts
 * Date: September 2022
-* Author: Benn Stancil ([Benn Stancil on Substack](https://benn.substack.com/about), [Benn Stancil on LinkedIn](https://www.linkedin.com/in/benn-stancil/))
+* Author: Benn Stancil ([Benn Stancil on Substack](https://benn.substack.com/about),
+          [Benn Stancil on LinkedIn](https://www.linkedin.com/in/benn-stancil/))
 * Link to the article: https://benn.substack.com/p/data-contracts
 * Publisher: Substack
 
@@ -221,49 +232,55 @@ This is the _data contract_.
 ### Data Person: Attorney At Law
 * Title: Data Person: Attorney At Law
 * Date: September 2022
-* Author: Stephen Bailey ([Stephen Bailey on Substack](https://substack.com/profile/16953086-stephen-bailey), [Stephen Bailey on LinkedIn](https://www.linkedin.com/in/stkbailey/))
+* Author: Stephen Bailey ([Stephen Bailey on Substack](https://substack.com/profile/16953086-stephen-bailey),
+          [Stephen Bailey on LinkedIn](https://www.linkedin.com/in/stkbailey/))
 * Link to the article: https://stkbailey.substack.com/p/data-person-attorney-at-law
 * Publisher: Substack
 
 ### The rise of data contracts
 * Title: The rise of data contracts
 * Date: August 2022
-* Author: Chad Sanderson
+* Author: Chad Sanderson ([Chad Sanderson on LinkedIn](https://www.linkedin.com/in/chad-sanderson/),
+          [Chad Sanderson on Substack](https://substack.com/profile/12566999-chad-sanderson))
 * Link to the article: https://dataproducts.substack.com/p/the-rise-of-data-contracts
 * Publisher: Substack
 
 ### Interfaces and breaking stuff
 * Title: Interfaces and breaking stuff
 * Date: July 2022
-* Author: Tristan Handy ([Tristan Handy on Substack](https://substack.com/profile/1135298-tristan-handy), [Tristan Handy on LinkedIn](https://www.linkedin.com/in/tristanhandy/))
+* Author: Tristan Handy ([Tristan Handy on Substack](https://substack.com/profile/1135298-tristan-handy),
+          [Tristan Handy on LinkedIn](https://www.linkedin.com/in/tristanhandy/))
 * Link to the article: https://roundup.getdbt.com/p/interfaces-and-breaking-stuff
 * Publisher: Substack
 
 ### Implementing Data Contracts: 7 Key Learnings
 * Title: Implementing Data Contracts: 7 Key Learnings
 * Date: July 2022
-* Author: Barr Moses, CEO at Monte Carlo
+* Author: Barr Moses, CEO at Monte Carlo ([Barr Moses on LinkedIn](https://www.linkedin.com/in/barrmoses/),
+          [Barr Moses on Medium](https://medium.com/@barrmoses))
 * Link to the article: https://barrmoses.medium.com/implementing-data-contracts-7-key-learnings-d214a5947d5e
 * Publisher: Medium
 
 ### Shifting left on governance: DataHub and schema annotations
 * Title: Shifting left on governance: DataHub and schema annotations
 * Date: May 2022
-* Author: Joshua Shinavier
+* Author: Joshua Shinavier ([Joshua Shinavier on LinkedIn](https://www.linkedin.com/in/joshuashinavier/))
 * Link to the article: https://engineering.linkedin.com/blog/2022/shifting-left-on-governance--datahub-and-schema-annotations
 * Publisher: LinkedIn
 
 ### Data contracts at GoCardless, 6 months on
 * Title: Data contracts at GoCardless, 6 months on
 * Date: May 2022
-* Author: Andrew Jones
+* Author: Andrew Jones ([Andrew Jones on LinkedIn](https://www.linkedin.com/in/andrewrhysjones/),
+          [Andrew Jones on Medium](https://andrew-jones.medium.com/))
 * Link to the article: https://medium.com/gocardless-tech/data-contracts-at-gocardless-6-months-on-bbf24a37206e
 * Publisher: Medium
 
 ### Improving data quality with data contracts
 * Title: Improving data quality with data contracts
 * Date: December 2021
-* Author: Andrew Jones ([Andrew Jones on LinkedIn](https://www.linkedin.com/in/andrewrhysjones))
+* Author: Andrew Jones ([Andrew Jones on LinkedIn](https://www.linkedin.com/in/andrewrhysjones/),
+          [Andrew Jones on Medium](https://andrew-jones.medium.com/))
 * Link to the article: https://medium.com/gocardless-tech/improving-data-quality-with-data-contracts-238041e35698
 * Publisher: Medium
 
@@ -276,15 +293,22 @@ This is the _data contract_.
   and a scoring algorithm to provide a feedback loop on how efficient the data modeling
   of the data warehouse is. It supports ProtoBuf, dbt and Avro formats. It may support
   OpenDataMesh and/or Smithy in the future
+* Main contributors: Ananth Packkildurai ([Ananth Packkildurai on LinkedIn](https://www.linkedin.com/in/ananthdurai/),
+  [Ananth Packkildurai on Substack](https://substack.com/profile/3520227-ananth-packkildurai),
+  [Ananth Packkildurai on GitHub](https://github.com/ananthdurai))
 
 ## OpenDataMesh
 * Homepage: https://dpds.opendatamesh.org
 * An open specification that declaratively defines a data product in all its components
   using a JSON or YAML descriptor document. It is released under Apache 2.0 license.
+* Main contributors: Andrea Gioia ([Andrea Gioia on LinkedIn](https://www.linkedin.com/in/andreagioia/),
+  [Andrea Gioia on Medium](https://medium.com/@andrea_gioia),
+  [Andrea Gioia on GitHub](https://github.com/andrea-gioia))
 
 ## Smithy
 * Homepage: https://smithy.io/
 * Smithy is a language (IDL) for defining services and SDKs.
+* Main contributor: AWS
 
 ## Avro / Schema Registry
 * [Schema Registry overview](https://docs.confluent.io/platform/current/schema-registry/index.html)
@@ -295,6 +319,7 @@ This is the _data contract_.
 
 ## Protocol buffers (Protobuf)
 * [Protobuf homepage](https://protobuf.dev/)
+* Main contributor: Google
 
 ## Buz
 * [Buz homepage](https://buz.dev)
