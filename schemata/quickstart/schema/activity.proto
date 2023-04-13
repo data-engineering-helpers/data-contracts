@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package org.examples;
+
+option java_package = "org.protocol.schema";
+option java_outer_classname = "ActivityBuilder";
+
+
