@@ -60,28 +60,37 @@ some companies, they speak on their personal behalf and do not represent
 these companies.
 
 # Specifications
-* Data contract as code (DCaC) principle: the data contracts must be specified thanks
-  to an [Interface Definition Language (IDL)](https://en.wikipedia.org/wiki/Interface_description_language),
+* Data contract as code (DCaC) principle: the data contracts must be specified
+  thanks to an
+  [Interface Definition Language (IDL)](https://en.wikipedia.org/wiki/Interface_description_language),
   for instance [Smithy](https://smithy.io/), [Protobuf](https://protobuf.dev/),
-  [OpenDataMesh](https://dpds.opendatamesh.org/) or [Avro](https://avro.apache.org/docs/)
+  [OpenDataMesh](https://dpds.opendatamesh.org/)
+  or [Avro](https://avro.apache.org/docs/)
   
-* Shift-left principle: as much as meta-data as possible should be written directly
-  within the IDL-based data contracts, potentially through annotations and/or
-  naming conventions as comments
+* Shift-left principle: as much as meta-data as possible should be
+  written directly within the IDL-based data contracts, potentially
+  through annotations and/or naming conventions as comments
   
-* The idea behind the two above-mentioned principles is to have the IDL-based specifications
-  materializing the
+* The idea behind the two above-mentioned principles is to have the IDL-based
+  specifications materializing the
   [single version of the truth (SVOT)](https://en.wikipedia.org/wiki/Single_version_of_the_truth)
-  for the data sets, while benefitting from the whole automation and tooling that an open standard
-  such as OpenDataMesh, Smithy and Protobuf bring
+  for the data sets, while benefitting from the whole automation and tooling
+  that an open standard such as OpenDataMesh, Smithy and Protobuf bring
 
 * The data contracts should support at least the following features:
-  + Data validation / Data quality - From the data contracts, we should be able to generate
-    specifications for specific tools such as Great Expectations, Deequ, dbt or SODA
+  + Data validation / Data quality - From the data contracts, we should be
+    able to generate specifications for specific tools such as
+	[Great Expectations](https://greatexpectations.io/),
+	[Deequ](https://github.com/awslabs/deequ),
+	[dbt data testing](https://www.getdbt.com/product/data-testing/)
+	or [SODA data quality platform](https://www.soda.io/data-quality-platform)
   + Generation of data schemas for a few specific compute enginees such as
     [Spark data types](https://spark.apache.org/docs/latest/sql-ref-datatypes.html),
     [Flink data types](https://nightlies.apache.org/flink/flink-docs-master/docs/dev/table/types/),
-    [Python Dataclasses](https://docs.python.org/3/library/dataclasses.html) or Pandas
+    [Python Dataclasses](https://docs.python.org/3/library/dataclasses.html),
+	[Pandera](https://pandera.readthedocs.io/en/stable/),
+	[Pydantic](https://docs.pydantic.dev/)
+	or [Pandas](https://towardsdatascience.com/data-quality-check-for-your-data-analysis-tutorial-with-pandas-7ee96d7dc4b6)
 
 # Definitions
 
@@ -122,6 +131,9 @@ This is the _data contract_.
   [data engineering pipeline deployment tool](https://github.com/data-engineering-helpers/data-pipeline-deployment)
   + [`dpcctl`, the Data Processing Pipeline (DPP) CLI utility](https://github.com/data-engineering-helpers/dppctl), a Minimal Viable Product (MVP) in Go
 * [Material for the Data platform - Data quality](https://github.com/data-engineering-helpers/data-quality/blob/main/README.md)
+* Quickstart guides:
+  + [Schemata quickstart guide](schemata/quickstart/)
+  + [Smithy quickstart guide](smithy/quickstart/)
 
 ## Web sites, blogs
 
@@ -149,61 +161,83 @@ This is the _data contract_.
 ### Data engineering guide to data creation, a data contract perspective
 * Title: An Engineering Guide to Data Creation - A Data Contract perspective
 * Date: March 2023
-* Author: Ananth Packkildurai ([Ananth Packkildurai on LinkedIn](https://www.linkedin.com/in/ananthdurai/), [Ananth Packkildurai on Substack](https://substack.com/profile/3520227-ananth-packkildurai), [Ananth Packkildurai on GitHub](https://github.com/ananthdurai))
-* Part 1: https://www.dataengineeringweekly.com/p/an-engineering-guide-to-data-creation
+* Author: Ananth Packkildurai
+  ([Ananth Packkildurai on LinkedIn](https://www.linkedin.com/in/ananthdurai/),
+   [Ananth Packkildurai on Substack](https://substack.com/profile/3520227-ananth-packkildurai),
+   [Ananth Packkildurai on GitHub](https://github.com/ananthdurai))
+* Part 1:
+  https://www.dataengineeringweekly.com/p/an-engineering-guide-to-data-creation
 * Part 2: TBA
-* Publisher: [Data Engineering Weekly (DEW) newsletter on Substack](https://www.dataengineeringweekly.com/)
+* Publisher:
+  [Data Engineering Weekly (DEW) newsletter on Substack](https://www.dataengineeringweekly.com/)
+* Note that Ananth Packkildurai is the main contributor of
+  [Schemata](#schemata)
 
 ### Data contracts for the warehouse
 * Title: Data contracts for the warehouse
 * Date: January 2023
 * Authors:
-  + Chad Sanderson ([Chad Sanderson on LinkedIn](https://www.linkedin.com/in/chad-sanderson/),
+  + Chad Sanderson
+    ([Chad Sanderson on LinkedIn](https://www.linkedin.com/in/chad-sanderson/),
     [Chad Sanderson on Substack](https://substack.com/profile/12566999-chad-sanderson))
-  + Daniel Dicker ([Daniel Dicker on LinkedIn](https://www.linkedin.com/in/danieldicker/),
+  + Daniel Dicker
+    ([Daniel Dicker on LinkedIn](https://www.linkedin.com/in/danieldicker/),
     [Daniel Dicker on Substack](https://substack.com/profile/48987754-daniel-dicker))
-* Link to the web site/blog: https://dataproducts.substack.com/p/data-contracts-for-the-warehouse
+* Link to the web site/blog:
+   https://dataproducts.substack.com/p/data-contracts-for-the-warehouse
 * Publisher: Substack
 
 ### Data contracts wrapped 2022
 * Title: Data contracts wrapped - 2022
 * Date: December 2022
-* Author: Shirshanka Das ([Shirshanka Das on LinkedIn](https://www.linkedin.com/in/shirshankadas/))
-* Link to the article: https://medium.com/datahub-project/data-contracts-wrapped-2022-470e0c43365d
+* Author: Shirshanka Das
+  ([Shirshanka Das on LinkedIn](https://www.linkedin.com/in/shirshankadas/))
+* Link to the article:
+  https://medium.com/datahub-project/data-contracts-wrapped-2022-470e0c43365d
 * Publisher: Medium
 
 ### Data contracts in practice
 * Title: Data contracts in practice
 * Date: December 2022
-* Author: Andrea Gioia ([Andrea Gioia on LinkedIn](https://www.linkedin.com/in/andreagioia/),
+* Author: Andrea Gioia
+  ([Andrea Gioia on LinkedIn](https://www.linkedin.com/in/andreagioia/),
   [Andrea Gioia on Medium](https://medium.com/@andrea_gioia),
   [Andrea Gioia on GitHub](https://github.com/andrea-gioia))
-* Link to the article: https://betterprogramming.pub/data-contracts-in-practice-93e58d324f34
+* Link to the article:
+  https://betterprogramming.pub/data-contracts-in-practice-93e58d324f34
 * Publihser: Medium
+* Note that Andrea Gioia is the main contributor of
+  [OpenDataMesh](#opendatamesh)
 
 ### An Engineer's guide to Data Contracts
 * Title: An Engineer's guide to Data Contracts
 * Date: October 2022
 * Authors:
-  + Chad Sanderson ([Chad Sanderson on LinkedIn](https://www.linkedin.com/in/chad-sanderson/),
+  + Chad Sanderson
+    ([Chad Sanderson on LinkedIn](https://www.linkedin.com/in/chad-sanderson/),
     [Chad Sanderson on Substack](https://substack.com/profile/12566999-chad-sanderson))
   + Adrian Kreuziger
-* Part 1: https://dataproducts.substack.com/p/an-engineers-guide-to-data-contracts
-* Part 2: https://dataproducts.substack.com/p/an-engineers-guide-to-data-contracts-6df
+* Part 1:
+  https://dataproducts.substack.com/p/an-engineers-guide-to-data-contracts
+* Part 2:
+  https://dataproducts.substack.com/p/an-engineers-guide-to-data-contracts-6df
 * Publisher: Substack
 
 ### The production-grade Data Pipeline
 * Title: The production-grade Data Pipeline
 * Date: September 2022
-* Author: Chad Sanderson ([Chad Sanderson on LinkedIn](https://www.linkedin.com/in/chad-sanderson/),
-          [Chad Sanderson on Substack](https://substack.com/profile/12566999-chad-sanderson))
-* Link to the article: https://dataproducts.substack.com/p/the-production-grade-data-pipeline
+* Author: Chad Sanderson
+  ([Chad Sanderson on LinkedIn](https://www.linkedin.com/in/chad-sanderson/),
+   [Chad Sanderson on Substack](https://substack.com/profile/12566999-chad-sanderson))
+* Link to the article:
+  https://dataproducts.substack.com/p/the-production-grade-data-pipeline
 * Publisher: Substack
 
 ### Yet another post on Data Contracts
 * Title: Yet another post on Data Contracts
 * Date: September 2022
-* Author: David Jayatillake ([David Jayatillake on Substack](https://substack.com/profile/64081583-david-jayatillake),
+* Author: David Jayatillake
+  ([David Jayatillake on Substack](https://substack.com/profile/64081583-david-jayatillake),
   [David Jayatillake on LinkedIn](https://www.linkedin.com/in/david-jayatillake/))
 * Part 1: https://davidsj.substack.com/p/yet-another-post-on-data-contracts
 * Part 2: https://davidsj.substack.com/p/yet-another-post-on-data-contracts-9f0
@@ -213,78 +247,97 @@ This is the _data contract_.
 ### Fine, let us talk about data contracts
 * Title: Fine, let's talk about data contracts
 * Date: September 2022
-* Author: Benn Stancil ([Benn Stancil on Substack](https://benn.substack.com/about),
-          [Benn Stancil on LinkedIn](https://www.linkedin.com/in/benn-stancil/))
+* Author: Benn Stancil
+   ([Benn Stancil on Substack](https://benn.substack.com/about),
+    [Benn Stancil on LinkedIn](https://www.linkedin.com/in/benn-stancil/))
 * Link to the article: https://benn.substack.com/p/data-contracts
 * Publisher: Substack
 
 ### Data contracts - From zero to hero
 * Title: Data contracts - From zero to hero
 * Date: September 2022
-* Author: Mehdi Ouazza ([Mehdi Ouazza on LinkedIn](https://www.linkedin.com/in/mehd-io/))
-* Link to the article: https://towardsdatascience.com/data-contracts-from-zero-to-hero-343717ac4d5e
+* Author: Mehdi Ouazza
+  ([Mehdi Ouazza on LinkedIn](https://www.linkedin.com/in/mehd-io/))
+* Link to the article:
+  https://towardsdatascience.com/data-contracts-from-zero-to-hero-343717ac4d5e
 * Publisher: Medium
 
 ### Contracts have consequences
 * Title: Contracts have consequences
 * Date: September 2022
-* Author: Tristan Hardy ([Tristan Hardy on Substack](https://substack.com/profile/1135298-tristan-handy))
-* Link to the article: https://roundup.getdbt.com/p/contracts-have-consequences
+* Author: Tristan Hardy
+   ([Tristan Hardy on Substack](https://substack.com/profile/1135298-tristan-handy))
+* Link to the article:
+  https://roundup.getdbt.com/p/contracts-have-consequences
 * Publisher: Substack
 
 ### Data Person: Attorney At Law
 * Title: Data Person: Attorney At Law
 * Date: September 2022
-* Author: Stephen Bailey ([Stephen Bailey on Substack](https://substack.com/profile/16953086-stephen-bailey),
-          [Stephen Bailey on LinkedIn](https://www.linkedin.com/in/stkbailey/))
-* Link to the article: https://stkbailey.substack.com/p/data-person-attorney-at-law
+* Author: Stephen Bailey
+   ([Stephen Bailey on Substack](https://substack.com/profile/16953086-stephen-bailey),
+    [Stephen Bailey on LinkedIn](https://www.linkedin.com/in/stkbailey/))
+* Link to the article:
+  https://stkbailey.substack.com/p/data-person-attorney-at-law
 * Publisher: Substack
 
 ### The rise of data contracts
 * Title: The rise of data contracts
 * Date: August 2022
-* Author: Chad Sanderson ([Chad Sanderson on LinkedIn](https://www.linkedin.com/in/chad-sanderson/),
-          [Chad Sanderson on Substack](https://substack.com/profile/12566999-chad-sanderson))
-* Link to the article: https://dataproducts.substack.com/p/the-rise-of-data-contracts
+* Author: Chad Sanderson
+  ([Chad Sanderson on LinkedIn](https://www.linkedin.com/in/chad-sanderson/),
+   [Chad Sanderson on Substack](https://substack.com/profile/12566999-chad-sanderson))
+* Link to the article:
+  https://dataproducts.substack.com/p/the-rise-of-data-contracts
 * Publisher: Substack
 
 ### Interfaces and breaking stuff
 * Title: Interfaces and breaking stuff
 * Date: July 2022
-* Author: Tristan Handy ([Tristan Handy on Substack](https://substack.com/profile/1135298-tristan-handy),
-          [Tristan Handy on LinkedIn](https://www.linkedin.com/in/tristanhandy/))
-* Link to the article: https://roundup.getdbt.com/p/interfaces-and-breaking-stuff
+* Author: Tristan Handy
+  ([Tristan Handy on Substack](https://substack.com/profile/1135298-tristan-handy),
+   [Tristan Handy on LinkedIn](https://www.linkedin.com/in/tristanhandy/))
+* Link to the article:
+  https://roundup.getdbt.com/p/interfaces-and-breaking-stuff
 * Publisher: Substack
 
 ### Implementing Data Contracts: 7 Key Learnings
 * Title: Implementing Data Contracts: 7 Key Learnings
 * Date: July 2022
-* Author: Barr Moses, CEO at Monte Carlo ([Barr Moses on LinkedIn](https://www.linkedin.com/in/barrmoses/),
-          [Barr Moses on Medium](https://medium.com/@barrmoses))
-* Link to the article: https://barrmoses.medium.com/implementing-data-contracts-7-key-learnings-d214a5947d5e
+* Author: Barr Moses, CEO at Monte Carlo
+  ([Barr Moses on LinkedIn](https://www.linkedin.com/in/barrmoses/),
+   [Barr Moses on Medium](https://medium.com/@barrmoses))
+* Link to the article:
+   https://barrmoses.medium.com/implementing-data-contracts-7-key-learnings-d214a5947d5e
 * Publisher: Medium
 
 ### Shifting left on governance: DataHub and schema annotations
 * Title: Shifting left on governance: DataHub and schema annotations
 * Date: May 2022
-* Author: Joshua Shinavier ([Joshua Shinavier on LinkedIn](https://www.linkedin.com/in/joshuashinavier/))
-* Link to the article: https://engineering.linkedin.com/blog/2022/shifting-left-on-governance--datahub-and-schema-annotations
+* Author: Joshua Shinavier
+  ([Joshua Shinavier on LinkedIn](https://www.linkedin.com/in/joshuashinavier/))
+* Link to the article:
+   https://engineering.linkedin.com/blog/2022/shifting-left-on-governance--datahub-and-schema-annotations
 * Publisher: LinkedIn
 
 ### Data contracts at GoCardless, 6 months on
 * Title: Data contracts at GoCardless, 6 months on
 * Date: May 2022
-* Author: Andrew Jones ([Andrew Jones on LinkedIn](https://www.linkedin.com/in/andrewrhysjones/),
-          [Andrew Jones on Medium](https://andrew-jones.medium.com/))
-* Link to the article: https://medium.com/gocardless-tech/data-contracts-at-gocardless-6-months-on-bbf24a37206e
+* Author: Andrew Jones
+  ([Andrew Jones on LinkedIn](https://www.linkedin.com/in/andrewrhysjones/),
+   [Andrew Jones on Medium](https://andrew-jones.medium.com/))
+* Link to the article:
+  https://medium.com/gocardless-tech/data-contracts-at-gocardless-6-months-on-bbf24a37206e
 * Publisher: Medium
 
 ### Improving data quality with data contracts
 * Title: Improving data quality with data contracts
 * Date: December 2021
-* Author: Andrew Jones ([Andrew Jones on LinkedIn](https://www.linkedin.com/in/andrewrhysjones/),
-          [Andrew Jones on Medium](https://andrew-jones.medium.com/))
-* Link to the article: https://medium.com/gocardless-tech/improving-data-quality-with-data-contracts-238041e35698
+* Author: Andrew Jones
+  ([Andrew Jones on LinkedIn](https://www.linkedin.com/in/andrewrhysjones/),
+   [Andrew Jones on Medium](https://andrew-jones.medium.com/))
+* Link to the article:
+  https://medium.com/gocardless-tech/improving-data-quality-with-data-contracts-238041e35698
 * Publisher: Medium
 
 # Tools and frameworks
@@ -292,26 +345,36 @@ This is the _data contract_.
 ## Schemata
 * Homepage: [GitHub - Schemata](https://github.com/ananthdurai/schemata)
 * Schema modeling framework for decentralized domain-driven ownership of data.
-  It combines a set of standard metadata definitions for each schema and data field
-  and a scoring algorithm to provide a feedback loop on how efficient the data modeling
-  of the data warehouse is. It supports ProtoBuf, dbt and Avro formats. It may support
-  OpenDataMesh and/or Smithy in the future
-* Main contributors: Ananth Packkildurai ([Ananth Packkildurai on LinkedIn](https://www.linkedin.com/in/ananthdurai/),
+  It combines a set of standard metadata definitions for each schema
+  and data field and a scoring algorithm to provide a feedback loop
+  on how efficient the data modeling of the data warehouse is.
+  It supports ProtoBuf, dbt and Avro formats. It may support OpenDataMesh
+  and/or Smithy in the future
+* Main contributors: Ananth Packkildurai
+  ([Ananth Packkildurai on LinkedIn](https://www.linkedin.com/in/ananthdurai/),
   [Ananth Packkildurai on Substack](https://substack.com/profile/3520227-ananth-packkildurai),
   [Ananth Packkildurai on GitHub](https://github.com/ananthdurai))
+* See also:
+  + [Data engineering guide to data creation, a data contract perspective (in this page)](#data-engineering-guide-to-data-creation-a-data-contract-perspective)
+  + [Data contracts - Schemata quickstart guide](schemata/quickstart/)
 
 ## OpenDataMesh
 * Homepage: https://dpds.opendatamesh.org
-* An open specification that declaratively defines a data product in all its components
-  using a JSON or YAML descriptor document. It is released under Apache 2.0 license.
-* Main contributors: Andrea Gioia ([Andrea Gioia on LinkedIn](https://www.linkedin.com/in/andreagioia/),
+* An open specification that declaratively defines a data product
+  in all its components using a JSON or YAML descriptor document.
+  It is released under Apache 2.0 license.
+* Main contributors: Andrea Gioia
+  ([Andrea Gioia on LinkedIn](https://www.linkedin.com/in/andreagioia/),
   [Andrea Gioia on Medium](https://medium.com/@andrea_gioia),
   [Andrea Gioia on GitHub](https://github.com/andrea-gioia))
+* See also
+  [Data contracts in practice (in this page)](#data-contracts-in-practice)
 
 ## Smithy
 * Homepage: https://smithy.io/
 * Smithy is a language (IDL) for defining services and SDKs.
 * Main contributor: AWS
+* See also [Data contracts - Smithy quickstart guide](smithy/quickstart/)
 
 ## Avro / Schema Registry
 * [Schema Registry overview](https://docs.confluent.io/platform/current/schema-registry/index.html)
@@ -340,13 +403,13 @@ This is the _data contract_.
 ## Memphis
 * [Memphis homepage](https://memphis.dev)
 * [GitHub - Memphis](https://github.com/memphisdev/memphis)
-* Overview: A simple, robust, and durable cloud-native message broker wrapped with
-  an entire ecosystem that enables cost-effective, fast, and reliable development
-  of modern queue-based use cases.
+* Overview: A simple, robust, and durable cloud-native message broker wrapped
+  with an entire ecosystem that enables cost-effective, fast, and
+  reliable development of modern queue-based use cases.
   Memphis enables the building of modern queue-based applications that require
-  large volumes of streamed and enriched data, modern protocols, zero ops, rapid
-  development, extreme cost reduction, and a significantly lower amount of dev time
-  for data-oriented developers and data engineers.
+  large volumes of streamed and enriched data, modern protocols, zero ops,
+  rapid development, extreme cost reduction, and a significantly
+  lower amount of dev time for data-oriented developers and data engineers.
 
 ## API specifications
 * [OpenAPI](https://www.openapis.org/)
