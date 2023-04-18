@@ -3,6 +3,15 @@
 #
 
 from pyspark.sql import SparkSession
+from pyspark.sql.types import StructType, StructField, StringType, IntegerType
+
+# Schema
+schema = StructType(
+    [StructField("airline_id", StringType(), True),
+     StructField("org_por", StringType(), True),
+     StructField("dst_por", StringType(), True),
+     StructField("freq", IntegerType(), True)]
+)
 
 # Data set - source: OpenTravelData (OPTD)
 routeFile = "../../data/optd/optd_airline_por.csv"
@@ -19,7 +28,7 @@ spark = (
 routeData = (
     spark
     .read
-    .options(delimiter="^", header=True, inferSchema=True)
+    .options(delimiter="^", header=True, schema=schema)
     .csv(routeFile)
     .cache()
     )

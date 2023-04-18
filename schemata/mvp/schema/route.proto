@@ -23,10 +23,10 @@ message Route {
   string airline_id = 2
   [(org.schemata.schema.field_core).description = "2-letter IATA code of the airline"];
 
-  string org_airport_id = 3
+  string org_por_id = 3
   [(org.schemata.schema.field_core).description = "origin POR"];
 
-  string dst_airport_id = 4
+  string dst_por_id = 4
   [(org.schemata.schema.field_core).description = "destination POR"];
  
   int32 freq = 5
