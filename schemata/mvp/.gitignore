@@ -6,6 +6,9 @@ target/
 *.iml
 *.desc
 
+# Python
+__pycache__/
+
 #
 tmp/
 

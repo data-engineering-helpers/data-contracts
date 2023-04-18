@@ -14,6 +14,9 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 # References
 * [GitHub - Data Engineering helpers - Data contracts (this project)](https://github.com/data-engineering-helpers/data-contracts)
+* Source of data:
+  [GitHub - OpenTravelData (OPTD)](https://github.com/opentraveldata/opentraveldata)
+  + [GitHub - OPTD - `optd_airline_por.csv` Air routes data file](hihttps://github.com/opentraveldata/opentraveldata/blob/master/opentraveldata/optd_airline_por.csv)
 
 # Initialization
 
@@ -169,4 +172,18 @@ $ ./document.sh |grep -v "^[0-9]\{2\}"|jq
 ]
 ```
 
+# Exploring the data
+* Launch the Python utility to parse the data set:
+```bash
+$ pyspark < src/python/pyspark.py
+...
++------------+-------+-------+--------+
+|airline_code|apt_org|apt_dst|flt_freq|
++------------+-------+-------+--------+
+|          0B|    AGP|    OTP|     108|
+---
+|          0B|    BCM|    MUC|      66|
++------------+-------+-------+--------+
+only showing top 20 rows
+```
 
