@@ -1,0 +1,11 @@
+# IntelliJ project files
+.idea/
+
+# build output
+target/
+*.iml
+*.desc
+
+#
+tmp/
+

@@ -96,3 +96,4 @@ message UserActivityAggregate {
   google.protobuf.Timestamp timestamp = 6 [(org.schemata.schema.field_core).description = "Timestamp of the activity"];
 
 }
+

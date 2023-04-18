@@ -1,11 +1,11 @@
-Schemata - Quickstart
-=====================
+Schemata - Minimal Viable Product (MVP)
+=======================================
 
 # Table of Content (ToC)
 * [References](#references)
 * [Initialization](#initialization)
   * [Java and Maven](#java-and-maven)
-  * [Data contracts - Schema Quickstart](#data-contracts---schema-quickstart)
+  * [Data contracts - Schema MVP](#data-contracts---schema-mvp)
   * [Additional utilities](#additional-utilities)
 * [Generate Schemata JAR artifact](#generate-schemata-jar-artifact)
 * [Schemata utilities to validate and document the data contracts](#schemata-utilities-to-validate-and-document-the-data-contracts)
@@ -50,14 +50,14 @@ $ sdk install 17.0.6-amzn
 $ sdk install 3.9.1
 ```
 
-## Data contracts - Schema Quickstart
+## Data contracts - Schema MVP
 * If not already done so, clone the
   [Data contracts Git repository](https://github.com/data-engineering-helpers/data-contracts)
 
 * Go into the
-  [Data contracts Schemata quickstart directory](https://github.com/data-engineering-helpers/data-contracts/tree/main/schemata/quickstart):
+  [Data contracts Schemata MVP directory](https://github.com/data-engineering-helpers/data-contracts/tree/main/schemata/mvp):
 ```bash
-$ pushd ~/dev/infra/data-contracts/schemata/quickstart
+$ pushd ~/dev/infra/data-contracts/schemata/mvp
 ```
 
 ## Additional utilities
@@ -99,9 +99,9 @@ $ popd
 ```
 
 * Go into the
-  [Data contracts Schemata quickstart directory](https://github.com/data-engineering-helpers/data-contracts/tree/main/schemata/quickstart):
+  [Data contracts Schemata MVP directory](https://github.com/data-engineering-helpers/data-contracts/tree/main/schemata/mvp):
 ```bash
-$ pushd ~/dev/infra/data-contracts/schemata/quickstart
+$ pushd ~/dev/infra/data-contracts/schemata/mvp
 ```
 
 * Copy the just generated Schemata JAR artifact:
@@ -109,16 +109,16 @@ $ pushd ~/dev/infra/data-contracts/schemata/quickstart
 $ cp ~/dev/infra/schemata/target/schemata-1.0.jar target/
 ```
 
-* Leave the Data contracts Schemata quickstart directory:
+* Leave the Data contracts Schemata MVP directory:
 ```bash 
 $ popd
 ```
 
 # Schemata utilities to validate and document the data contracts
 * Go into the
-  [Data contracts Schemata quickstart directory](https://github.com/data-engineering-helpers/data-contracts/tree/main/schemata/quickstart):
+  [Data contracts Schemata MVP directory](https://github.com/data-engineering-helpers/data-contracts/tree/main/schemata/MVP):
 ```bash
-$ pushd ~/dev/infra/data-contracts/schemata/quickstart
+$ pushd ~/dev/infra/data-contracts/schemata/MVP
 ```
 
 * Generate the data contract descriptors (they are needed by the Shell scripts
@@ -132,10 +132,9 @@ $ make all
 $ ls -lFh *.desc
 -rw-r--r--  1 user  staff 111K Apr 13 17:01 model.desc
 $ strings model.desc | head -3
-activity.proto
-
-org.examplesB&
-org.protocol.schemaB
+google/protobuf/descriptor.proto
+google.protobuf"M
+FileDescriptorSet
 ```
 
 * Validate the model:
@@ -147,7 +146,7 @@ Schema validation success. No error to report
 
 * Score the model:
 ```bash
-$ ./score.sh org.examples.User
+$ ./score.sh org.opentraveldata.Route
 ...
 
 Schemata score for org.examples.User : 0.19
