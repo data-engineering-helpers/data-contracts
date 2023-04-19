@@ -9,6 +9,7 @@ Data contracts
   * [Definition by Andrew James](#definition-by-andrew-james)
 * [References](#references)
   * [Web sites, blogs](#web-sites-blogs)
+    * [DBT implementing data contracts](#dbt-implementing-data-contracts)
     * [Data contracts for the warehouse on Substack](#data-contracts-for-the-warehouse-on-substack)
     * [Data products, Chad Sanderson on Substack](#data-products-chad-sanderson-on-substack)
   * [Collection of articles](#collection-of-articles)
@@ -150,6 +151,27 @@ This is the _data contract_.
 * Link to the reference documentation on GitHub: https://github.com/AltimateAI/awesome-data-contracts
 
 ## Articles
+
+### DBT implementing data contracts
+* Title: The next big step forwards for analytics engineering
+* Date: April 2023
+* Author: Tristan Handy
+  ([Tristan Handy on LinkedIn](https://www.linkedin.com/in/tristanhandy/),
+  [Tristan Handy on DBT's web site](https://www.getdbt.com/author/tristan-handy/))
+* Link to the article:
+  https://www.getdbt.com/blog/analytics-engineering-next-step-forwards/
+* Publisher: DBT
+
+#### Excerpts
+dbt Core v1.5 is slated for release at the end of April, and it will include three new constructs:
+* [Access](https://docs.getdbt.com/docs/collaborate/govern/model-access):
+  Choose which models ought to be “private” (implementation details, handling complexity within one team or domain) and “public” (an intentional interface, shared with other teams). Other groups and projects can only ref a model — that is, take a critical dependency on it — in accordance with its access.
+* [Contracts](https://docs.getdbt.com/docs/collaborate/govern/model-contracts):
+  Define the structure of a model explicitly. If your model’s SQL doesn’t match the specified column names and data types, it will fail to build. Breaking changes (removing, renaming, retyping a column) will be caught during CI. On data platforms that support build-time constraints, ensure that columns are not null or pass custom checks while a model is being built, in addition to more flexible testing after.
+* [Versions](https://docs.getdbt.com/docs/collaborate/govern/model-versions):
+  A single model can have multiple versioned definitions, with the same name for downstream reference. When a mature model with an enforced contract and public access needs to undergo a breaking change, rather than breaking downstream queriers immediately, facilitate their migration by bumping the version and communicating a deprecation window.
+
+In the future, individual teams will own their own data. Data engineering will own “core tables” or “conformed dimensions” that will be used by other teams. Ecommerce will own models related to site visits and conversion rate. Ops will own data related to fulfillment. Etc. Each of these teams will reference the public interfaces exposed by other teams as a part of their work, and periodically release upgrades as versions are incremented on upstream dependencies. Teams will review PRs for their own models, and so have more context for what “good” looks like. Monitoring and alerting will happen in alignment with teams and codebases, so there will be real accountability to delivering a high quality, high reliability data product. Teams will manage their own warehouse spend and optimize accordingly. And teams will be able to publish their own metrics all the way into their analytics tool of choice.
 
 ### Data contracts, the missing foundation
 * Title: Data contracts: The missing foundation
