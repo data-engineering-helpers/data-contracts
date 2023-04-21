@@ -11,6 +11,7 @@ Schemata - Minimal Viable Product (MVP)
   * [Generate Schemata JAR artifact](#generate-schemata-jar-artifact)
   * [Copy the Schemata Protobuf schema](#copy-the-schemata-protobuf-schema)
 * [Schemata utilities to validate and document the data contracts](#schemata-utilities-to-validate-and-document-the-data-contracts)
+* [Great Expectations](#great-expectations)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
@@ -220,5 +221,60 @@ $ pyspark < src/python/pyspark.py
 |          0B|    BCM|    MUC|      66|
 +------------+-------+-------+--------+
 only showing top 20 rows
+```
+
+# Great Expectations
+
+## Setup
+Though the initial setup has been made in this project, it is reminded
+below how to do such an initial setup:
+1. Initialize the GX project:
+```bash
+$ great_expectations init
+```
+2. Add the CSV data sample as a data source for GX:
+```bash
+$ great_expectations datasource new
+```
+  + Name of the data source: `geonames_routes`
+  + The type of data source is local filesystem, to be read with PySpark
+  + The base directory is `../../../data/optd`
+  + Execute all the steps/cells of the Jupyter notebook and exit it
+3. Create an expectation suite:
+```bash
+$ great_expectations suite new
+```
+  + Name of the suite: `geonames_routes`
+  + Execute all the steps/cells of the Jupyter notebook and exit it
+  + Edit the just generated
+    [JSON file](https://github.com/data-engineering-helpers/data-contracts/blob/main/schemata/mvp/great_expectations/expectations/geonames_routes.json)
+    (`vi great_expectations/expectations/geonames_routes.json`) and
+	add the following lines/section, after the
+	`"datasource_name": "geonames_routes",` line and before the
+	`"limit": 1000`:
+```js
+		  "batch_spec_passthrough": {
+			  "reader_options": {
+				  "delimiter": "^",
+				  "header": true
+			  }
+		  },
+```
+
+## Contribute to expectation suites
+* Documentation:
+  https://docs.greatexpectations.io/docs/guides/validation/checkpoints/how_to_add_validations_data_or_suites_to_a_checkpoint
+
+* In order to edit the expectations suite:
+```bash
+$ great_expectations suite edit geonames_routes
+```
+
+* Execute the expectations suite and interact through the Jupyter notebook:
+```bash
+$ great_expectations checkpoint run geonames_routes
+...
+Suite Name                                   Status     Expectations met
+- geonames_routes                            ✔ Passed   0 of 0 (100 %)
 ```
 

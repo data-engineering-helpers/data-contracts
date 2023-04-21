@@ -1,0 +1,27 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "geonames_routes",
+  "expectations": [],
+  "ge_cloud_id": null,
+  "meta": {
+    "citations": [
+      {
+        "batch_request": {
+          "data_asset_name": "optd_airline_por.csv",
+          "data_connector_name": "default_inferred_data_connector_name",
+          "datasource_name": "geonames_routes",
+		  "batch_spec_passthrough": {
+			  "reader_options": {
+				  "delimiter": "^",
+				  "header": true
+			  }
+		  },
+          "limit": 1000
+        },
+        "citation_date": "2023-04-21T15:02:31.998735Z",
+        "comment": "Created suite added via CLI"
+      }
+    ],
+    "great_expectations_version": "0.16.8"
+  }
+}
