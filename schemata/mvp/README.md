@@ -7,7 +7,8 @@ Schemata - Minimal Viable Product (MVP)
   * [Java and Maven](#java-and-maven)
   * [Data contracts - Schema MVP](#data-contracts---schema-mvp)
   * [Additional utilities](#additional-utilities)
-* [Generate Schemata JAR artifact](#generate-schemata-jar-artifact)
+  * [Generate Schemata JAR artifact](#generate-schemata-jar-artifact)
+  * [Copy the Schemata Protobuf schema](#copy-the-schemata-protobuf-schema)
 * [Schemata utilities to validate and document the data contracts](#schemata-utilities-to-validate-and-document-the-data-contracts)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
@@ -67,7 +68,7 @@ $ pushd ~/dev/infra/data-contracts/schemata/mvp
 * [JQ](https://stedolan.github.io/jq/) comes handy to parse JSON structures.
    It is packages on most of the systems (MacOS, Linux)
 
-# Generate Schemata JAR artifact
+## Generate Schemata JAR artifact
 As of April 2023, Schemata does not release its JAR artifact on public
 repositories such as Maven Central. Hence, one has to clone the Schemata
 Git repository and to generate the JAR artifact locally.
@@ -117,11 +118,28 @@ $ cp ~/dev/infra/schemata/target/schemata-1.0.jar target/
 $ popd
 ```
 
+## Copy the Schemata Protobuf schema
+* As mentioned on the
+  [Schemata README](https://github.com/ananthdurai/schemata#download-and-install-protobuf-open-contract-definitions),
+  install/copy the Schemata Protobuf schema locally (change the `v1` version
+  if needed):
+```bash
+$ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ananthdurai/schemata/main/install.sh v1)"
+```
+
+* The resulting Schemata Protobuf schema should be available from the
+  local `opencontract/v1/org/` directory:
+```bash
+ls -lFh opencontract/v1/org/schemata/protobuf
+total 64
+-rw-r--r--  1 user  staff 28K Apr 21 09:44 schemata.proto
+```
+
 # Schemata utilities to validate and document the data contracts
 * Go into the
   [Data contracts Schemata MVP directory](https://github.com/data-engineering-helpers/data-contracts/tree/main/schemata/MVP):
 ```bash
-$ pushd ~/dev/infra/data-contracts/schemata/MVP
+$ pushd ~/dev/infra/data-contracts/schemata/mvp
 ```
 
 * Generate the data contract descriptors (they are needed by the Shell scripts
