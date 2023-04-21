@@ -5,6 +5,7 @@ Schemata - Minimal Viable Product (MVP)
 * [References](#references)
 * [Initialization](#initialization)
   * [Java and Maven](#java-and-maven)
+  + [Great Expectations](#great-expectations)
   * [Data contracts - Schema MVP](#data-contracts---schema-mvp)
   * [Additional utilities](#additional-utilities)
   * [Generate Schemata JAR artifact](#generate-schemata-jar-artifact)
@@ -18,6 +19,12 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 * Source of data:
   [GitHub - OpenTravelData (OPTD)](https://github.com/opentraveldata/opentraveldata)
   + [GitHub - OPTD - `optd_airline_por.csv` Air routes data file](hihttps://github.com/opentraveldata/opentraveldata/blob/master/opentraveldata/optd_airline_por.csv)
+
+## Pre-requisites
+* [SDKMan](https://sdkman.io/)
+* [Great Expectations (GX)](https://github.com/great-expectations/great_expectations)
+  + [GX - Support fot data contracts](https://github.com/great-expectations/great_expectations#data-contracts-support)
+* [JQ](https://stedolan.github.io/jq/)
 
 # Initialization
 
@@ -54,6 +61,20 @@ $ sdk install 17.0.6-amzn
 $ sdk install 3.9.1
 ```
 
+## Great Expectations
+* If not already done so, install Great Expectations (GX):
+```bash
+$ python -mpip install -U great_expectations
+```
+  + Re-launch the Shell environment. For instance, with the Bash:
+```bash
+$ exec bash
+```
+
+## Additional utilities
+* [JQ](https://stedolan.github.io/jq/) comes handy to parse JSON structures.
+   It is packages on most of the systems (MacOS, Linux)
+
 ## Data contracts - Schema MVP
 * If not already done so, clone the
   [Data contracts Git repository](https://github.com/data-engineering-helpers/data-contracts)
@@ -63,10 +84,6 @@ $ sdk install 3.9.1
 ```bash
 $ pushd ~/dev/infra/data-contracts/schemata/mvp
 ```
-
-## Additional utilities
-* [JQ](https://stedolan.github.io/jq/) comes handy to parse JSON structures.
-   It is packages on most of the systems (MacOS, Linux)
 
 ## Generate Schemata JAR artifact
 As of April 2023, Schemata does not release its JAR artifact on public
