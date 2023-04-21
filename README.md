@@ -65,8 +65,8 @@ these companies.
   thanks to an
   [Interface Definition Language (IDL)](https://en.wikipedia.org/wiki/Interface_description_language),
   for instance [Smithy](https://smithy.io/), [Protobuf](https://protobuf.dev/),
-  [OpenDataMesh](https://dpds.opendatamesh.org/)
-  or [Avro](https://avro.apache.org/docs/)
+  [OpenDataMesh](https://dpds.opendatamesh.org/),
+  [Avro](https://avro.apache.org/docs/) or [dbt schema](https://getdbt.com)
   
 * Shift-left principle: as much as meta-data as possible should be
   written directly within the IDL-based data contracts, potentially
