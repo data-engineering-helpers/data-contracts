@@ -173,6 +173,13 @@ dbt Core v1.5 is slated for release at the end of April, and it will include thr
 
 In the future, individual teams will own their own data. Data engineering will own “core tables” or “conformed dimensions” that will be used by other teams. Ecommerce will own models related to site visits and conversion rate. Ops will own data related to fulfillment. Etc. Each of these teams will reference the public interfaces exposed by other teams as a part of their work, and periodically release upgrades as versions are incremented on upstream dependencies. Teams will review PRs for their own models, and so have more context for what “good” looks like. Monitoring and alerting will happen in alignment with teams and codebases, so there will be real accountability to delivering a high quality, high reliability data product. Teams will manage their own warehouse spend and optimize accordingly. And teams will be able to publish their own metrics all the way into their analytics tool of choice.
 
+### PayPal open sources its data contract templates
+* Title: PayPal open sources its data contract templates
+* Date: May 2023
+* Author: Jean-Georges Perrin
+* Link to the article: https://jgp.ai/2023/05/01/paypal-open-sources-its-data-contract-template/
+* Publisher: Jean-Georges Perrin's blog
+
 ### Data contracts, the missing foundation
 * Title: Data contracts: The missing foundation
 * Date: March 2023
@@ -391,6 +398,10 @@ In the future, individual teams will own their own data. Data engineering will o
   [Andrea Gioia on GitHub](https://github.com/andrea-gioia))
 * See also
   [Data contracts in practice (in this page)](#data-contracts-in-practice)
+
+## PayPal data contract templates
+* Homepage: https://github.com/paypal/data-contract-template
+* This project describes the data contract being used in the implementation of Data Mesh at PayPal. It is available as an Apache 2.0 license.
 
 ## Smithy
 * Homepage: https://smithy.io/
