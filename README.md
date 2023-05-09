@@ -5,12 +5,14 @@ Data contracts
 * [Overview](#overview)
 * [Specifications](#specifications)
 * [Definitions](#definitions)
+  * [Definition by Atlan](#definition-by-atlan)
   * [Definition by David Jayatillake](#definition-by-david-jayatillake)
   * [Definition by Andrew James](#definition-by-andrew-james)
 * [References](#references)
   * [Web sites, blogs](#web-sites-blogs)
     * [Data contracts for the warehouse on Substack](#data-contracts-for-the-warehouse-on-substack)
     * [Data products, Chad Sanderson on Substack](#data-products-chad-sanderson-on-substack)
+    * [Data contracts demystified, by Atlan](#data-contracts-demystified-by-atlan)
   * [Collection of articles](#collection-of-articles)
     * [Awesome data contracts](#awesome-data-contracts)
   * [Articles](#articles)
@@ -95,6 +97,14 @@ these companies.
 
 # Definitions
 
+## Definition by Atlan
+* Source: https://atlan.com/data-contracts/
+
+A data contract outlines how data can get exchanged between two parties.
+It defines the structure, format, and rules of exchange in a distributed
+data architecture. These formal agreements make sure that there aren’t
+any uncertainties or undocumented assumptions about data.
+
 ## Definition by David Jayatillake
 * Source: https://davidsj.substack.com/p/yet-another-post-on-data-contracts
 
@@ -144,6 +154,11 @@ This is the _data contract_.
 ### Data products, Chad Sanderson on Substack
 * Link to Chad Sanderson's profile: https://substack.com/profile/12566999-chad-sanderson
 * Link to the newsletter subscription form: https://dataproducts.substack.com/
+
+### Data contracts demystified, by Atlan
+* Title: Data Contracts: The Key to Scaling Distributed Data Architecture and Reducing Data Chaos
+* Date: April 2023
+* Link to the web site: https://atlan.com/data-contracts/
 
 ## Collection of articles
 
