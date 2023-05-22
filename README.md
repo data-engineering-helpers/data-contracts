@@ -16,6 +16,7 @@ Data contracts
   * [Collection of articles](#collection-of-articles)
     * [Awesome data contracts](#awesome-data-contracts)
   * [Articles](#articles)
+    * [DBT Model Contracts: Importance and Pitfalls](#dbt-model-contracts-importance-and-pitfalls)
     * [DBT implementing data contracts](#dbt-implementing-data-contracts)
     * [Data contracts, the missing foundation](#data-contracts-the-missing-foundation)
     * [Data engineering guide to data creation, a data contract perspective](#data-engineering-guide-to-data-creation-a-data-contract-perspective)
@@ -166,6 +167,16 @@ This is the _data contract_.
 * Link to the reference documentation on GitHub: https://github.com/AltimateAI/awesome-data-contracts
 
 ## Articles
+
+### DBT Model Contracts: Importance and Pitfalls
+* Title: DBT Model Contracts: Importance and Pitfalls
+* Date: May 2023
+* Author: Ramon Marrero
+  ([Ramon Marrero on LinkedIn]([https://www.linkedin.com/in/tristanhandy/](https://www.linkedin.com/in/ramon-marrero-almonte/)),
+  [Ramon Marrero on Medium]([https://www.getdbt.com/author/tristan-handy/](https://medium.com/@ramon-marrero)))
+* Link to the article:
+  https://medium.com/geekculture/dbt-model-contracts-importance-and-pitfalls-20b113358ad7
+* Publisher: Medium
 
 ### DBT implementing data contracts
 * Title: The next big step forwards for analytics engineering
