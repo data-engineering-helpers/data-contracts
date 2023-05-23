@@ -19,7 +19,7 @@ Data contracts
     * [DBT Model Contracts: Importance and Pitfalls](#dbt-model-contracts-importance-and-pitfalls)
     * [DBT implementing data contracts](#dbt-implementing-data-contracts)
     * [Data contracts, the missing foundation](#data-contracts-the-missing-foundation)
-    * [Data engineering guide to data creation, a data contract perspective](#data-engineering-guide-to-data-creation-a-data-contract-perspective)
+    * [An engineering guide to data creation and data quality, a data contract perspective](#an-engineering-guide-to-data-creation-and-data-quality-a-data-contract-perspective)
     * [Data contracts for the warehouse](#data-contracts-for-the-warehouse)
     * [Data contracts wrapped 2022](#data-contracts-wrapped-2022)
     * [Data contracts in practice](#data-contracts-in-practice)
@@ -213,16 +213,17 @@ In the future, individual teams will own their own data. Data engineering will o
 * Link to the article: https://medium.com/@tombaeyens/data-contracts-the-missing-foundation-3c7a98544d2a
 * Publisher: Medium
 
-### Data engineering guide to data creation, a data contract perspective
-* Title: An Engineering Guide to Data Creation - A Data Contract perspective
-* Date: March 2023
+### An engineering guide to data creation and data quality, a data contract perspective
+* Title: An Engineering Guide to Data Creation and Data Quality - A Data Contract perspective
+* Dates: March and May 2023
 * Author: Ananth Packkildurai
   ([Ananth Packkildurai on LinkedIn](https://www.linkedin.com/in/ananthdurai/),
    [Ananth Packkildurai on Substack](https://substack.com/profile/3520227-ananth-packkildurai),
    [Ananth Packkildurai on GitHub](https://github.com/ananthdurai))
 * Part 1:
   https://www.dataengineeringweekly.com/p/an-engineering-guide-to-data-creation
-* Part 2: TBA
+* Part 2:
+  https://www.dataengineeringweekly.com/p/an-engineering-guide-to-data-quality
 * Publisher:
   [Data Engineering Weekly (DEW) newsletter on Substack](https://www.dataengineeringweekly.com/)
 * Note that Ananth Packkildurai is the main contributor of
