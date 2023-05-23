@@ -103,8 +103,20 @@ these companies.
 
 A data contract outlines how data can get exchanged between two parties.
 It defines the structure, format, and rules of exchange in a distributed
-data architecture. These formal agreements make sure that there aren’t
+data architecture. These formal agreements make sure that there are not
 any uncertainties or undocumented assumptions about data.
+
+## Definition by Charles Verleyen
+* Source: https://medium.astrafy.io/data-quality-with-great-expectations-e41504d93e17
+
+![Data contracts: API-based agreements](img/data-contracts-producers-and-consumers-2023-05.webp)
+
+Without high-quality data, every analytics initiative will be underwhelming at best
+and actively damaging the business at worst. Data contracts are API-based agreements
+between producers and consumers designed to solve exactly that problem Data Contracts
+are not a new concept. They are simply new implementations of a very old idea
+— that producers and consumers should work together to generate high-quality,
+semantically valid data from the ground up.
 
 ## Definition by David Jayatillake
 * Source: https://davidsj.substack.com/p/yet-another-post-on-data-contracts
