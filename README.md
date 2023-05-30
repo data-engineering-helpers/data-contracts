@@ -159,6 +159,9 @@ This is the _data contract_.
   + [Schemata quickstart guide](schemata/quickstart/)
   + [Smithy quickstart guide](smithy/quickstart/)
 
+## Use cases
+* [Geonames Quality Assurance (QA) framework](https://github.com/data-engineering-helpers/data-quality/blob/main/README.md#geonames)
+
 ## Web sites, blogs
 
 ### Data contracts for the warehouse on Substack
