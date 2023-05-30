@@ -9,6 +9,7 @@ Data contracts
   * [Definition by David Jayatillake](#definition-by-david-jayatillake)
   * [Definition by Andrew James](#definition-by-andrew-james)
 * [References](#references)
+  * [Use cases](#use-cases)
   * [Web sites, blogs](#web-sites-blogs)
     * [Data contracts for the warehouse on Substack](#data-contracts-for-the-warehouse-on-substack)
     * [Data products, Chad Sanderson on Substack](#data-products-chad-sanderson-on-substack)
@@ -161,6 +162,7 @@ This is the _data contract_.
 
 ## Use cases
 * [Geonames Quality Assurance (QA) framework](https://github.com/data-engineering-helpers/data-quality/blob/main/README.md#geonames)
+* [OpenTravelData (OPTD) Quality Assurance framework](https://github.com/data-engineering-helpers/data-quality/blob/main/README.md#opentraveldata-optd)
 
 ## Web sites, blogs
 
