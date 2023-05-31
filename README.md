@@ -7,7 +7,7 @@ Data contracts
 * [Definitions](#definitions)
   * [Definition by Atlan](#definition-by-atlan)
   * [Definition by David Jayatillake](#definition-by-david-jayatillake)
-  * [Definition by Andrew James](#definition-by-andrew-james)
+  * [Definition by Andrew Jones](#definition-by-andrew-jones)
 * [References](#references)
   * [Use cases](#use-cases)
   * [Web sites, blogs](#web-sites-blogs)
@@ -127,7 +127,7 @@ and format between the producer and consumer of data**.
 You could even define it in a simpler way:
 **a Data Contract is a guarantee on structure and format by a producer of data**.
 
-## Definition by Andrew James
+## Definition by Andrew Jones
 * Source: https://andrew-jones.com/blog/data-contracts/
 
 Almost all data platforms start with a
