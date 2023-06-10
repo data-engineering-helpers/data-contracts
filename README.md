@@ -37,6 +37,10 @@ Data contracts
     * [Shifting left on governance: DataHub and schema annotations](#shifting-left-on-governance-datahub-and-schema-annotations)
     * [Data contracts at GoCardless, 6 months on](#data-contracts-at-gocardless-6-months-on)
     * [Improving data quality with data contracts](#improving-data-quality-with-data-contracts)
+  * [Podcast episodes](#podcast-episodes)
+    * [Data Quality and Data Contracts with Chad Sanderson of Data Quality Camp](#data-quality-and-data-contracts-with-chad-sanderson-of-data-quality-camp)
+    * [Making Sense Of The Technical And Organizational Considerations Of Data Contracts](#making-sense-of-the-technical-and-organizational-considerations-of-data-contracts)
+    * [Build A Common Understanding Of Your Data Reliability Rules With Soda Core and Soda Checks Language](#build-a-common-understanding-of-your-data-reliability-rules-with-soda-core-and-soda-checks-language)
 * [Tools and frameworks](#tools-and-frameworks)
   * [Schemata](#schemata)
   * [OpenDataMesh](#opendatamesh)
@@ -412,6 +416,34 @@ In the future, individual teams will own their own data. Data engineering will o
 * Link to the article:
   https://medium.com/gocardless-tech/improving-data-quality-with-data-contracts-238041e35698
 * Publisher: Medium
+
+## Podcast episodes
+### Data Quality and Data Contracts with Chad Sanderson of Data Quality Camp
+* Title: Data Quality and Data Contracts with Chad Sanderson of Data Quality Camp
+* Date: March 2023
+* Guest: Chad Sanderson
+  ([Chad Sanderson on LinkedIn](https://www.linkedin.com/in/chad-sanderson/),
+  [Chad Sanderson on Substack](https://substack.com/profile/12566999-chad-sanderson))
+* Link to the podcast episode:
+  https://datastackshow.com/podcast/data-quality-and-data-contracts-with-chad-sanderson-of-data-quality-camp/
+* Publisher: The Data Stack Show
+
+### Making Sense Of The Technical And Organizational Considerations Of Data Contracts
+* Title: Making Sense Of The Technical And Organizational Considerations Of Data Contracts
+* Date: December 2022
+* Guest: Abe Gong
+  ([Abe Gong on LinkedIn](https://www.linkedin.com/in/abe-gong-8a77034/))
+* Link to the podcast episode:
+  https://www.dataengineeringpodcast.com/great-expectations-data-contracts-episode-352
+* Publisher: Data Engineering Podcast
+
+### Build A Common Understanding Of Your Data Reliability Rules With Soda Core and Soda Checks Language
+* Title: Build A Common Understanding Of Your Data Reliability Rules With Soda Core and Soda Checks Language
+* Date: September 2022
+* Guest: Tom Baeyens ([Tom Baeyens on LinkedIn](https://www.linkedin.com/in/tombaeyens/), [Tom Baeyens on Medium](https://medium.com/@tombaeyens))
+* Link to the podcast episode:
+  https://www.dataengineeringpodcast.com/sodacl-data-reliability-engineering-episode-328/
+* Publisher: Data Engineering Podcast
 
 # Tools and frameworks
 
