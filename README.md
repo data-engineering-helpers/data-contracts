@@ -24,6 +24,7 @@ Data contracts
     * [Data contracts for the warehouse](#data-contracts-for-the-warehouse)
     * [Data contracts wrapped 2022](#data-contracts-wrapped-2022)
     * [Data contracts in practice](#data-contracts-in-practice)
+    * [Anatomy of a Data Product](#anatomy-of-a-data-product)
     * [An Engineer's guide to Data Contracts](#an-engineers-guide-to-data-contracts)
     * [The production\-grade Data Pipeline](#the-production-grade-data-pipeline)
     * [Yet another post on Data Contracts](#yet-another-post-on-data-contracts)
