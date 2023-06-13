@@ -24,6 +24,7 @@ Data contracts
     * [Data contracts for the warehouse](#data-contracts-for-the-warehouse)
     * [Data contracts wrapped 2022](#data-contracts-wrapped-2022)
     * [Data contracts in practice](#data-contracts-in-practice)
+    * [Anatomy of a Data Product](#anatomy-of-a-data-product)
     * [An Engineer's guide to Data Contracts](#an-engineers-guide-to-data-contracts)
     * [The production\-grade Data Pipeline](#the-production-grade-data-pipeline)
     * [Yet another post on Data Contracts](#yet-another-post-on-data-contracts)
@@ -285,6 +286,19 @@ In the future, individual teams will own their own data. Data engineering will o
 * Publihser: Medium
 * Note that Andrea Gioia is the main contributor of
   [OpenDataMesh](#opendatamesh)
+
+### Anatomy of a Data Product
+* Title: Anatomy of a Data Product
+* Date: December 2022
+* Author: Jesse Paquette (
+  [Jesse Paquette on LinkedIn](https://www.linkedin.com/in/jessepaquette/),
+  [Jesse Paquette on Medium](https://jessepaquette.medium.com/))
+* Link to the articles:
+  + Part 1: https://jessepaquette.medium.com/anatomy-of-a-data-product-part-one-5afa99609699
+  + Part 2: https://jessepaquette.medium.com/anatomy-of-a-data-product-part-two-9d0c19e4307b
+  + Part 3: https://jessepaquette.medium.com/anatomy-of-a-data-product-part-three-801782b2f4bf
+  + Part 4: https://jessepaquette.medium.com/anatomy-of-a-data-product-part-four-e69706c156e6
+  + Part 5: https://jessepaquette.medium.com/anatomy-of-a-data-product-part-five-9a1f47c12db4
 
 ### An Engineer's guide to Data Contracts
 * Title: An Engineer's guide to Data Contracts
