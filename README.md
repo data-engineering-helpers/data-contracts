@@ -48,7 +48,7 @@ Data contracts
   * [Benthos](#benthos)
   * [Memphis](#memphis)
   * [API specifications](#api-specifications)
-  * [Schema.org](#schema-org)
+  * [Schema.org](#schemaorg)
 * [Exploration / Proof\-of\-Concept (PoC)](#exploration--proof-of-concept-poc)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
