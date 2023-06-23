@@ -48,6 +48,7 @@ Data contracts
   * [Benthos](#benthos)
   * [Memphis](#memphis)
   * [API specifications](#api-specifications)
+  * [Schema.org](#schema-org)
 * [Exploration / Proof\-of\-Concept (PoC)](#exploration--proof-of-concept-poc)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
@@ -506,6 +507,9 @@ In the future, individual teams will own their own data. Data engineering will o
 * [OpenAPI](https://www.openapis.org/)
 * [AsyncAPI spec](https://www.asyncapi.com/docs/reference/specification/v2.6.0)
 * [DatastoreAPI](https://dpds.opendatamesh.org/resources/standards/dsapi-spec/)
+
+## Schema.org
+* Homepage: https://schema.org/
 
 # Exploration / Proof-of-Concept (PoC)
 * [GitHub - Smithy - Quickstart guide](smithy/quickstart/)
