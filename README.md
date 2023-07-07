@@ -114,10 +114,11 @@ any uncertainties or undocumented assumptions about data.
 
 ![Data contracts: API-based agreements](img/data-contracts-producers-and-consumers-2023-05.webp)
 
-Without high-quality data, every analytics initiative will be underwhelming at best
-and actively damaging the business at worst. Data contracts are API-based agreements
-between producers and consumers designed to solve exactly that problem Data Contracts
-are not a new concept. They are simply new implementations of a very old idea
+Without high-quality data, every analytics initiative will be underwhelming
+at best and actively damaging the business at worst. Data contracts
+are API-based agreements between producers and consumers designed to solve
+exactly that problem Data Contracts are not a new concept.
+They are simply new implementations of a very old idea
 — that producers and consumers should work together to generate high-quality,
 semantically valid data from the ground up.
 
@@ -127,28 +128,31 @@ semantically valid data from the ground up.
 In short, **a Data Contract is an enforceable agreement on structure
 and format between the producer and consumer of data**.
 You could even define it in a simpler way:
-**a Data Contract is a guarantee on structure and format by a producer of data**.
+**a Data Contract is a guarantee on structure and format by a producer
+of data**.
 
 ## Definition by Andrew James
 * Source: https://andrew-jones.com/blog/data-contracts/
 
 Almost all data platforms start with a
 [change data capture (CDC) service](https://en.wikipedia.org/wiki/Change_data_capture)
-to extract data from an organisations transactional databases - the source of truth
-for their most valuable data. That data is then transformed, joined,
+to extract data from an organisations transactional databases - the source
+of truth for their most valuable data. That data is then transformed, joined,
 and aggregated to drive analysis, modelling, and other downstream services.
 
-However, this data has not been designed for these use cases - it has been designed
-to satisfy the needs and requirements of the source applications and their day-to-day use.
-It can then take significant effort to transform, deduce, and derive the data
-in order to make it useful for downstream use cases.
+However, this data has not been designed for these use cases -
+it has been designed to satisfy the needs and requirements of the source
+applications and their day-to-day use.
+It can then take significant effort to transform, deduce, and derive
+the data in order to make it useful for downstream use cases.
 
 Furthermore, breaking changes and data migrations will be a regular part of
-the applications evolution and will be done without knowledge of how it has been
-used downstream, leading to breaking changes affecting key reports and data-driven products.
+the applications evolution and will be done without knowledge of how
+it has been used downstream, leading to breaking changes affecting key
+reports and data-driven products.
 
-For downstream users to confidently build on this valuable data, they need to know
-the data they are using is accurate, complete, and future proof.
+For downstream users to confidently build on this valuable data, they need
+to know the data they are using is accurate, complete, and future proof.
 This is the _data contract_.
 
 # References
@@ -157,6 +161,7 @@ This is the _data contract_.
 * Specifications/principles for a
   [data engineering pipeline deployment tool](https://github.com/data-engineering-helpers/data-pipeline-deployment)
   + [`dpcctl`, the Data Processing Pipeline (DPP) CLI utility](https://github.com/data-engineering-helpers/dppctl), a Minimal Viable Product (MVP) in Go
+* [Material for the Data platform - Metadata](https://github.com/data-engineering-helpers/metadata/blob/main/README.md)
 * [Material for the Data platform - Data quality](https://github.com/data-engineering-helpers/data-quality/blob/main/README.md)
 * Quickstart guides:
   + [Schemata quickstart guide](schemata/quickstart/)
