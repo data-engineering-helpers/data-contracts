@@ -16,7 +16,8 @@ Data contracts
     * [Data contracts demystified, by Atlan](#data-contracts-demystified-by-atlan)
   * [Collection of articles](#collection-of-articles)
     * [Awesome data contracts](#awesome-data-contracts)
-  * [Articles](#articles)
+  * [Books and articles](#books-and-articles)
+    * [Driving Data Quality with Data Contracts](#driving-data-quality-with-data-contracts)
     * [DBT Model Contracts: Importance and Pitfalls](#dbt-model-contracts-importance-and-pitfalls)
     * [DBT implementing data contracts](#dbt-implementing-data-contracts)
     * [Data contracts, the missing foundation](#data-contracts-the-missing-foundation)
@@ -190,7 +191,16 @@ This is the _data contract_.
 ### Awesome data contracts
 * Link to the reference documentation on GitHub: https://github.com/AltimateAI/awesome-data-contracts
 
-## Articles
+## Books and articles
+
+### Driving Data Quality with Data Contracts
+* Title: Driving Data Quality with Data Contracts: A comprehensive guide to building reliable, trusted, and effective data platforms
+* Author: [Andrew Jones](https://andrew-jones.com/)
+* Date: 30 June 2023
+* Publisher: Packt
+* ASIN: B0C37FPH3D
+* Article on the book:
+  https://andrew-jones.com/blog/data-contracts-the-book-out-now/
 
 ### DBT Model Contracts: Importance and Pitfalls
 * Title: DBT Model Contracts: Importance and Pitfalls
