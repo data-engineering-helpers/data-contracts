@@ -18,6 +18,7 @@ Data contracts
     * [Astrafy end-to-end implementation of data contracts](#astrafy-end-to-end-implementation-of-data-contracts)
     * [Awesome data contracts](#awesome-data-contracts)
   * [Books and articles](#books-and-articles)
+    * [Data contracts for non-tech readers](#data-contracts-for-non-tech-readers)
     * [Driving Data Quality with Data Contracts](#driving-data-quality-with-data-contracts)
     * [DBT Model Contracts: Importance and Pitfalls](#dbt-model-contracts-importance-and-pitfalls)
     * [DBT implementing data contracts](#dbt-implementing-data-contracts)
@@ -206,6 +207,15 @@ This is the _data contract_.
 * Link to the reference documentation on GitHub: https://github.com/AltimateAI/awesome-data-contracts
 
 ## Books and articles
+
+### Data contracts for non-tech readers
+* Title: Data contracts for non-tech readers: a restaurant analogy
+* Author: Samy Doreau
+  ([Samy Doreau on LinkedIn](https://www.linkedin.com/in/samydoreau/))
+* Date: July 2023
+* Link to the article:
+  https://infinitelambda.com/data-contracts-non-tech-restaurant/
+* Publisher: Infinite Lambda
 
 ### Driving Data Quality with Data Contracts
 * Title: Driving Data Quality with Data Contracts: A comprehensive guide to building reliable, trusted, and effective data platforms
