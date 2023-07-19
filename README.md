@@ -20,6 +20,7 @@ Data contracts
   * [Books and articles](#books-and-articles)
     * [Data contracts for non-tech readers](#data-contracts-for-non-tech-readers)
     * [Driving Data Quality with Data Contracts](#driving-data-quality-with-data-contracts)
+    * [Tables as Interfaces](#tables-as-interfaces)
     * [DBT Model Contracts: Importance and Pitfalls](#dbt-model-contracts-importance-and-pitfalls)
     * [DBT implementing data contracts](#dbt-implementing-data-contracts)
     * [Data contracts, the missing foundation](#data-contracts-the-missing-foundation)
@@ -196,7 +197,8 @@ This is the _data contract_.
 * Link to the LinkedIn post summarizing the Medium posts:
   https://www.linkedin.com/posts/astrafy_datacontracts-dbt-greatexpectations-activity-7087097534392745987-_1RR
 * Author: Łukasz Ściga
-  ([Łukasz Ściga on LinkedIn](https://www.linkedin.com/in/lukasz-sciga/), [Łukasz Ściga on Medium](https://medium.com/@lukasz-sciga))
+  ([Łukasz Ściga on LinkedIn](https://www.linkedin.com/in/lukasz-sciga/),
+  [Łukasz Ściga on Medium](https://medium.com/@lukasz-sciga))
 * Publisher: Medium
 * Medium posts:
   + [Medium - Implementation of the Data Contracts with dbt, Google Cloud & Great Expectations - Part 1](https://medium.astrafy.io/implementation-of-the-data-contracts-with-dbt-google-cloud-great-expectations-part-1-939774fc7284)
@@ -225,6 +227,16 @@ This is the _data contract_.
 * ASIN: B0C37FPH3D
 * Article on the book:
   https://andrew-jones.com/blog/data-contracts-the-book-out-now/
+
+### Tables as Interfaces
+* Title: Tables as Interfaces
+* Date: July 2023
+* Author: David Jayatillake
+  ([David Jayatillake on LinkedIn](https://www.linkedin.com/in/david-jayatillake/),
+  [David Jayatillake on Substack](https://substack.com/@davidsj))
+* Link to the article:
+  https://davidsj.substack.com/p/tables-as-interfaces
+* Publisher: Substack
 
 ### DBT Model Contracts: Importance and Pitfalls
 * Title: DBT Model Contracts: Importance and Pitfalls
