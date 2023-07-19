@@ -15,6 +15,7 @@ Data contracts
     * [Data products, Chad Sanderson on Substack](#data-products-chad-sanderson-on-substack)
     * [Data contracts demystified, by Atlan](#data-contracts-demystified-by-atlan)
   * [Collection of articles](#collection-of-articles)
+    * [Astrafy end-to-end implementation of data contracts](#astrafy-end-to-end-implementation-of-data-contracts)
     * [Awesome data contracts](#awesome-data-contracts)
   * [Books and articles](#books-and-articles)
     * [Driving Data Quality with Data Contracts](#driving-data-quality-with-data-contracts)
@@ -188,6 +189,18 @@ This is the _data contract_.
 * Link to the web site: https://atlan.com/data-contracts/
 
 ## Collection of articles
+
+### Astrafy end-to-end implementation of data contracts
+* Title: Implementation of the Data Contracts with dbt, Google Cloud & Great Expectations
+* Link to the LinkedIn post summarizing the Medium posts:
+  https://www.linkedin.com/posts/astrafy_datacontracts-dbt-greatexpectations-activity-7087097534392745987-_1RR
+* Author: Łukasz Ściga
+  ([Łukasz Ściga on LinkedIn](https://www.linkedin.com/in/lukasz-sciga/), [Łukasz Ściga on Medium](https://medium.com/@lukasz-sciga))
+* Publisher: Medium
+* Medium posts:
+  + [Medium - Implementation of the Data Contracts with dbt, Google Cloud & Great Expectations - Part 1](https://medium.astrafy.io/implementation-of-the-data-contracts-with-dbt-google-cloud-great-expectations-part-1-939774fc7284)
+  + [Medium - Implementation of the Data Contracts with dbt, Google Cloud & Great Expectations - Part 2](https://medium.astrafy.io/implementation-of-the-data-contracts-with-dbt-google-cloud-great-expectations-part-2-112c96c2914a)
+  + [Medium - Implementation of the Data Contracts with dbt, Google Cloud & Great Expectations - Part 3](https://medium.astrafy.io/implementation-of-the-data-contracts-with-dbt-google-cloud-great-expectations-part-3-7c2675d549df)
 
 ### Awesome data contracts
 * Link to the reference documentation on GitHub: https://github.com/AltimateAI/awesome-data-contracts
