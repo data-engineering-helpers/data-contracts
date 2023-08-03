@@ -114,7 +114,8 @@ data architecture. These formal agreements make sure that there are not
 any uncertainties or undocumented assumptions about data.
 
 ## Definition by Charles Verleyen
-* Source: https://medium.astrafy.io/data-quality-with-great-expectations-e41504d93e17
+* Source:
+  https://medium.astrafy.io/data-quality-with-great-expectations-e41504d93e17
 
 ![Data contracts: API-based agreements](img/data-contracts-producers-and-consumers-2023-05.webp)
 
