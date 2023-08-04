@@ -2,7 +2,7 @@ Data Contracts - Community management
 =====================================
 
 # Overview
-[That page](https://github.com/data-engineering-helpers/data-contracts/blob/main/community/README.md)
+[This page](https://github.com/data-engineering-helpers/data-contracts/blob/main/community/README.md)
 helps to manage the community around the
 [Data contracts initiative](https://github.com/data-engineering-helpers/data-contracts).
 
