@@ -130,17 +130,32 @@ and we will invite you.
   + Greater Lille, Nord, France  
 
 * Simon Auger
-  + Data Engineer at [Decathlon Digital](https://digital.decathlon.net/)
+  ([Simon Auger at ](https://www.linkedin.com/in/simon-auger/),
+  [Simon Auger at GitHub](https://github.com/saugerDecathlon))
+  + Senior Data Engineer at [Capgemni Invent](https://www.capgemini.com/about-us/who-we-are/our-brands/capgemini-invent/)
+  + Greater Paris, Île-de-France, France
 
 * Sophie Ly
+  ([Sophie Ly on LinkedIn](https://www.linkedin.com/in/sophie-ly-2a8095110/),
+  [Sophie Ly on GitHub](https://github.com/dkt-sophie-ly))
   + Data Engineer at [Decathlon Digital](https://digital.decathlon.net/)
+  + Greater Lille, Nord, France
 
 * Nicolas Gibaud
-  + Senior Data Engineer at [Decathlon Digital](https://digital.decathlon.net/)
+  ([Nicolas Gibaud on LinkedIn](https://www.linkedin.com/in/nicolas-gibaud-aa929358/),
+  [Nicolas Gibaud on GitHub](https://github.com/nicolasgibaud))
+  + Senior Data Engineer at [Capgemni Invent](https://www.capgemini.com/about-us/who-we-are/our-brands/capgemini-invent/)
+  + Greater Paris, Île-de-France, France
 
 * Mohamed Rakza
-  + Staff Data Engineer at [Decathlon Digital](https://digital.decathlon.net/)
+  ([Mohamed Rakza on LinkedIn](https://www.linkedin.com/in/mohamed-rakza-64053a1a/),
+  [Mohamed Rakza on GitHub](https://github.com/mrakza21))
+  + Senior Staff Data Engineer at [Decathlon Digital](https://digital.decathlon.net/)
+  + Greater Lille, Nord, France
 
-* Theo Vialard
-  + Data Engineer at [Decathlon Digital](https://digital.decathlon.net/)
+* Théo Vialard
+  ([Théo Vialard on LinkedIn](https://www.linkedin.com/in/th%C3%A9o-vialard-093708ab/),
+  [Théo Vialard on GitHub](https://github.com/tvialard))
+  + Senior Data Consultant at [Capgemni Invent](https://www.capgemini.com/about-us/who-we-are/our-brands/capgemini-invent/)
+  + Greater Paris, Île-de-France, France
 
