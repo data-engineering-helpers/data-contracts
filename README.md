@@ -161,6 +161,7 @@ to know the data they are using is accurate, complete, and future proof.
 This is the _data contract_.
 
 # References
+* [Data contracts - (WIP) Community management](https://github.com/data-engineering-helpers/data-contracts/blob/main/community/README.md)
 * [Architecture principles for data engineering pipelines on the Modern Data Stack (MDS)](https://github.com/data-engineering-helpers/architecture-principles)
   + [Material for the Data platform - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles/blob/main/material/README.md)
 * Specifications/principles for a
