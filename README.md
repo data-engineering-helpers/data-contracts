@@ -6,6 +6,7 @@ Data contracts
 * [Specifications](#specifications)
 * [Definitions](#definitions)
   * [Definition by Atlan](#definition-by-atlan)
+  * [Definition by Charles Verleyen](#definition-by-charles-verleyen)
   * [Definition by David Jayatillake](#definition-by-david-jayatillake)
   * [Definition by Andrew James](#definition-by-andrew-james)
 * [References](#references)
@@ -15,14 +16,17 @@ Data contracts
     * [Data products, Chad Sanderson on Substack](#data-products-chad-sanderson-on-substack)
     * [Data contracts demystified, by Atlan](#data-contracts-demystified-by-atlan)
   * [Collection of articles](#collection-of-articles)
-    * [Astrafy end-to-end implementation of data contracts](#astrafy-end-to-end-implementation-of-data-contracts)
+    * [Astrafy end\-to\-end implementation of data contracts](#astrafy-end-to-end-implementation-of-data-contracts)
     * [Awesome data contracts](#awesome-data-contracts)
   * [Books and articles](#books-and-articles)
-    * [Data contracts for non-tech readers](#data-contracts-for-non-tech-readers)
+    * [Data Contracts: the Mesh Glue](#data-contracts-the-mesh-glue)
+    * [Data contracts for non\-tech readers](#data-contracts-for-non-tech-readers)
     * [Driving Data Quality with Data Contracts](#driving-data-quality-with-data-contracts)
     * [Tables as Interfaces](#tables-as-interfaces)
     * [DBT Model Contracts: Importance and Pitfalls](#dbt-model-contracts-importance-and-pitfalls)
     * [DBT implementing data contracts](#dbt-implementing-data-contracts)
+      * [Excerpts](#excerpts)
+    * [PayPal open sources its data contract templates](#paypal-open-sources-its-data-contract-templates)
     * [Data contracts, the missing foundation](#data-contracts-the-missing-foundation)
     * [An engineering guide to data creation and data quality, a data contract perspective](#an-engineering-guide-to-data-creation-and-data-quality-a-data-contract-perspective)
     * [Data contracts for the warehouse](#data-contracts-for-the-warehouse)
@@ -45,6 +49,9 @@ Data contracts
 * [Tools and frameworks](#tools-and-frameworks)
   * [Schemata](#schemata)
   * [OpenDataMesh](#opendatamesh)
+  * [PayPal data contract templates](#paypal-data-contract-templates)
+  * [PolyExpose: a simplistic Polyglot data tool](#polyexpose-a-simplistic-polyglot-data-tool)
+  * [Smithy](#smithy)
   * [Avro / Schema Registry](#avro--schema-registry)
     * [Support by cloud vendors](#support-by-cloud-vendors)
   * [Protocol buffers (Protobuf)](#protocol-buffers-protobuf)
@@ -52,7 +59,7 @@ Data contracts
   * [Benthos](#benthos)
   * [Memphis](#memphis)
   * [API specifications](#api-specifications)
-  * [Schema.org](#schemaorg)
+  * [Schema\.org](#schemaorg)
 * [Exploration / Proof\-of\-Concept (PoC)](#exploration--proof-of-concept-poc)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
@@ -208,9 +215,21 @@ This is the _data contract_.
   + [Medium - Implementation of the Data Contracts with dbt, Google Cloud & Great Expectations - Part 3](https://medium.astrafy.io/implementation-of-the-data-contracts-with-dbt-google-cloud-great-expectations-part-3-7c2675d549df)
 
 ### Awesome data contracts
-* Link to the reference documentation on GitHub: https://github.com/AltimateAI/awesome-data-contracts
+* Link to the reference documentation on GitHub:
+   https://github.com/AltimateAI/awesome-data-contracts
 
 ## Books and articles
+
+### Data Contracts: the Mesh Glue
+* Title: Data Contracts: the Mesh Glue
+* Author: Luis Velasco
+  ([Luis Velasco on LinkedIn](https://www.linkedin.com/in/luisvelascouk/),
+  [Luis Velasco on Medium](https://velascoluis.medium.com/),
+  [Luis Velasco on GitHub](https://github.com/velascoluis))
+* Date: July 2023
+* Link to the article:
+  https://towardsdatascience.com/data-contracts-the-mesh-glue-c1b533e2a664
+* Publisher: Medium
 
 ### Data contracts for non-tech readers
 * Title: Data contracts for non-tech readers: a restaurant analogy
@@ -275,18 +294,23 @@ In the future, individual teams will own their own data. Data engineering will o
 * Title: PayPal open sources its data contract templates
 * Date: May 2023
 * Author: Jean-Georges Perrin
-* Link to the article: https://jgp.ai/2023/05/01/paypal-open-sources-its-data-contract-template/
+* Link to the article:
+  https://jgp.ai/2023/05/01/paypal-open-sources-its-data-contract-template/
 * Publisher: Jean-Georges Perrin's blog
 
 ### Data contracts, the missing foundation
 * Title: Data contracts: The missing foundation
 * Date: March 2023
-* Author: Tom Baeyens ([Tom Baeyens on LinkedIn](https://www.linkedin.com/in/tombaeyens/), [Tom Baeyens on Medium](https://medium.com/@tombaeyens))
-* Link to the article: https://medium.com/@tombaeyens/data-contracts-the-missing-foundation-3c7a98544d2a
+* Author: Tom Baeyens
+  ([Tom Baeyens on LinkedIn](https://www.linkedin.com/in/tombaeyens/),
+  [Tom Baeyens on Medium](https://medium.com/@tombaeyens))
+* Link to the article:
+   https://medium.com/@tombaeyens/data-contracts-the-missing-foundation-3c7a98544d2a
 * Publisher: Medium
 
 ### An engineering guide to data creation and data quality, a data contract perspective
-* Title: An Engineering Guide to Data Creation and Data Quality - A Data Contract perspective
+* Title: An Engineering Guide to Data Creation and Data Quality -
+  A Data Contract perspective
 * Dates: March and May 2023
 * Author: Ananth Packkildurai
   ([Ananth Packkildurai on LinkedIn](https://www.linkedin.com/in/ananthdurai/),
@@ -513,7 +537,28 @@ In the future, individual teams will own their own data. Data engineering will o
 
 ## PayPal data contract templates
 * Homepage: https://github.com/paypal/data-contract-template
-* This project describes the data contract being used in the implementation of Data Mesh at PayPal. It is available as an Apache 2.0 license.
+* This project describes the data contract being used in the implementation
+  of Data Mesh at PayPal. It is available as an Apache 2.0 license.
+
+## PolyExpose: a simplistic Polyglot data tool
+* Homepage: https://github.com/velascoluis/polyexpose
+* Prototype, simplistic Python package implementing the following concepts
+  + The ultimate goal to ensure reusability, Data mesh answer is to introduce
+    the concept of polyglot data, an abstraction to clearly differentiate
+	between the data semantics and the data consumption format/syntax.
+  + This is a very elegant approach with a very clear separation of
+    responsibilities between semantics and its underlying technology,
+	but as Data Mesh does not prescribe any kind of technical architecture,
+	sometimes this can be challenging to visualize or implement.
+  + The idea of [this repository](https://github.com/velascoluis/polyexpose)
+    is to present a potential technology architecture that implements
+	this pattern using as many open source components as possible
+* Main contributors: Luis Velasco
+  ([Luis Velasco on LinkedIn](https://www.linkedin.com/in/luisvelascouk/),
+  [Luis Velasco on Medium](https://velascoluis.medium.com/),
+  [Luis Velasco on GitHub](https://github.com/velascoluis))
+* See also
+  [Data Contracts: the Mesh Glue (in this page)](#data-contracts-the-mesh-glue)
 
 ## Smithy
 * Homepage: https://smithy.io/
