@@ -50,6 +50,7 @@ Data contracts
   * [Schemata](#schemata)
   * [OpenDataMesh](#opendatamesh)
   * [PayPal data contract templates](#paypal-data-contract-templates)
+  * [Kolle](#kolle)
   * [PolyExpose: a simplistic Polyglot data tool](#polyexpose-a-simplistic-polyglot-data-tool)
   * [Smithy](#smithy)
   * [Avro / Schema Registry](#avro--schema-registry)
@@ -559,6 +560,13 @@ In the future, individual teams will own their own data. Data engineering will o
   [Luis Velasco on GitHub](https://github.com/velascoluis))
 * See also
   [Data Contracts: the Mesh Glue (in this page)](#data-contracts-the-mesh-glue)
+
+## Kolle
+* GitHub page: https://github.com/metaheed/kolle
+
+Zero/Low code based business model representation automation.
+Kolle is for working on data models, data-contract, data quality,
+data profiling, and data linage instead of technical tooling or platform.
 
 ## Smithy
 * Homepage: https://smithy.io/
