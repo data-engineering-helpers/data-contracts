@@ -62,7 +62,7 @@ Data contracts
   * [API specifications](#api-specifications)
   * [Schema\.org](#schemaorg)
 * [Vendor solutions](#vendor-solutions)
-  * [DataMesh Managers](#datamesh-managers)
+  * [DataMesh Manager](#datamesh-manager)
 * [Exploration / Proof\-of\-Concept (PoC)](#exploration--proof-of-concept-poc)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
@@ -631,7 +631,7 @@ data profiling, and data linage instead of technical tooling or platform.
 
 ## AWS
 
-## DataMesh Managers
+## DataMesh Manager
 * Home page: https://datamesh-manager.com
   
 
