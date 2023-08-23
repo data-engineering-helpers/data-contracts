@@ -61,6 +61,8 @@ Data contracts
   * [Memphis](#memphis)
   * [API specifications](#api-specifications)
   * [Schema\.org](#schemaorg)
+* [Vendor solutions](#vendor-solutions)
+  * [DataMesh Managers](#datamesh-managers)
 * [Exploration / Proof\-of\-Concept (PoC)](#exploration--proof-of-concept-poc)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
@@ -616,6 +618,22 @@ data profiling, and data linage instead of technical tooling or platform.
 
 ## Schema.org
 * Homepage: https://schema.org/
+
+# Vendor solutions
+
+## DBT
+
+## AWS
+
+## Google
+
+## Collibra
+
+## AWS
+
+## DataMesh Managers
+* Home page: https://datamesh-manager.com
+  
 
 # Exploration / Proof-of-Concept (PoC)
 * [GitHub - Smithy - Quickstart guide](smithy/quickstart/)
