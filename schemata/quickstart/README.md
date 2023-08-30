@@ -42,12 +42,12 @@ $ sdk list maven
 * Install the Amazon Coretto JDK17 (or whatever else JDK you prefer,
   but it has to be some JDK with version 17):
 ```bash
-$ sdk install 17.0.6-amzn
+$ sdk install java 17.0.6-amzn
 ```
 
 * Install Maven:
 ```bash
-$ sdk install 3.9.1
+$ sdk install maven 3.9.1
 ```
 
 ## Data contracts - Schema Quickstart
