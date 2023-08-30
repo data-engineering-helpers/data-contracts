@@ -115,6 +115,10 @@ $ popd
 ```bash
 $ pushd ~/dev/infra/data-contracts/schemata/quickstart
 ```
+* Create a target folder
+```bash
+$ mkdir target
+```
 
 * Copy the just generated Schemata JAR artifact:
 ```bash
