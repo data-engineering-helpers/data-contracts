@@ -50,6 +50,11 @@ $ sdk install java 17.0.6-amzn
 $ sdk install maven 3.9.1
 ```
 
+## Protobuf
+```bash
+$ brew install protobuf
+```
+
 ## Data contracts - Schema Quickstart
 * If not already done so, clone the
   [Data contracts Git repository](https://github.com/data-engineering-helpers/data-contracts)
