@@ -51,8 +51,15 @@ $ sdk install maven 3.9.1
 ```
 
 ## Protobuf
+* If not already done so, Install Protocol Buffer Compiler https://grpc.io/docs/protoc-installation/
+On Mac: 
 ```bash
 $ brew install protobuf
+```
+
+On Linux, using apt or apt-get:
+```bash
+$ apt install -y protobuf-compiler
 ```
 
 ## Data contracts - Schema Quickstart
