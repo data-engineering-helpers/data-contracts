@@ -278,6 +278,7 @@ these companies.
 * ASIN: B0C37FPH3D
 * Article on the book:
   https://andrew-jones.com/blog/data-contracts-the-book-out-now/
+* Book on Google Books: https://books.google.fr/books?id=OkTJEAAAQBAJ
 
 ### Tables as Interfaces
 * Title: Tables as Interfaces
