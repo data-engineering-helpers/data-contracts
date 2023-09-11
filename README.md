@@ -5,10 +5,11 @@ Data contracts
 * [Overview](#overview)
 * [Specifications](#specifications)
 * [Definitions](#definitions)
+  * [Definition by Andrew Jones](#definition-by-andrew-jones)
   * [Definition by Atlan](#definition-by-atlan)
   * [Definition by Charles Verleyen](#definition-by-charles-verleyen)
   * [Definition by David Jayatillake](#definition-by-david-jayatillake)
-  * [Definition by Andrew James](#definition-by-andrew-james)
+  * [Definition by Jean-Georges Perrin](#definition-by-jean-georges-perrin)
 * [References](#references)
   * [Use cases](#use-cases)
   * [Web sites, blogs](#web-sites-blogs)
@@ -19,6 +20,8 @@ Data contracts
     * [Astrafy end\-to\-end implementation of data contracts](#astrafy-end-to-end-implementation-of-data-contracts)
     * [Awesome data contracts](#awesome-data-contracts)
   * [Books and articles](#books-and-articles)
+    + [Implementing Data Mesh](#implementing-data-mesh)
+    + [Data Contract 101](#data-contract-101)
     * [Data Contracts: the Mesh Glue](#data-contracts-the-mesh-glue)
     * [Data contracts for non\-tech readers](#data-contracts-for-non-tech-readers)
     * [Driving Data Quality with Data Contracts](#driving-data-quality-with-data-contracts)
@@ -49,6 +52,7 @@ Data contracts
 * [Tools and frameworks](#tools-and-frameworks)
   * [Schemata](#schemata)
   * [OpenDataMesh](#opendatamesh)
+  * [Open Data Contracts Standard (ODCS)](#open-data-contracts-standard-odcs)
   * [PayPal data contract templates](#paypal-data-contract-templates)
   * [Kolle](#kolle)
   * [PolyExpose: a simplistic Polyglot data tool](#polyexpose-a-simplistic-polyglot-data-tool)
@@ -115,13 +119,20 @@ these companies.
 
 # Definitions
 
+## Definition by Andrew Jones
+* Source: [https://andrew-jones.com/blog/data-contracts/](https://data-contracts.com/)
+
+> A data contract is an agreed **interface** between the generators of data and its consumers.
+> It sets the **expectations** around that data, defines how it should be **governed**,
+> and facilitates the **explicit** generation of quality data that meets the business requirements.
+
 ## Definition by Atlan
 * Source: https://atlan.com/data-contracts/
 
-A data contract outlines how data can get exchanged between two parties.
-It defines the structure, format, and rules of exchange in a distributed
-data architecture. These formal agreements make sure that there are not
-any uncertainties or undocumented assumptions about data.
+> A data contract outlines how data can get exchanged between two parties.
+> It defines the structure, format, and rules of exchange in a distributed
+> data architecture. These formal agreements make sure that there are not
+> any uncertainties or undocumented assumptions about data.
 
 ## Definition by Charles Verleyen
 * Source:
@@ -129,46 +140,31 @@ any uncertainties or undocumented assumptions about data.
 
 ![Data contracts: API-based agreements](img/data-contracts-producers-and-consumers-2023-05.webp)
 
-Without high-quality data, every analytics initiative will be underwhelming
-at best and actively damaging the business at worst. Data contracts
-are API-based agreements between producers and consumers designed to solve
-exactly that problem Data Contracts are not a new concept.
-They are simply new implementations of a very old idea
-— that producers and consumers should work together to generate high-quality,
-semantically valid data from the ground up.
+> Without high-quality data, every analytics initiative will be underwhelming
+> at best and actively damaging the business at worst. Data contracts
+> are API-based agreements between producers and consumers designed to solve
+> exactly that problem Data Contracts are not a new concept.
+> They are simply new implementations of a very old idea
+> — that producers and consumers should work together to generate high-quality,
+> semantically valid data from the ground up.
+
+## Definition by Jean-Georges Perrin
+* Source: https://medium.com/profitoptics/data-contract-101-568a9adbf9a9
+
+> A data contract acts as an agreement between multiple parties; specifically,
+> a data producer and its consumer(s). A data contract:
+> * Creates a link between data producers and data consumers.
+> * Creates a link between a logical representation of the data and its physical implementation.
+> * Describes “meta meta” data: rules, quality, and behavior (yes, there are two metas in this sentence).
 
 ## Definition by David Jayatillake
 * Source: https://davidsj.substack.com/p/yet-another-post-on-data-contracts
 
-In short, **a Data Contract is an enforceable agreement on structure
-and format between the producer and consumer of data**.
-You could even define it in a simpler way:
-**a Data Contract is a guarantee on structure and format by a producer
-of data**.
-
-## Definition by Andrew James
-* Source: https://andrew-jones.com/blog/data-contracts/
-
-Almost all data platforms start with a
-[change data capture (CDC) service](https://en.wikipedia.org/wiki/Change_data_capture)
-to extract data from an organisations transactional databases - the source
-of truth for their most valuable data. That data is then transformed, joined,
-and aggregated to drive analysis, modelling, and other downstream services.
-
-However, this data has not been designed for these use cases -
-it has been designed to satisfy the needs and requirements of the source
-applications and their day-to-day use.
-It can then take significant effort to transform, deduce, and derive
-the data in order to make it useful for downstream use cases.
-
-Furthermore, breaking changes and data migrations will be a regular part of
-the applications evolution and will be done without knowledge of how
-it has been used downstream, leading to breaking changes affecting key
-reports and data-driven products.
-
-For downstream users to confidently build on this valuable data, they need
-to know the data they are using is accurate, complete, and future proof.
-This is the _data contract_.
+> In short, **a Data Contract is an enforceable agreement on structure
+> and format between the producer and consumer of data**.
+> You could even define it in a simpler way:
+> **a Data Contract is a guarantee on structure and format by a producer
+> of data**.
 
 # References
 * [Data contracts - (WIP) Community management](https://github.com/data-engineering-helpers/data-contracts/blob/main/community/README.md)
@@ -202,6 +198,15 @@ This is the _data contract_.
 * Date: April 2023
 * Link to the web site: https://atlan.com/data-contracts/
 
+### AIDA user group
+* Home page: https://aidausergroup.org
+* HitHub organization: https://github.com/AIDAUserGroup
+* AIDA User Group focuses on developing knowledge around artificial intelligence (AI),
+  data, and analytics for its members.
+* Mission: as Artificial Intelligence is transforming society and businesses, AIDA User Group
+  has the ambition to share knowledge, connect people, and provide guidance through this next era
+  of computing while embracing peace and the highest levels of ethics.
+
 ## Collection of articles
 
 ### Astrafy end-to-end implementation of data contracts
@@ -222,6 +227,28 @@ This is the _data contract_.
    https://github.com/AltimateAI/awesome-data-contracts
 
 ## Books and articles
+
+### Implementing Data Mesh
+* Title: Implementing Data Mesh
+* Date: December 2024
+* Authors:
+  + Jean-Georges Perrin
+  ([Jean-Georges Perrin on LinkedIn](https://www.linkedin.com/in/jgperrin/),
+  [Jean-Georges Perrin on Medium](https://medium.com/@jgperrin))
+  + Eric Broda
+* Link to O'Reilly page for the book:
+  https://www.oreilly.com/library/view/implementing-data-mesh/9781098156213/
+* Publisher: O'Reilly
+
+### Data Contract 101
+* Title: Data contract 101
+* Date: September 2023
+* Author: Jean-Georges Perrin
+  ([Jean-Georges Perrin on LinkedIn](https://www.linkedin.com/in/jgperrin/),
+  [Jean-Georges Perrin on Medium](https://medium.com/@jgperrin))
+* Link to the article:
+  https://medium.com/profitoptics/data-contract-101-568a9adbf9a9
+* Publisher: Medium
 
 ### Data Contracts: the Mesh Glue
 * Title: Data Contracts: the Mesh Glue
@@ -297,6 +324,7 @@ In the future, individual teams will own their own data. Data engineering will o
 * Title: PayPal open sources its data contract templates
 * Date: May 2023
 * Author: Jean-Georges Perrin
+* See also [Data Contract 101 section above](#data-contract-101)
 * Link to the article:
   https://jgp.ai/2023/05/01/paypal-open-sources-its-data-contract-template/
 * Publisher: Jean-Georges Perrin's blog
@@ -538,7 +566,7 @@ In the future, individual teams will own their own data. Data engineering will o
 * See also
   [Data contracts in practice (in this page)](#data-contracts-in-practice)
 
-## Open Data Contracts Standard
+## Open Data Contracts Standard (ODCS)
 * Home page: https://github.com/AIDAUserGroup/open-data-contract-standard
 * New version of the PayPal data contract template (see below)
 
