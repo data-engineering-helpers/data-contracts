@@ -32,6 +32,7 @@ Data contracts
     * [PayPal open sources its data contract templates](#paypal-open-sources-its-data-contract-templates)
     * [Data contracts, the missing foundation](#data-contracts-the-missing-foundation)
     * [An engineering guide to data creation and data quality, a data contract perspective](#an-engineering-guide-to-data-creation-and-data-quality-a-data-contract-perspective)
+    * [Data Contracts Using Schema Registry](#data-contracts-using-schema-registry)
     * [Data contracts for the warehouse](#data-contracts-for-the-warehouse)
     * [Data contracts wrapped 2022](#data-contracts-wrapped-2022)
     * [Data contracts in practice](#data-contracts-in-practice)
@@ -279,6 +280,8 @@ these companies.
 * Article on the book:
   https://andrew-jones.com/blog/data-contracts-the-book-out-now/
 * Book on Google Books: https://books.google.fr/books?id=OkTJEAAAQBAJ
+* GitHub companion repository:
+  https://github.com/PacktPublishing/Driving-Data-Quality-with-Data-Contracts
 
 ### Tables as Interfaces
 * Title: Tables as Interfaces
@@ -356,6 +359,17 @@ In the future, individual teams will own their own data. Data engineering will o
   [Data Engineering Weekly (DEW) newsletter on Substack](https://www.dataengineeringweekly.com/)
 * Note that Ananth Packkildurai is the main contributor of
   [Schemata](#schemata)
+
+### Data Contracts Using Schema Registry
+* Title: Kafka for Developers - Data Contracts Using Schema Registry
+* Date: March 2023
+* Author: Dilip Sundarraj
+* ISBN: 9781837633487
+* Link on the book page on Packt:
+  https://www.packtpub.com/product/kafka-for-developers-data-contracts-using-schema-registry-video/9781837633487
+* Publisher: Packt Publishing
+* GitHub companion repository:
+  https://github.com/PacktPublishing/Kafka-for-Developers---Data-Contracts-Using-Schema-Registry
 
 ### Data contracts for the warehouse
 * Title: Data contracts for the warehouse
