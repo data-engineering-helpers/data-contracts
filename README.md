@@ -581,6 +581,11 @@ In the future, individual teams will own their own data. Data engineering will o
 * See also
   [Data contracts in practice (in this page)](#data-contracts-in-practice)
 
+## Datacontract specification and CLI
+* datacontract CLI: https://github.com/datacontract/cli
+* Datacontract specification:
+  https://datacontract.com/
+
 ## Open Data Contracts Standard (ODCS)
 * Home page: https://github.com/AIDAUserGroup/open-data-contract-standard
 * New version of the PayPal data contract template (see below)
