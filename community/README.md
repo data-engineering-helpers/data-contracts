@@ -21,12 +21,20 @@ https://github.com/data-engineering-helpers GitHub public organization
 https://github.com/data-engineering-helpers/data-contracts repository,
 among others).
 
-There have just been a few online meetings, mainly to see each other for real and present ourselves.
+There have just been a few online meetings, mainly to see each other
+for real and present ourselves.
 
-You are welcome there. There is of course no obligation. And there is no commitment either, from any of the parties. Our goal is just to exchange pieces of idea, of information, of knowledge, tips and tricks, so as to contribute to establish a de facto open standard around Data Contracts, avoiding proprietary lock-ins.
+You are welcome there. There is of course no obligation. And there is no
+commitment either, from any of the parties. Our goal is just to exchange
+pieces of idea, of information, of knowledge, tips and tricks, so as
+to contribute to establish a de facto open standard around Data Contracts,
+avoiding proprietary lock-ins.
 
-So far, we plan to use Open Data Mesh (ODM) as the open specification for Data Contracts (the main contributor being Andrea) and Schemata (Ananth being the main contributor) for the tooling/Swiss-knife.
-A very early draft of the specifications of what we want to achieve is https://github.com/data-engineering-helpers/data-contracts#specifications
+So far, we plan to use Open Data Mesh (ODM) as the open specification
+for Data Contracts (the main contributor being Andrea) and Schemata
+(Ananth being the main contributor) for the tooling/Swiss-knife.
+A very early draft of the specifications of what we want to achieve
+is https://github.com/data-engineering-helpers/data-contracts#specifications
 
 # Google Space
 * Reference:
