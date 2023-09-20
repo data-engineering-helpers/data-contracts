@@ -54,7 +54,7 @@ Data contracts
   * [Schemata](#schemata)
   * [OpenDataMesh](#opendatamesh)
   * [Datacontract.com specification and CLI](#datacontract-com-specification-and-cli)
-  * [Open Data Contracts Standard (ODCS)](#open-data-contracts-standard-odcs)
+  * [Open Data Contract Standard (ODCS)](#open-data-contract-standard-odcs)
   * [PayPal data contract templates](#paypal-data-contract-templates)
   * [Kolle](#kolle)
   * [PolyExpose: a simplistic Polyglot data tool](#polyexpose-a-simplistic-polyglot-data-tool)
@@ -586,9 +586,9 @@ In the future, individual teams will own their own data. Data engineering will o
 * `datacontract` command-line (CLI) utility: https://github.com/datacontract/cli
 * Datacontract.com specification:
   https://datacontract.com/
-* Inspired from the Open Data Contracts Standard (ODCS); see below
+* Inspired from the Open Data Contract Standard (ODCS); see below
 
-## Open Data Contracts Standard (ODCS)
+## Open Data Contract Standard (ODCS)
 * Home page: https://github.com/AIDAUserGroup/open-data-contract-standard
 * New version of the PayPal data contract template (see below)
 * See above the Datacontract.com specification and CLI
