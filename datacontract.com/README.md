@@ -36,7 +36,7 @@ $ mkdir -p ~/dev/infra/data-contracts && \
 
 * Check the validity of the data contract:
 ```bash
-$ datacontract validate --file contracts/orders-latest-npii.yaml
+$ datacontract lint --file contracts/orders-latest-npii.yaml
 🟢 data contract is valid!
 ```
 
@@ -102,7 +102,7 @@ $ mkdir -p ~/.local/bin
 * Check the version:
 ```bash
 $ datacontract --version
-datacontract version v0.1.1
+datacontract version v0.2.0
 ```
 
 ## Options
@@ -120,7 +120,21 @@ $ duckdb db.duckdb < sql/duckdb-ddl-create-view-from-csv.sql
 -rw-r--r--  1 user  group   268K Sep 27 11:39 db.duckdb
 ```
 
-* The resulting view may be queried easily:
+* The resulting view may be queried easily
+  + Schema:
+```bash
+$ duckdb db.duckdb "describe transport_routes;"
+┌────────────────┬─────────────┬─────────┬─────────┬─────────┬───────┐
+│  column_name   │ column_type │  null   │   key   │ default │ extra │
+│    varchar     │   varchar   │ varchar │ varchar │ varchar │ int32 │
+├────────────────┼─────────────┼─────────┼─────────┼─────────┼───────┤
+│ transporter_id │ VARCHAR     │ YES     │         │         │       │
+│ org_por_id     │ VARCHAR     │ YES     │         │         │       │
+│ dst_por_id     │ VARCHAR     │ YES     │         │         │       │
+│ freq           │ BIGINT      │ YES     │         │         │       │
+└────────────────┴─────────────┴─────────┴─────────┴─────────┴───────┘
+```
+  + Number of records:
 ```bash
 $ duckdb db.duckdb "select count(*) as nb_recs from transport_routes;"
 ┌─────────┐
@@ -156,12 +170,13 @@ Connection 'duckdb_local' is valid.
 * Launch a few sample checks:
 ```bash
 $ soda scan -d duckdb_local -c soda-conf.yml soda-checks.yml
-[12:10:53] Soda Core 3.0.50
-[12:10:53] Scan summary:
-[12:10:53] 1/1 check PASSED: 
-[12:10:53]     transport_routes in duckdb_local
-[12:10:53]       row_count > 0 [PASSED]
-[12:10:53] All is good. No failures. No warnings. No errors.
+[16:16:10] Soda Core 3.0.50
+[16:16:11] Scan summary:
+[16:16:11] 2/2 checks PASSED: 
+[16:16:11]     transport_routes in duckdb_local
+[16:16:11]       row_count between 90000 and 100000 [PASSED]
+[16:16:11]       invalid_percent(freq) = 0 % [PASSED]
+[16:16:11] All is good. No failures. No warnings. No errors.
 ```
 
 # Trouble shooting

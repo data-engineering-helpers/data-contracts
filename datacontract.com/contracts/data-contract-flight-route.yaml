@@ -19,9 +19,9 @@ info:
 ### servers
 
 servers:
-  github-prod:
-    type: https
-    location: https://github.com/opentraveldata/opentraveldata/blob/master/opentraveldata/optd_airline_por.csv
+  production:
+    type: s3
+    location: s3://opentraveldata/optd_airline_por.csv
 
 ### terms
 
@@ -74,5 +74,7 @@ quality:
   type: SodaCL
   specification:
     checks for transport_routes:
-      - row_count > 0
+      - row_count between 90000 and 100000
+      - invalid_percent(freq) = 0 %:
+          valid format: integer
 
