@@ -10,11 +10,11 @@ info:
   description: The POR (points of reference) are specified through IATA 3-letter codes and transport providers through IATA 2-letter codes
   owner: OpenTravelData (OPTD)
   dataProduct: OPTD Transport Routes
-  outputPort:
+  outputPort: urn:outputport:opentraveldata:optd_airline_por_v1
   contact:
-    name:
-    url:
-    email:
+    name: OpenTravelData (OPTD)
+    url: https://github.com/orgs/opentraveldata/teams/core
+    email: denis.arnaud_optd@m4x.org
 
 ### servers
 

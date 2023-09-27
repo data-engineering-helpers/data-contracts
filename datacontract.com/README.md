@@ -36,9 +36,19 @@ $ mkdir -p ~/dev/infra/data-contracts && \
 
 * Check the validity of the data contract:
 ```bash
-$ datacontract lint --file contracts/orders-latest-npii.yaml
+$ datacontract lint --file contracts/data-contract-flight-route.yaml
 🟢 data contract is valid!
 ```
+
+* Open the data contract in Data Contract Studio:
+```bash
+$ datacontract open --file contracts/data-contract-flight-route.yaml
+🌐 opening data contract at https://studio.datacontract.com/s/16ff8cbb-7f3f-4ca4-addf-b3a4cbac1500
+```
+  + Which results, for
+    [`contracts/data-contract-flight-route.yaml`](https://github.com/data-engineering-helpers/data-contracts/tree/main/datacontract.com/contracts/data-contract-flight-route.yaml),
+	into
+    https://studio.datacontract.com/s/16ff8cbb-7f3f-4ca4-addf-b3a4cbac1500
 
 * Generate a new data contract:
 ```bash
@@ -48,7 +58,7 @@ $ datacontract init --file contracts/orders-latest-npii-new.yaml
 
 * Open the newly created data contract in Data Contract Studio:
 ```bash
-$ datacontract open
+$ datacontract open --file contracts/orders-latest-npii-new.yaml
 🌐 opening data contract at https://studio.datacontract.com/s/c8b27fe3-62dc-4a21-ae41-9471ce7859d7
 ```
 
