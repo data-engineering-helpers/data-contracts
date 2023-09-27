@@ -26,6 +26,14 @@ It is part of the larger
   + [Configure Soda Core](https://github.com/sodadata/soda-core/blob/main/docs/configuration.md)
   + [Connect Soda to DuckDB](https://docs.soda.io/soda/connect-duckdb.html)
 
+## OpenTravelData (OPTD)
+* OpenTravelData GitHub repository with latest CSV snapshots:
+  https://github.com/opentraveldata/opentraveldata/tree/master/opentraveldata/
+* For instance, the sample file used here is about transportation routes:
+  https://github.com/opentraveldata/opentraveldata/blob/master/opentraveldata/optd_airline_por.csv
+  - A copy of that CSV file is also available on a public S3 bucket:
+    [`s3://optd/latest/`](https://s3.console.aws.amazon.com/s3/buckets/optd?region=eu-west-1&tab=objects)
+
 # Quickstart
 * If not already done so, clone this Git repository and change directory to it:
 ```bash
