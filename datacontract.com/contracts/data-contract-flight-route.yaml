@@ -21,7 +21,7 @@ info:
 servers:
   production:
     type: s3
-    location: s3://opentraveldata/optd_airline_por.csv
+    location: s3://optd/latest/optd_airline_por.csv
 
 ### terms
 
