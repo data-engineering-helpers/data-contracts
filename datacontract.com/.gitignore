@@ -1,2 +1,4 @@
 # Data contracts
 /datacontract.yaml
+# DuckDB
+/db.duckdb

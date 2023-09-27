@@ -1,0 +1,78 @@
+#
+# File: https://github.com/data-engineering-helpers/data-contracts/tree/main/datacontract.com/contracts/data-contract-flight-route.yaml
+#
+
+dataContractSpecification: 0.9.0
+id: data-contract-org-example-ks-flight-route-v0-0-1
+info:
+  title: Data contract for transport routes
+  version: 0.0.1
+  description: The POR (points of reference) are specified through IATA 3-letter codes and transport providers through IATA 2-letter codes
+  owner: OpenTravelData (OPTD)
+  dataProduct: OPTD Transport Routes
+  outputPort:
+  contact:
+    name:
+    url:
+    email:
+
+### servers
+
+servers:
+  github-prod:
+    type: https
+    location: https://github.com/opentraveldata/opentraveldata/blob/master/opentraveldata/optd_airline_por.csv
+
+### terms
+
+#terms:
+#  usage:
+#  limitations:
+#  billing:
+#  noticePeriod:
+
+
+### schema
+
+schema:
+  type: json-schema
+  specification:
+    transport_routes:
+      description:
+      type: object
+      properties:
+        transporter_id:
+          type: string
+          description: 2-letter IATA code of the transport provider
+        org_por_id:
+          type: string
+          description: origin POR
+        dst_por_id:
+          type: string
+          description: destination POR
+        freq:
+          type: integer
+          description: frequency / number of flights
+  
+### examples
+
+examples:
+  - type: csv
+    model: transport_routes
+    data: |-
+      transporter_id,org_por_id,dst_por_id,freq
+      "AF","ALG","CDG",1309
+      "BA","ATL","LHR",325
+      "IB","AMS","MAD",113
+      "LH","AMS","FRA",1622
+      "LH","AMS","MUC",596
+      "QF","ADL","SYD",2732
+
+### quality
+
+quality:
+  type: SodaCL
+  specification:
+    checks for transport_routes:
+      - row_count > 0
+
