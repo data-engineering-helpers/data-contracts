@@ -1,6 +1,31 @@
 Data Contracts - Datacontract.com
 =================================
 
+# Table of Contents (ToC)
+* [Data Contracts - Datacontract.com](#data-contracts---datacontractcom)
+* [Overview](#overview)
+* [References](#references)
+   * [DuckDB](#duckdb)
+   * [Soda Core](#soda-core)
+   * [OpenTravelData (OPTD)](#opentraveldata-optd)
+* [Quickstart](#quickstart)
+   * [Setup](#setup)
+   * [Create or import a data contract](#create-or-import-a-data-contract)
+   * [Check the compliance of a data contract](#check-the-compliance-of-a-data-contract)
+   * [Edit a data contract in Data Contract Studio](#edit-a-data-contract-in-data-contract-studio)
+   * [Check the data quality of a table thanks to a data contract](#check-the-data-quality-of-a-table-thanks-to-a-data-contract)
+* [Installation](#installation)
+   * [On MacOS](#on-macos)
+   * [On Linux](#on-linux)
+   * [General](#general)
+   * [Options](#options)
+      * [DuckDB](#duckdb-1)
+      * [Soda Core](#soda-core-1)
+* [Trouble shooting](#trouble-shooting)
+   * [Soda Core](#soda-core-2)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
+
 # Overview
 [This page](https://github.com/data-engineering-helpers/data-contracts/blob/main/datacontract.com/README.md)
 is a deep dive on the [datacontract.com](https://datacontract.com/) ecosystem,
@@ -35,6 +60,8 @@ It is part of the larger
     [`s3://optd/latest/`](https://s3.console.aws.amazon.com/s3/buckets/optd?region=eu-west-1&tab=objects)
 
 # Quickstart
+
+## Setup
 * If not already done so, clone this Git repository and change directory to it:
 ```bash
 $ mkdir -p ~/dev/infra/data-contracts && \
@@ -42,42 +69,85 @@ $ mkdir -p ~/dev/infra/data-contracts && \
   cd ~/dev/infra/data-contracts/data-contracts/datacontract.com
 ```
 
+## Create or import a data contract
+* Generate a new data contract, which will be a collection of
+  commented samples (which may be then be uncommented following specific
+  implementation details):
+```bash
+$ datacontract init --file contracts/orders-latest-npii-new.yaml
+📄 data contract written to contracts/orders-latest-npii-new.yaml
+```
+
+* Import a data contract from a URL, creating a local replication of it
+  + From Data Contract Studio:
+```bash
+$ datacontract init --from https://studio.datacontract.com/s/c8b27fe3-62dc-4a21-ae41-9471ce7859d7.yaml
+📄 data contract written to datacontract.yaml
+```
+  + From some code repository, _e.g._, Git repositories (note that the URL
+    to the raw YAML file should be retrieved here, otherwise, the retrieved
+	file is HTML, not YAML):
+```bash
+$ datacontract init --overwrite-file --file data-contract-flight-route.yaml --from https://github.com/data-engineering-helpers/data-contracts/raw/main/datacontract.com/contracts/data-contract-flight-route.yaml
+📄 data contract written to data-contract-flight-route.yaml
+```
+
+## Check the compliance of a data contract
 * Check the validity of the data contract:
 ```bash
 $ datacontract lint --file contracts/data-contract-flight-route.yaml
 🟢 data contract is valid!
 ```
 
+>**Note**
+The schema specification of the
+[`contracts/data-contract-flight-route-quality.yaml` data contract](contracts/data-contract-flight-route-quality.yaml)
+is in its own YAML file, namely
+[`contracts/data-contract-flight-route-schema.yaml`](contracts/data-contract-flight-route-schema.yaml),
+cross-referenced by the data contract in the `schema` section.
+That allows to use that schema specification with other tools, such as DBT
+or Spark.
+
+## Edit a data contract in Data Contract Studio
 * Open the data contract in Data Contract Studio:
 ```bash
 $ datacontract open --file contracts/data-contract-flight-route.yaml
 🌐 opening data contract at https://studio.datacontract.com/s/16ff8cbb-7f3f-4ca4-addf-b3a4cbac1500
 ```
-  + Which results, for
-    [`contracts/data-contract-flight-route.yaml`](https://github.com/data-engineering-helpers/data-contracts/tree/main/datacontract.com/contracts/data-contract-flight-route.yaml),
-	into
-    https://studio.datacontract.com/s/16ff8cbb-7f3f-4ca4-addf-b3a4cbac1500
 
-* Generate a new data contract:
+* Which results, for the
+  [`contracts/data-contract-flight-route.yaml` data contract](https://github.com/data-engineering-helpers/data-contracts/tree/main/datacontract.com/contracts/data-contract-flight-route.yaml),
+  into
+  https://studio.datacontract.com/s/16ff8cbb-7f3f-4ca4-addf-b3a4cbac1500
+
+* The data contract may be edited in the Data Contract Studio directly:
+  https://studio.datacontract.com/s/16ff8cbb-7f3f-4ca4-addf-b3a4cbac1500/edit
+
+## Check the data quality of a table thanks to a data contract
+* The data quality check/test is not fully implemented yet. A feature request
+  has been created for that purpose:
+  https://github.com/datacontract/cli/issues/2
+  
+>**Note**
+The data quality check section is located in its own YAML file, namely
+[`contracts/data-contract-flight-route-quality.yaml`](contracts/data-contract-flight-route-quality.yaml),
+cross-referenced by the data contract in the `quality` section.
+That allows to use that data quality specification with other tools,
+such as Soda or Great Expectations. Below is an example of use with Soda.
+Note that this feature (of checking the data quality with external tools)
+should be integrated in the `datacontract` CLI at
+[some point in the future](https://github.com/datacontract/cli/issues/2).
+
+* Launch a few data quality checks with Soda Core:
 ```bash
-$ datacontract init --file contracts/orders-latest-npii-new.yaml
-📄 data contract written to contracts/orders-latest-npii-new.yaml
-```
-
-* Open the newly created data contract in Data Contract Studio:
-```bash
-$ datacontract open --file contracts/orders-latest-npii-new.yaml
-🌐 opening data contract at https://studio.datacontract.com/s/c8b27fe3-62dc-4a21-ae41-9471ce7859d7
-```
-
-* The data contract may be edited in Data Contract Studio directly:
-  https://studio.datacontract.com/s/c8b27fe3-62dc-4a21-ae41-9471ce7859d7/edit
-
-* Create a local replication of some existing data contract in
-  Data Contract Studio:
-```bash
-$ datacontract init --from https://studio.datacontract.com/s/c8b27fe3-62dc-4a21-ae41-9471ce7859d7.yaml
-📄 data contract written to datacontract.yaml
+$ soda scan -d duckdb_local -c soda-conf.yml contracts/data-contract-flight-route-quality.yaml
+[16:16:10] Soda Core 3.0.50
+[16:16:11] Scan summary:
+[16:16:11] 2/2 checks PASSED: 
+[16:16:11]     transport_routes in duckdb_local
+[16:16:11]       row_count between 90000 and 100000 [PASSED]
+[16:16:11]       invalid_percent(freq) = 0 % [PASSED]
+[16:16:11] All is good. No failures. No warnings. No errors.
 ```
 
 # Installation
@@ -183,18 +253,6 @@ Successfully connected to 'duckdb_local'.
 [12:05:22] Query duckdb_local.test-connection:
 SELECT 1
 Connection 'duckdb_local' is valid.
-```
-
-* Launch a few sample checks:
-```bash
-$ soda scan -d duckdb_local -c soda-conf.yml soda-checks.yml
-[16:16:10] Soda Core 3.0.50
-[16:16:11] Scan summary:
-[16:16:11] 2/2 checks PASSED: 
-[16:16:11]     transport_routes in duckdb_local
-[16:16:11]       row_count between 90000 and 100000 [PASSED]
-[16:16:11]       invalid_percent(freq) = 0 % [PASSED]
-[16:16:11] All is good. No failures. No warnings. No errors.
 ```
 
 # Trouble shooting

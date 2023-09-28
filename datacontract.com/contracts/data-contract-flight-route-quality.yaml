@@ -1,0 +1,8 @@
+#
+# File: https://github.com/data-engineering-helpers/data-contracts/tree/main/datacontract.com/contracts/data-contract-flight-route-quality.yaml
+#
+
+checks for transport_routes:
+  - row_count between 90000 and 100000
+  - invalid_percent(freq) = 0 %:
+      valid format: integer

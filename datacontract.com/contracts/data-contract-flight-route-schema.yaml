@@ -1,0 +1,20 @@
+#
+# File: https://github.com/data-engineering-helpers/data-contracts/tree/main/datacontract.com/contracts/data-contract-flight-route-schema.yaml
+#
+
+transport_routes:
+  description:
+    type: object
+    properties:
+      transporter_id:
+        type: string
+        description: 2-letter IATA code of the transport provider
+      org_por_id:
+        type: string
+        description: origin POR
+      dst_por_id:
+        type: string
+        description: destination POR
+      freq:
+        type: integer
+        description: frequency / number of flights

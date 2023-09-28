@@ -36,23 +36,7 @@ servers:
 
 schema:
   type: json-schema
-  specification:
-    transport_routes:
-      description:
-      type: object
-      properties:
-        transporter_id:
-          type: string
-          description: 2-letter IATA code of the transport provider
-        org_por_id:
-          type: string
-          description: origin POR
-        dst_por_id:
-          type: string
-          description: destination POR
-        freq:
-          type: integer
-          description: frequency / number of flights
+  specification: "$ref contracts/data-contract-flight-route-schema.yaml"
   
 ### examples
 
@@ -72,9 +56,5 @@ examples:
 
 quality:
   type: SodaCL
-  specification:
-    checks for transport_routes:
-      - row_count between 90000 and 100000
-      - invalid_percent(freq) = 0 %:
-          valid format: integer
+  specification: "$ref contracts/data-contract-flight-route-quality.yaml"
 

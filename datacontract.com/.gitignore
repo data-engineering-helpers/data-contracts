@@ -1,4 +1,5 @@
 # Data contracts
 /datacontract.yaml
+/data-contract-flight-route.yaml
 # DuckDB
 /db.duckdb
