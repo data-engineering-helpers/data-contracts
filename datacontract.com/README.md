@@ -101,9 +101,9 @@ $ datacontract lint --file contracts/data-contract-flight-route.yaml
 
 >**Note**
 The schema specification of the
-[`contracts/data-contract-flight-route-quality.yaml` data contract](contracts/data-contract-flight-route-quality.yaml)
+[`contracts/data-contract-flight-route-quality.yaml` data contract](https://github.com/data-engineering-helpers/data-contracts/tree/main/datacontract.com/contracts/data-contract-flight-route-quality.yaml)
 is in its own YAML file, namely
-[`contracts/data-contract-flight-route-schema.yaml`](contracts/data-contract-flight-route-schema.yaml),
+[`contracts/data-contract-flight-route-schema.yaml`](https://github.com/data-engineering-helpers/data-contracts/tree/main/datacontract.com/contracts/data-contract-flight-route-schema.yaml),
 cross-referenced by the data contract in the `schema` section.
 That allows to use that schema specification with other tools, such as DBT
 or Spark.
@@ -130,7 +130,7 @@ $ datacontract open --file contracts/data-contract-flight-route.yaml
   
 >**Note**
 The data quality check section is located in its own YAML file, namely
-[`contracts/data-contract-flight-route-quality.yaml`](contracts/data-contract-flight-route-quality.yaml),
+[`contracts/data-contract-flight-route-quality.yaml`](https://github.com/data-engineering-helpers/data-contracts/tree/main/datacontract.com/contracts/data-contract-flight-route-quality.yaml),
 cross-referenced by the data contract in the `quality` section.
 That allows to use that data quality specification with other tools,
 such as Soda or Great Expectations. Below is an example of use with Soda.
