@@ -3,8 +3,9 @@
 --
 
 drop view if exists transport_routes;
+drop table if exists transport_routes;
 
-create view transport_routes as (
+create table transport_routes as (
   select airline_code as transporter_id,
   		 apt_org as org_por_id,
   		 apt_dst as dst_por_id,
