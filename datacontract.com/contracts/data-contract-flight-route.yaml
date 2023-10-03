@@ -36,7 +36,7 @@ servers:
 
 schema:
   type: json-schema
-  specification: "$ref contracts/data-contract-flight-route-schema.yaml"
+  specification: "$ref: contracts/data-contract-flight-route-schema.yaml"
   
 ### examples
 
@@ -56,5 +56,5 @@ examples:
 
 quality:
   type: SodaCL
-  specification: "$ref contracts/data-contract-flight-route-quality.yaml"
+  specification: "$ref: contracts/data-contract-flight-route-quality.yaml"
 
