@@ -10,7 +10,8 @@ Data Contracts - Datacontract.com
    * [OpenTravelData (OPTD)](#opentraveldata-optd)
 * [Quickstart](#quickstart)
    * [Setup](#setup)
-   * [Create or import a data contract](#create-or-import-a-data-contract)
+   * [Create a data contract](#create-a-data-contract)
+   * [Import a data contract](#import-a-data-contract)
    * [Check the compliance of a data contract](#check-the-compliance-of-a-data-contract)
    * [Edit a data contract in Data Contract Studio](#edit-a-data-contract-in-data-contract-studio)
    * [Check the data quality of a table thanks to a data contract](#check-the-data-quality-of-a-table-thanks-to-a-data-contract)
@@ -69,7 +70,7 @@ $ mkdir -p ~/dev/infra/data-contracts && \
   cd ~/dev/infra/data-contracts/data-contracts/datacontract.com
 ```
 
-## Create or import a data contract
+## Create a data contract
 * Generate a new data contract, which will be a collection of
   commented samples (which may be then be uncommented following specific
   implementation details):
@@ -78,6 +79,7 @@ $ datacontract init --file contracts/orders-latest-npii-new.yaml
 📄 data contract written to contracts/orders-latest-npii-new.yaml
 ```
 
+## Import a data contract
 * Import a data contract from a URL, creating a local replication of it
   + From Data Contract Studio:
 ```bash
@@ -138,7 +140,34 @@ Note that this feature (of checking the data quality with external tools)
 should be integrated in the `datacontract` CLI at
 [some point in the future](https://github.com/datacontract/cli/issues/2).
 
-* Launch a few data quality checks with Soda Core:
+* Launch a few data quality checks with Soda Core
+  + With newer version of the `datacontract` CLI, which wraps the SodaCL CLI
+    - Setup Soda configuration within the `datacontract` CLI:
+```bash
+$ datacontract quality-init --file contracts/data-contract-flight-route.yaml --quality-file contracts/data-contract-flight-route-quality.yaml 
+Creating quality directory if needed...
+quality/
+quality/soda-conf.yml 2023-10-12 17:54 86B
+```
+    - Create or copy the (`db.duckdb`) DuckDB database file (see the
+	  [DuckDB sub-section](#duckdb) below in order to initialize that DuckDB
+	  database file)
+```bash
+$ cp db.duckdb quality/
+```
+    - Launch the quality checks with the `datacontract` CLI:
+```bash
+$ datacontract quality-check --file contracts/data-contract-flight-route.yaml --quality-file contracts/data-contract-flight-route-quality.yaml 
+[...]
+[18:01:15] Soda Core 3.0.51
+[18:01:16] Scan summary:
+[18:01:16] 2/2 checks PASSED: 
+[18:01:16]     transport_routes in duckdb_local
+[18:01:16]       row_count between 90000 and 100000 [PASSED]
+[18:01:16]       invalid_percent(freq) = 0 % [PASSED]
+[18:01:16] All is good. No failures. No warnings. No errors.
+```
+  + With the SodaCL CLI:
 ```bash
 $ soda scan -d duckdb_local -c soda-conf.yml contracts/data-contract-flight-route-quality.yaml
 [16:16:10] Soda Core 3.0.50
@@ -190,7 +219,7 @@ $ mkdir -p ~/.local/bin
 * Check the version:
 ```bash
 $ datacontract --version
-datacontract version v0.2.0
+datacontract version v0.3.2
 ```
 
 ## Options

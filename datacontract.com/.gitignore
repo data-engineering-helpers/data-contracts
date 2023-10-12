@@ -1,5 +1,8 @@
 # Data contracts
 /datacontract.yaml
 /data-contract-flight-route.yaml
+/datacontract
 # DuckDB
 /db.duckdb
+# Quality checks
+/quality/
