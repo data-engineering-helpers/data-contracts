@@ -140,22 +140,24 @@ Note that this feature (of checking the data quality with external tools)
 should be integrated in the `datacontract` CLI at
 [some point in the future](https://github.com/datacontract/cli/issues/2).
 
-* Launch a few data quality checks with Soda Core
-  + With newer version of the `datacontract` CLI, which wraps the SodaCL CLI
-    - Setup Soda configuration within the `datacontract` CLI:
+* Launch a few data quality checks with Soda Core, with newer versions of the
+  `datacontract` CLI, which wraps the SodaCL CLI
+  + Setup Soda configuration within the `datacontract` CLI:
 ```bash
 $ datacontract quality-init --file contracts/data-contract-flight-route.yaml --quality-file contracts/data-contract-flight-route-quality.yaml 
 Creating quality directory if needed...
 quality/
 quality/soda-conf.yml 2023-10-12 17:54 86B
 ```
-    - Create or copy the (`db.duckdb`) DuckDB database file (see the
-	  [DuckDB sub-section](#duckdb) below in order to initialize that DuckDB
-	  database file)
+
+  + Create or copy the (`db.duckdb`) DuckDB database file (see the
+    [DuckDB sub-section](#duckdb) below in order to initialize that DuckDB
+    database file)
 ```bash
 $ cp db.duckdb quality/
 ```
-    - Launch the quality checks with the `datacontract` CLI:
+
+  + Launch the quality checks with the `datacontract` CLI:
 ```bash
 $ datacontract quality-check --file contracts/data-contract-flight-route.yaml --quality-file contracts/data-contract-flight-route-quality.yaml 
 [...]
@@ -167,7 +169,9 @@ $ datacontract quality-check --file contracts/data-contract-flight-route.yaml --
 [18:01:16]       invalid_percent(freq) = 0 % [PASSED]
 [18:01:16] All is good. No failures. No warnings. No errors.
 ```
-  + With the SodaCL CLI:
+
+* Launch a few data quality checks with Soda Core, directly with the SodaCL CLI
+  (without the `datacontract` CLI):
 ```bash
 $ soda scan -d duckdb_local -c soda-conf.yml contracts/data-contract-flight-route-quality.yaml
 [16:16:10] Soda Core 3.0.50
