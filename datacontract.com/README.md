@@ -142,12 +142,9 @@ should be integrated in the `datacontract` CLI at
 
 * Launch a few data quality checks with Soda Core, with newer versions of the
   `datacontract` CLI, which wraps the SodaCL CLI
-  + Setup Soda configuration within the `datacontract` CLI:
+  + Setup the directory for the quality checks:
 ```bash
-$ datacontract quality-init --file contracts/data-contract-flight-route.yaml --quality-file contracts/data-contract-flight-route-quality.yaml 
-Creating quality directory if needed...
-quality/
-quality/soda-conf.yml 2023-10-12 17:54 86B
+$ mkdir -p quality
 ```
 
   + Create or copy the (`db.duckdb`) DuckDB database file (see the
@@ -159,8 +156,9 @@ $ cp db.duckdb quality/
 
   + Launch the quality checks with the `datacontract` CLI:
 ```bash
-$ datacontract quality-check --file contracts/data-contract-flight-route.yaml --quality-file contracts/data-contract-flight-route-quality.yaml 
+$ datacontract test --test-options "-d duckdb_local -c quality/soda-conf.yml" --file contracts/data-contract-flight-route.yaml --quality-file contracts/data-contract-flight-route-quality.yaml
 [...]
+Creating quality directory if needed...
 [18:01:15] Soda Core 3.0.51
 [18:01:16] Scan summary:
 [18:01:16] 2/2 checks PASSED: 
@@ -173,8 +171,8 @@ $ datacontract quality-check --file contracts/data-contract-flight-route.yaml --
 * Launch a few data quality checks with Soda Core, directly with the SodaCL CLI
   (without the `datacontract` CLI):
 ```bash
-$ soda scan -d duckdb_local -c soda-conf.yml contracts/data-contract-flight-route-quality.yaml
-[16:16:10] Soda Core 3.0.50
+$ soda scan -d duckdb_local -c quality/soda-conf.yml contracts/data-contract-flight-route-quality.yaml
+[16:16:10] Soda Core 3.0.51
 [16:16:11] Scan summary:
 [16:16:11] 2/2 checks PASSED: 
 [16:16:11]     transport_routes in duckdb_local
