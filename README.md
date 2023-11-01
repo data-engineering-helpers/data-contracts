@@ -36,6 +36,7 @@ Data contracts
       * [An engineering guide to data creation and data quality, a data contract perspective](#an-engineering-guide-to-data-creation-and-data-quality-a-data-contract-perspective)
       * [Data Contracts Using Schema Registry](#data-contracts-using-schema-registry)
       * [Data contracts for the warehouse](#data-contracts-for-the-warehouse)
+      * [Need for an Open Standard for the Semantic Layer](#need-for-an-open-standard-for-the-semantic-layer)
       * [Data contracts wrapped 2022](#data-contracts-wrapped-2022)
       * [Data contracts in practice](#data-contracts-in-practice)
       * [Anatomy of a Data Product](#anatomy-of-a-data-product)
@@ -392,6 +393,15 @@ In the future, individual teams will own their own data. Data engineering will o
 * Link to the web site/blog:
    https://dataproducts.substack.com/p/data-contracts-for-the-warehouse
 * Publisher: Substack
+
+### Need for an Open Standard for the Semantic Layer
+* Title: The Need for an Open Standard for the Semantic Layer
+* Date: October 2023
+* Author: Artyom Keydunov
+  ([Artyom Keydunov on LinkedIn](https://www.linkedin.com/in/keydunov/))
+* Link to the article:
+  https://cube.dev/blog/the-need-for-an-open-standard-for-the-semantic-layer
+* Publisher: [Cube blog](https://cube.dev/)
 
 ### Data contracts wrapped 2022
 * Title: Data contracts wrapped - 2022
