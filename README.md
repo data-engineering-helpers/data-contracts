@@ -60,6 +60,7 @@ Data contracts
    * [Open Data Contract Standard (ODCS)](#open-data-contract-standard-odcs)
    * [PayPal data contract templates](#paypal-data-contract-templates)
    * [PolyExpose: a simplistic Polyglot data tool](#polyexpose-a-simplistic-polyglot-data-tool)
+   * [SQLMesh](#sqlmesh)
    * [Kolle](#kolle)
    * [Smithy](#smithy)
    * [Avro / Schema Registry](#avro--schema-registry)
@@ -635,6 +636,15 @@ In the future, individual teams will own their own data. Data engineering will o
   [Luis Velasco on GitHub](https://github.com/velascoluis))
 * See also
   [Data Contracts: the Mesh Glue (in this page)](#data-contracts-the-mesh-glue)
+
+## SQLMesh
+* Homepage: https://sqlmesh.com/
+* GitHub page: https://github.com/TobikoData/sqlmesh
+* Documentation: https://sqlmesh.readthedocs.io/en/stable/
+* Article from Nov. 2023: https://tobikodata.com/why-data-teams-are-adopting-declarative-pipelines.html
+* Overview: SQLMesh is a data transformation framework that brings the benefits of DevOps to data teams.
+  It enables data scientists, analysts, and engineers to efficiently run and deploy data transformations
+  written in SQL or Python.
 
 ## Kolle
 * GitHub page: https://github.com/metaheed/kolle
