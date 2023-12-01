@@ -17,7 +17,7 @@ Data contracts
       * [Data contracts for the warehouse on Substack](#data-contracts-for-the-warehouse-on-substack)
       * [Data products, Chad Sanderson on Substack](#data-products-chad-sanderson-on-substack)
       * [Data contracts demystified, by Atlan](#data-contracts-demystified-by-atlan)
-      * [AIDA user group](#aida-user-group)
+      * [Bitol organization](#bitol-organization)
    * [Collection of articles](#collection-of-articles)
       * [Astrafy end-to-end implementation of data contracts](#astrafy-end-to-end-implementation-of-data-contracts)
       * [Awesome data contracts](#awesome-data-contracts)
@@ -209,14 +209,21 @@ these companies.
 * Date: April 2023
 * Link to the web site: https://atlan.com/data-contracts/
 
-### AIDA user group
-* Home page: https://aidausergroup.org
-* HitHub organization: https://github.com/AIDAUserGroup
-* AIDA User Group focuses on developing knowledge around artificial intelligence (AI),
-  data, and analytics for its members.
-* Mission: as Artificial Intelligence is transforming society and businesses, AIDA User Group
-  has the ambition to share knowledge, connect people, and provide guidance through this next era
-  of computing while embracing peace and the highest levels of ethics.
+### Bitol organization
+* GitHub organization: https://github.com/bitol-io
+* Supporting group: AIDA user group (https://aidausergroup.org)
+* The basics of a data contract: a data contract defines the agreement between a data producer
+  and consumers. A data contract contains several sections: fundamentals, schema, data quality,
+  Service-level agreement (SLA). security & stakeholders. custom properties.
+* Articles:
+  + 2023-10-01 - [Data Contracts: A Bridge Connecting Two Worlds](https://medium.com/@atanas.iliev.ai/data-contracts-a-bridge-connecting-two-worlds-404eff1d970d)
+  + 2023-09-10 - [Data Contracts 101](https://medium.com/p/568a9adbf9a9)
+  + 2023-08-10 - [Welcome to the Open Data Contract Standard](https://jgp.ai/2023/08/09/welcome-to-the-open-data-contract-standard/)
+  + 2023-05-11 - [Data Contracts – Everything You Need to Know](https://www.montecarlodata.com/blog-data-contracts-explained/)
+  + 2023-05-07 - [Data Engineering Weekly #130 - Data Contract in the Wild with PayPal’s Data Contract Template](https://www.dataengineeringweekly.com/p/data-engineering-weekly-130)
+  + 2023-05-06 - [PayPal เปิด Data Contract เป็น Open Source Template ให้ไปใช้งานกัน](https://discuss.dataengineercafe.io/t/paypal-data-contract-open-source-template/581/1)
+  + 2023-05-05 - [Jonathan Neo (j__neo ) on Reddit](https://www.reddit.com/r/dataengineering/comments/137glbo/comment/jixw5hj/?utm_source=reddit&utm_medium=web2x&context=3)
+  + 2023-05-01 - [PayPal open sources its data contract template](https://jgp.ai/2023/05/01/paypal-open-sources-its-data-contract-template/)
 
 ## Collection of articles
 
