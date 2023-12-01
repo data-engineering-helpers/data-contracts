@@ -607,7 +607,7 @@ In the future, individual teams will own their own data. Data engineering will o
 * Inspired from the Open Data Contract Standard (ODCS); see below
 
 ## Open Data Contract Standard (ODCS)
-* Home page: https://github.com/AIDAUserGroup/open-data-contract-standard
+* Home page: https://github.com/bitol-io/open-data-contract-standard
 * New version of the PayPal data contract template (see below)
 * See above the Datacontract.com specification and CLI
   for an actual implementation
