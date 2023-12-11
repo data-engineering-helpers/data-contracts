@@ -57,7 +57,7 @@ Data contracts
    * [Schemata](#schemata)
    * [OpenDataMesh](#opendatamesh)
    * [Datacontract.com specification and CLI](#datacontractcom-specification-and-cli)
-   * [Open Data Contract Standard (ODCS)](#open-data-contract-standard-odcs)
+   * [Bitol \- Open Data Contract Standard (ODCS)](#bitol---open-data-contract-standard-odcs)
    * [PayPal data contract templates](#paypal-data-contract-templates)
    * [PolyExpose: a simplistic Polyglot data tool](#polyexpose-a-simplistic-polyglot-data-tool)
    * [SQLMesh](#sqlmesh)
@@ -211,11 +211,18 @@ these companies.
 
 ### Bitol organization
 * GitHub organization: https://github.com/bitol-io
-* Supporting group: AIDA user group (https://aidausergroup.org)
+* Supporting groups: Bitol (https://github.com/bitol-io) and AIDA user group (https://aidausergroup.org)
 * The basics of a data contract: a data contract defines the agreement between a data producer
   and consumers. A data contract contains several sections: fundamentals, schema, data quality,
   Service-level agreement (SLA). security & stakeholders. custom properties.
+* Main author: Jean-Georges Perrin
+  ([Jean-Georges Perrin on LinkedIn](https://www.linkedin.com/in/jgperrin/),
+  [Jean-Georges Perrin on Medium](https://medium.com/@jgperrin),
+  [Jean-Georges Perrin on GitHub](https://github.com/jgperrin)):
 * Articles:
+  + 2023-12-09 - [Why the Need for Standardizing Data Contracts?](https://medium.com/abeadata/why-the-need-for-standardizing-data-contracts-133bc3491148)
+  + 2023-11-30 - [Linux Foundation AI & Data - Bitol Joins LF AI & Data as New Sandbox Project](https://lfaidata.foundation/blog/2023/11/30/bitol-joins-lf-ai-data-as-new-sandbox-project/)
+  + 2023-11-30 - [AIDAUG - Bitol Joins LF AI & Data as New Sandbox Project](https://aidausergroup.org/2023/11/30/bitol-joins-lf-ai-data-as-new-sandbox-project/)
   + 2023-10-01 - [Data Contracts: A Bridge Connecting Two Worlds](https://medium.com/@atanas.iliev.ai/data-contracts-a-bridge-connecting-two-worlds-404eff1d970d)
   + 2023-09-10 - [Data Contracts 101](https://medium.com/p/568a9adbf9a9)
   + 2023-08-10 - [Welcome to the Open Data Contract Standard](https://jgp.ai/2023/08/09/welcome-to-the-open-data-contract-standard/)
@@ -613,11 +620,19 @@ In the future, individual teams will own their own data. Data engineering will o
   https://datacontract.com/
 * Inspired from the Open Data Contract Standard (ODCS); see below
 
-## Open Data Contract Standard (ODCS)
+## Bitol - Open Data Contract Standard (ODCS)
+* See also the [Bitol organization section above](#bitol-organization)
 * Home page: https://github.com/bitol-io/open-data-contract-standard
-* New version of the PayPal data contract template (see below)
+  + Open Data Contract Standard (ODCS)/specification:
+  https://github.com/bitol-io/open-data-contract-standard/blob/main/docs/README.md
+  + Examples:
+  https://github.com/bitol-io/open-data-contract-standard/blob/main/examples/README.md
+* ODCS inherits from the PayPal Credit data contract template (see below)
 * See above the Datacontract.com specification and CLI
   for an actual implementation
+* Overview: A data contract defines the agreement between a data producer and consumers.
+  A data contract contains several sections: fundamentals, schema, data quality,
+  Service-level agreement (SLA), security & stakeholders, custom properties
 
 ## PayPal data contract templates
 * Homepage: https://github.com/paypal/data-contract-template
