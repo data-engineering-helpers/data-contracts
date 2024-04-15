@@ -62,6 +62,7 @@ Data contracts
    * [PayPal data contract templates](#paypal-data-contract-templates)
    * [PolyExpose: a simplistic Polyglot data tool](#polyexpose-a-simplistic-polyglot-data-tool)
    * [SQLMesh](#sqlmesh)
+   * [Nessie](#nessie)
    * [Kolle](#kolle)
    * [Smithy](#smithy)
    * [Avro / Schema Registry](#avro--schema-registry)
@@ -676,6 +677,20 @@ In the future, individual teams will own their own data. Data engineering will o
 * Overview: SQLMesh is a data transformation framework that brings the benefits of DevOps to data teams.
   It enables data scientists, analysts, and engineers to efficiently run and deploy data transformations
   written in SQL or Python.
+
+## Nessie
+* Homepage: https://projectnessie.org/
+* GitHub page: https://github.com/projectnessie/nessie/
+* Documentation: https://projectnessie.org/nessie-latest/
+* Article from Apr. 2024, by [Ciro Greco](https://www.linkedin.com/in/cirogreco/):
+  https://towardsdatascience.com/write-audit-publish-for-data-lakes-in-pure-python-no-jvm-25fbd971b17d
+* Overview: Transactional catalog for data lakes
+  + Git-inspired data version control
+  + Cross-table transactions and visibility
+  + Open data lake approach, supporting Hive, Spark, Dremio, AWS Athena, etc.
+  + Works with Apache Iceberg tables
+  + Run as a Docker image or on Kubernetes
+  + Fork it on GitHub
 
 ## Kolle
 * GitHub page: https://github.com/metaheed/kolle
