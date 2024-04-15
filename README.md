@@ -22,6 +22,7 @@ Data contracts
       * [Astrafy end-to-end implementation of data contracts](#astrafy-end-to-end-implementation-of-data-contracts)
       * [Awesome data contracts](#awesome-data-contracts)
    * [Books and articles](#books-and-articles)
+      * [Data as a Product and Data Contract](#data-as-a-product-and-data-contract)
       * [Implementing Data Mesh](#implementing-data-mesh)
       * [Data Contract 101](#data-contract-101)
       * [Data Contracts: the Mesh Glue](#data-contracts-the-mesh-glue)
@@ -253,9 +254,17 @@ these companies.
 
 ## Books and articles
 
+### Data as a Product and Data Contract
+* Title: Data-as-a-Product and Data-Contract: An evolutionary approach to data maturity
+* Date: April 2024
+* Author:
+  [Olivier Wulveryck on LinkedIn](https://www.linkedin.com/in/olivierwulveryck/)
+* Link to the blog article:
+  https://blog.owulveryck.info/2024/04/09/data-as-a-product-and-data-contract-an-evolutionary-approach-to-data-maturity.html
+
 ### Implementing Data Mesh
 * Title: Implementing Data Mesh
-* Date: December 2024
+* Date: December 2023
 * Authors:
   + Jean-Georges Perrin
   ([Jean-Georges Perrin on LinkedIn](https://www.linkedin.com/in/jgperrin/),
