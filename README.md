@@ -445,7 +445,7 @@ In the future, individual teams will own their own data. Data engineering will o
   [Andrea Gioia on Medium](https://medium.com/@andrea_gioia),
   [Andrea Gioia on GitHub](https://github.com/andrea-gioia))
 * Link to the article:
-  https://betterprogramming.pub/data-contracts-in-practice-93e58d324f34
+  https://medium.com/better-programming/data-contracts-in-practice-93e58d324f34
 * Publihser: Medium
 * Note that Andrea Gioia is the main contributor of
   [OpenDataMesh](#opendatamesh)
