@@ -22,6 +22,7 @@ Data contracts
       * [Astrafy end-to-end implementation of data contracts](#astrafy-end-to-end-implementation-of-data-contracts)
       * [Awesome data contracts](#awesome-data-contracts)
    * [Books and articles](#books-and-articles)
+      * [Illustrated Guide to Data Products in Action](#illustrated-guide-to-data-products-in-action)
       * [Data as a Product and Data Contract](#data-as-a-product-and-data-contract)
       * [Implementing Data Mesh](#implementing-data-mesh)
       * [Data Contract 101](#data-contract-101)
@@ -254,6 +255,14 @@ these companies.
    https://github.com/AltimateAI/awesome-data-contracts
 
 ## Books and articles
+
+### Illustrated Guide to Data Products in Action
+* Title: Where Exactly Data Becomes Product: Illustrated Guide to Data Products in Action
+* Date: Aug. 2024
+* Authors: Animesh Kumar and Travis Thomspon
+* Link to the article:
+  https://moderndata101.substack.com/p/where-exactly-data-becomes-product
+* Publisher: Substack
 
 ### Data as a Product and Data Contract
 * Title: Data-as-a-Product and Data-Contract: An evolutionary approach to data maturity
