@@ -259,7 +259,14 @@ these companies.
 ### Illustrated Guide to Data Products in Action
 * Title: Where Exactly Data Becomes Product: Illustrated Guide to Data Products in Action
 * Date: Aug. 2024
-* Authors: Animesh Kumar and Travis Thomspon
+* Authors:
+  Animesh Kumar
+  ([Animesh Kumar on LinkedIn](https://www.linkedin.com/in/anismiles/),
+  [Animesh Kumar on Substack](https://substack.com/@moderndata101))
+  and
+  Travis Thomspon
+  ([Travis Thomspon on LinkedIn](https://www.linkedin.com/in/travis-w-thompson/),
+  [Travis Thomspon on Substack](https://substack.com/@travisthompsonsays))
 * Link to the article:
   https://moderndata101.substack.com/p/where-exactly-data-becomes-product
 * Publisher: Substack
