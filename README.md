@@ -99,6 +99,16 @@ some companies, they speak on their personal behalf and do not represent
 these companies.
 
 # Specifications
+* Open Data Contract Specification (ODCS)
+  * Reader-friendly, dedicated site: https://bitol-io.github.io/open-data-contract-standard/latest/
+  * GitHub home page: https://github.com/bitol-io/open-data-contract-standard
+
+* Innoq's Data Contract specification: https://datacontract.com/
+
+* Linux Foundation's Open Data Product Specification (ODPS): https://opendataproducts.org/
+
+* Innoq's specification for Data Products: https://dataproduct-specification.com/
+
 * Data contract as code (DCaC) principle: the data contracts must be specified
   thanks to an
   [Interface Definition Language (IDL)](https://en.wikipedia.org/wiki/Interface_description_language),
@@ -117,13 +127,13 @@ these companies.
   that an open standard such as OpenDataMesh, Smithy and Protobuf bring
 
 * The data contracts should support at least the following features:
-  + Data validation / Data quality - From the data contracts, we should be
+  * Data validation / Data quality - From the data contracts, we should be
     able to generate specifications for specific tools such as
 	[Great Expectations](https://greatexpectations.io/),
 	[Deequ](https://github.com/awslabs/deequ),
 	[dbt data testing](https://www.getdbt.com/product/data-testing/)
 	or [SODA data quality platform](https://www.soda.io/data-quality-platform)
-  + Generation of data schemas for a few specific compute enginees such as
+  * Generation of data schemas for a few specific compute enginees such as
     [Spark data types](https://spark.apache.org/docs/latest/sql-ref-datatypes.html),
     [Flink data types](https://nightlies.apache.org/flink/flink-docs-master/docs/dev/table/types/),
     [Python Dataclasses](https://docs.python.org/3/library/dataclasses.html),
@@ -182,17 +192,18 @@ these companies.
 
 # References
 * [Data contracts - (WIP) Community management](https://github.com/data-engineering-helpers/data-contracts/blob/main/community/README.md)
+* [Material for Data platform - Data products](https://github.com/data-engineering-helpers/data-products)
 * [Architecture principles for data engineering pipelines on the Modern Data Stack (MDS)](https://github.com/data-engineering-helpers/architecture-principles)
-  + [Material for the Data platform - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles/blob/main/material/README.md)
+  * [Material for the Data platform - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles/blob/main/material/README.md)
 * Specifications/principles for a
   [data engineering pipeline deployment tool](https://github.com/data-engineering-helpers/data-pipeline-deployment)
-  + [`dpcctl`, the Data Processing Pipeline (DPP) CLI utility](https://github.com/data-engineering-helpers/dppctl), a Minimal Viable Product (MVP) in Go
+  * [`dpcctl`, the Data Processing Pipeline (DPP) CLI utility](https://github.com/data-engineering-helpers/dppctl), a Minimal Viable Product (MVP) in Go
 * [Material for the Data platform - Metadata](https://github.com/data-engineering-helpers/metadata/blob/main/README.md)
 * [Material for the Data platform - Data quality](https://github.com/data-engineering-helpers/data-quality/blob/main/README.md)
 * [Material for the Data platform - Modern Data Stack (MDS) in a box](https://github.com/data-engineering-helpers/mds-in-a-box/blob/main/README.md)
 * Quickstart guides:
-  + [Schemata quickstart guide](schemata/quickstart/)
-  + [Smithy quickstart guide](smithy/quickstart/)
+  * [Schemata quickstart guide](schemata/quickstart/)
+  8 [Smithy quickstart guide](smithy/quickstart/)
 
 ## Use cases
 * [Geonames Quality Assurance (QA) framework](https://github.com/data-engineering-helpers/data-quality/blob/main/README.md#geonames)
