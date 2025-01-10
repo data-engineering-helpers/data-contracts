@@ -14,6 +14,7 @@ Data contracts
 * [References](#references)
    * [Use cases](#use-cases)
    * [Web sites, blogs](#web-sites-blogs)
+      * [A game about quality for data](#a-game-about-quality-for-data)
       * [Data contracts for the warehouse on Substack](#data-contracts-for-the-warehouse-on-substack)
       * [Data products, Chad Sanderson on Substack](#data-products-chad-sanderson-on-substack)
       * [Data contracts demystified, by Atlan](#data-contracts-demystified-by-atlan)
@@ -210,6 +211,11 @@ these companies.
 * [OpenTravelData (OPTD) Quality Assurance framework](https://github.com/data-engineering-helpers/data-quality/blob/main/README.md#opentraveldata-optd)
 
 ## Web sites, blogs
+
+### A game about quality for data
+* Title: A game about quality for data
+* Author: Joe Leach
+* Link to the gamified use case: https://joelbth.codeberg.page/community-notices/
 
 ### Data contracts for the warehouse on Substack
 * Link to the web site/blog: https://dataproducts.substack.com/p/data-contracts-for-the-warehouse
