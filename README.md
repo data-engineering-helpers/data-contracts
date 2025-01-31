@@ -23,6 +23,7 @@ Data contracts
       * [Astrafy end-to-end implementation of data contracts](#astrafy-end-to-end-implementation-of-data-contracts)
       * [Awesome data contracts](#awesome-data-contracts)
    * [Books and articles](#books-and-articles)
+      * [Data Contracts: Developing Production-Grade Pipelines at Scale](#data-contracts-developing-production-grade-pipelines-at-scale)
       * [Illustrated Guide to Data Products in Action](#illustrated-guide-to-data-products-in-action)
       * [Data as a Product and Data Contract](#data-as-a-product-and-data-contract)
       * [Implementing Data Mesh](#implementing-data-mesh)
@@ -272,6 +273,15 @@ these companies.
    https://github.com/AltimateAI/awesome-data-contracts
 
 ## Books and articles
+
+### Data Contracts: Developing Production-Grade Pipelines at Scale
+* Title: Data Contracts: Developing Production-Grade Pipelines at Scale
+* Author: Chad Sanderson
+  ([Chad Sanderson on LinkedIn](https://www.linkedin.com/in/chad-sanderson/))
+* Date: 2025
+* Link to a LinkedIn post:
+  https://www.linkedin.com/posts/chad-sanderson_big-news-weve-spent-the-last-year-writing-activity-7290411822044565505-IwkV
+* Link to the early release page: https://www.gable.ai/data-contracts-book
 
 ### Illustrated Guide to Data Products in Action
 * Title: Where Exactly Data Becomes Product: Illustrated Guide to Data Products in Action
