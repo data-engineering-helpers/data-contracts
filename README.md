@@ -369,6 +369,8 @@ these companies.
   https://www.linkedin.com/posts/chad-sanderson_many-companies-talk-about-implementing-data-activity-7296212049565515777-dnCn/
 * Link to the article on Medium:
   https://medium.com/glassdoor-engineering/data-quality-at-petabyte-scale-building-trust-in-the-data-lifecycle-7052361307a4
+* Also referenced in
+  [Data Engineering Helpers - Knowledge Sharing - Data life cycle](https://github.com/data-engineering-helpers/data-life-cycle/blob/main/README.md#data-quality-at-petabyte-scale-building-trust-in-the-data-lifecycle)
 
 ### Data as a Product and Data Contract
 * Title: Data-as-a-Product and Data-Contract: An evolutionary approach to data maturity
