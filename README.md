@@ -19,18 +19,21 @@ Data contracts
       * [Data products, Chad Sanderson on Substack](#data-products-chad-sanderson-on-substack)
       * [Data contracts demystified, by Atlan](#data-contracts-demystified-by-atlan)
       * [Bitol organization](#bitol-organization)
-   * [Collection of articles](#collection-of-articles)
-      * [Astrafy end-to-end implementation of data contracts](#astrafy-end-to-end-implementation-of-data-contracts)
-      * [Awesome data contracts](#awesome-data-contracts)
-   * [Books and articles](#books-and-articles)
+   * [Books and collection of articles](#books-and-collection-of-articles)
       * [Data Contracts: Developing Production-Grade Pipelines at Scale](#data-contracts-developing-production-grade-pipelines-at-scale)
-      * [Illustrated Guide to Data Products in Action](#illustrated-guide-to-data-products-in-action)
-      * [Data as a Product and Data Contract](#data-as-a-product-and-data-contract)
       * [Implementing Data Mesh](#implementing-data-mesh)
+      * [Illustrated Guide to Data Products in Action](#illustrated-guide-to-data-products-in-action)
+      * [Astrafy end-to-end implementation of data contracts](#astrafy-end-to-end-implementation-of-data-contracts)
+      * [Driving Data Quality with Data Contracts](#driving-data-quality-with-data-contracts)
+      * [Data Contracts Using Schema Registry](#data-contracts-using-schema-registry)
+      * [Anatomy of a Data Product](#anatomy-of-a-data-product)
+      * [Awesome data contracts](#awesome-data-contracts)
+   * [Articles](#articles)
+      * [Data Quality at Petabyte Scale: Building Trust in the Data Lifecycle](#data-quality-at-petabyte-scale-building-trust-in-the-data-lifecycle)
+      * [Data as a Product and Data Contract](#data-as-a-product-and-data-contract)
       * [Data Contract 101](#data-contract-101)
       * [Data Contracts: the Mesh Glue](#data-contracts-the-mesh-glue)
       * [Data contracts for non-tech readers](#data-contracts-for-non-tech-readers)
-      * [Driving Data Quality with Data Contracts](#driving-data-quality-with-data-contracts)
       * [Tables as Interfaces](#tables-as-interfaces)
       * [DBT Model Contracts: Importance and Pitfalls](#dbt-model-contracts-importance-and-pitfalls)
       * [DBT implementing data contracts](#dbt-implementing-data-contracts)
@@ -38,12 +41,10 @@ Data contracts
       * [PayPal open sources its data contract templates](#paypal-open-sources-its-data-contract-templates)
       * [Data contracts, the missing foundation](#data-contracts-the-missing-foundation)
       * [An engineering guide to data creation and data quality, a data contract perspective](#an-engineering-guide-to-data-creation-and-data-quality-a-data-contract-perspective)
-      * [Data Contracts Using Schema Registry](#data-contracts-using-schema-registry)
       * [Data contracts for the warehouse](#data-contracts-for-the-warehouse)
       * [Need for an Open Standard for the Semantic Layer](#need-for-an-open-standard-for-the-semantic-layer)
       * [Data contracts wrapped 2022](#data-contracts-wrapped-2022)
       * [Data contracts in practice](#data-contracts-in-practice)
-      * [Anatomy of a Data Product](#anatomy-of-a-data-product)
       * [An Engineer's guide to Data Contracts](#an-engineers-guide-to-data-contracts)
       * [The production-grade Data Pipeline](#the-production-grade-data-pipeline)
       * [Yet another post on Data Contracts](#yet-another-post-on-data-contracts)
@@ -241,38 +242,19 @@ these companies.
   [Jean-Georges Perrin on Medium](https://medium.com/@jgperrin),
   [Jean-Georges Perrin on GitHub](https://github.com/jgperrin)):
 * Articles:
-  + 2023-12-09 - [Why the Need for Standardizing Data Contracts?](https://medium.com/abeadata/why-the-need-for-standardizing-data-contracts-133bc3491148)
-  + 2023-11-30 - [Linux Foundation AI & Data - Bitol Joins LF AI & Data as New Sandbox Project](https://lfaidata.foundation/blog/2023/11/30/bitol-joins-lf-ai-data-as-new-sandbox-project/)
-  + 2023-11-30 - [AIDAUG - Bitol Joins LF AI & Data as New Sandbox Project](https://aidausergroup.org/2023/11/30/bitol-joins-lf-ai-data-as-new-sandbox-project/)
-  + 2023-10-01 - [Data Contracts: A Bridge Connecting Two Worlds](https://medium.com/@atanas.iliev.ai/data-contracts-a-bridge-connecting-two-worlds-404eff1d970d)
-  + 2023-09-10 - [Data Contracts 101](https://medium.com/p/568a9adbf9a9)
-  + 2023-08-10 - [Welcome to the Open Data Contract Standard](https://jgp.ai/2023/08/09/welcome-to-the-open-data-contract-standard/)
-  + 2023-05-11 - [Data Contracts – Everything You Need to Know](https://www.montecarlodata.com/blog-data-contracts-explained/)
-  + 2023-05-07 - [Data Engineering Weekly #130 - Data Contract in the Wild with PayPal’s Data Contract Template](https://www.dataengineeringweekly.com/p/data-engineering-weekly-130)
-  + 2023-05-06 - [PayPal เปิด Data Contract เป็น Open Source Template ให้ไปใช้งานกัน](https://discuss.dataengineercafe.io/t/paypal-data-contract-open-source-template/581/1)
-  + 2023-05-05 - [Jonathan Neo (j__neo ) on Reddit](https://www.reddit.com/r/dataengineering/comments/137glbo/comment/jixw5hj/?utm_source=reddit&utm_medium=web2x&context=3)
-  + 2023-05-01 - [PayPal open sources its data contract template](https://jgp.ai/2023/05/01/paypal-open-sources-its-data-contract-template/)
+  * 2023-12-09 - [Why the Need for Standardizing Data Contracts?](https://medium.com/abeadata/why-the-need-for-standardizing-data-contracts-133bc3491148)
+  * 2023-11-30 - [Linux Foundation AI & Data - Bitol Joins LF AI & Data as New Sandbox Project](https://lfaidata.foundation/blog/2023/11/30/bitol-joins-lf-ai-data-as-new-sandbox-project/)
+  * 2023-11-30 - [AIDAUG - Bitol Joins LF AI & Data as New Sandbox Project](https://aidausergroup.org/2023/11/30/bitol-joins-lf-ai-data-as-new-sandbox-project/)
+  * 2023-10-01 - [Data Contracts: A Bridge Connecting Two Worlds](https://medium.com/@atanas.iliev.ai/data-contracts-a-bridge-connecting-two-worlds-404eff1d970d)
+  * 2023-09-10 - [Data Contracts 101](https://medium.com/p/568a9adbf9a9)
+  * 2023-08-10 - [Welcome to the Open Data Contract Standard](https://jgp.ai/2023/08/09/welcome-to-the-open-data-contract-standard/)
+  * 2023-05-11 - [Data Contracts – Everything You Need to Know](https://www.montecarlodata.com/blog-data-contracts-explained/)
+  * 2023-05-07 - [Data Engineering Weekly #130 - Data Contract in the Wild with PayPal’s Data Contract Template](https://www.dataengineeringweekly.com/p/data-engineering-weekly-130)
+  * 2023-05-06 - [PayPal เปิด Data Contract เป็น Open Source Template ให้ไปใช้งานกัน](https://discuss.dataengineercafe.io/t/paypal-data-contract-open-source-template/581/1)
+  * 2023-05-05 - [Jonathan Neo (j__neo ) on Reddit](https://www.reddit.com/r/dataengineering/comments/137glbo/comment/jixw5hj/?utm_source=reddit&utm_medium=web2x&context=3)
+  * 2023-05-01 - [PayPal open sources its data contract template](https://jgp.ai/2023/05/01/paypal-open-sources-its-data-contract-template/)
 
-## Collection of articles
-
-### Astrafy end-to-end implementation of data contracts
-* Title: Implementation of the Data Contracts with dbt, Google Cloud & Great Expectations
-* Link to the LinkedIn post summarizing the Medium posts:
-  https://www.linkedin.com/posts/astrafy_datacontracts-dbt-greatexpectations-activity-7087097534392745987-_1RR
-* Author: Łukasz Ściga
-  ([Łukasz Ściga on LinkedIn](https://www.linkedin.com/in/lukasz-sciga/),
-  [Łukasz Ściga on Medium](https://medium.com/@lukasz-sciga))
-* Publisher: Medium
-* Medium posts:
-  + [Medium - Implementation of the Data Contracts with dbt, Google Cloud & Great Expectations - Part 1](https://medium.astrafy.io/implementation-of-the-data-contracts-with-dbt-google-cloud-great-expectations-part-1-939774fc7284)
-  + [Medium - Implementation of the Data Contracts with dbt, Google Cloud & Great Expectations - Part 2](https://medium.astrafy.io/implementation-of-the-data-contracts-with-dbt-google-cloud-great-expectations-part-2-112c96c2914a)
-  + [Medium - Implementation of the Data Contracts with dbt, Google Cloud & Great Expectations - Part 3](https://medium.astrafy.io/implementation-of-the-data-contracts-with-dbt-google-cloud-great-expectations-part-3-7c2675d549df)
-
-### Awesome data contracts
-* Link to the reference documentation on GitHub:
-   https://github.com/AltimateAI/awesome-data-contracts
-
-## Books and articles
+## Books and collections of articles
 
 ### Data Contracts: Developing Production-Grade Pipelines at Scale
 * Title: Data Contracts: Developing Production-Grade Pipelines at Scale
@@ -282,6 +264,18 @@ these companies.
 * Link to a LinkedIn post:
   https://www.linkedin.com/posts/chad-sanderson_big-news-weve-spent-the-last-year-writing-activity-7290411822044565505-IwkV
 * Link to the early release page: https://www.gable.ai/data-contracts-book
+
+### Implementing Data Mesh
+* Title: Implementing Data Mesh
+* Date: December 2023
+* Authors:
+  + Jean-Georges Perrin
+  ([Jean-Georges Perrin on LinkedIn](https://www.linkedin.com/in/jgperrin/),
+  [Jean-Georges Perrin on Medium](https://medium.com/@jgperrin))
+  + Eric Broda
+* Link to O'Reilly page for the book:
+  https://www.oreilly.com/library/view/implementing-data-mesh/9781098156213/
+* Publisher: O'Reilly
 
 ### Illustrated Guide to Data Products in Action
 * Title: Where Exactly Data Becomes Product: Illustrated Guide to Data Products in Action
@@ -298,6 +292,72 @@ these companies.
   https://moderndata101.substack.com/p/where-exactly-data-becomes-product
 * Publisher: Substack
 
+### Astrafy end-to-end implementation of data contracts
+* Title: Implementation of the Data Contracts with dbt, Google Cloud & Great Expectations
+* Link to the LinkedIn post summarizing the Medium posts:
+  https://www.linkedin.com/posts/astrafy_datacontracts-dbt-greatexpectations-activity-7087097534392745987-_1RR
+* Author: Łukasz Ściga
+  ([Łukasz Ściga on LinkedIn](https://www.linkedin.com/in/lukasz-sciga/),
+  [Łukasz Ściga on Medium](https://medium.com/@lukasz-sciga))
+* Publisher: Medium
+* Medium posts:
+  * [Medium - Implementation of the Data Contracts with dbt, Google Cloud & Great Expectations - Part 1](https://medium.astrafy.io/implementation-of-the-data-contracts-with-dbt-google-cloud-great-expectations-part-1-939774fc7284)
+  * [Medium - Implementation of the Data Contracts with dbt, Google Cloud & Great Expectations - Part 2](https://medium.astrafy.io/implementation-of-the-data-contracts-with-dbt-google-cloud-great-expectations-part-2-112c96c2914a)
+  * [Medium - Implementation of the Data Contracts with dbt, Google Cloud & Great Expectations - Part 3](https://medium.astrafy.io/implementation-of-the-data-contracts-with-dbt-google-cloud-great-expectations-part-3-7c2675d549df)
+
+### Driving Data Quality with Data Contracts
+* Title: Driving Data Quality with Data Contracts: A comprehensive guide to building reliable, trusted, and effective data platforms
+* Author: [Andrew Jones](https://andrew-jones.com/)
+* Date: 30 June 2023
+* Publisher: Packt
+* ASIN: B0C37FPH3D
+* Article on the book:
+  https://andrew-jones.com/blog/data-contracts-the-book-out-now/
+* Book on Google Books: https://books.google.fr/books?id=OkTJEAAAQBAJ
+* GitHub companion repository:
+  https://github.com/PacktPublishing/Driving-Data-Quality-with-Data-Contracts
+
+### Data Contracts Using Schema Registry
+* Title: Kafka for Developers - Data Contracts Using Schema Registry
+* Date: March 2023
+* Author: Dilip Sundarraj
+* ISBN: 9781837633487
+* Link on the book page on Packt:
+  https://www.packtpub.com/product/kafka-for-developers-data-contracts-using-schema-registry-video/9781837633487
+* Publisher: Packt Publishing
+* GitHub companion repository:
+  https://github.com/PacktPublishing/Kafka-for-Developers---Data-Contracts-Using-Schema-Registry
+
+### Anatomy of a Data Product
+* Title: Anatomy of a Data Product
+* Date: December 2022
+* Author: Jesse Paquette (
+  [Jesse Paquette on LinkedIn](https://www.linkedin.com/in/jessepaquette/),
+  [Jesse Paquette on Medium](https://jessepaquette.medium.com/))
+* Link to the articles:
+  * Part 1: https://jessepaquette.medium.com/anatomy-of-a-data-product-part-one-5afa99609699
+  * Part 2: https://jessepaquette.medium.com/anatomy-of-a-data-product-part-two-9d0c19e4307b
+  * Part 3: https://jessepaquette.medium.com/anatomy-of-a-data-product-part-three-801782b2f4bf
+  * Part 4: https://jessepaquette.medium.com/anatomy-of-a-data-product-part-four-e69706c156e6
+  * Part 5: https://jessepaquette.medium.com/anatomy-of-a-data-product-part-five-9a1f47c12db4
+
+### Awesome data contracts
+* Link to the reference documentation on GitHub:
+   https://github.com/AltimateAI/awesome-data-contracts
+
+## Articles
+
+### Data Quality at Petabyte Scale: Building Trust in the Data Lifecycle
+* Title: Data Quality at Petabyte Scale: Building Trust in the Data Lifecycle
+* Date: Feb. 2025
+* Author: Zakariah Siyaji
+  ([Zakariah Siyaji on LinkedIn](),
+  [Zakariah Siyaji on Medium](https://medium.com/@zaki.siyaji))
+* Link to the post on LinkedIn by Chad Sanderson:
+  https://www.linkedin.com/posts/chad-sanderson_many-companies-talk-about-implementing-data-activity-7296212049565515777-dnCn/
+* Link to the article on Medium:
+  https://medium.com/glassdoor-engineering/data-quality-at-petabyte-scale-building-trust-in-the-data-lifecycle-7052361307a4
+
 ### Data as a Product and Data Contract
 * Title: Data-as-a-Product and Data-Contract: An evolutionary approach to data maturity
 * Date: April 2024
@@ -305,18 +365,6 @@ these companies.
   [Olivier Wulveryck on LinkedIn](https://www.linkedin.com/in/olivierwulveryck/)
 * Link to the blog article:
   https://blog.owulveryck.info/2024/04/09/data-as-a-product-and-data-contract-an-evolutionary-approach-to-data-maturity.html
-
-### Implementing Data Mesh
-* Title: Implementing Data Mesh
-* Date: December 2023
-* Authors:
-  + Jean-Georges Perrin
-  ([Jean-Georges Perrin on LinkedIn](https://www.linkedin.com/in/jgperrin/),
-  [Jean-Georges Perrin on Medium](https://medium.com/@jgperrin))
-  + Eric Broda
-* Link to O'Reilly page for the book:
-  https://www.oreilly.com/library/view/implementing-data-mesh/9781098156213/
-* Publisher: O'Reilly
 
 ### Data Contract 101
 * Title: Data contract 101
@@ -347,18 +395,6 @@ these companies.
 * Link to the article:
   https://infinitelambda.com/data-contracts-non-tech-restaurant/
 * Publisher: Infinite Lambda
-
-### Driving Data Quality with Data Contracts
-* Title: Driving Data Quality with Data Contracts: A comprehensive guide to building reliable, trusted, and effective data platforms
-* Author: [Andrew Jones](https://andrew-jones.com/)
-* Date: 30 June 2023
-* Publisher: Packt
-* ASIN: B0C37FPH3D
-* Article on the book:
-  https://andrew-jones.com/blog/data-contracts-the-book-out-now/
-* Book on Google Books: https://books.google.fr/books?id=OkTJEAAAQBAJ
-* GitHub companion repository:
-  https://github.com/PacktPublishing/Driving-Data-Quality-with-Data-Contracts
 
 ### Tables as Interfaces
 * Title: Tables as Interfaces
@@ -437,25 +473,14 @@ In the future, individual teams will own their own data. Data engineering will o
 * Note that Ananth Packkildurai is the main contributor of
   [Schemata](#schemata)
 
-### Data Contracts Using Schema Registry
-* Title: Kafka for Developers - Data Contracts Using Schema Registry
-* Date: March 2023
-* Author: Dilip Sundarraj
-* ISBN: 9781837633487
-* Link on the book page on Packt:
-  https://www.packtpub.com/product/kafka-for-developers-data-contracts-using-schema-registry-video/9781837633487
-* Publisher: Packt Publishing
-* GitHub companion repository:
-  https://github.com/PacktPublishing/Kafka-for-Developers---Data-Contracts-Using-Schema-Registry
-
 ### Data contracts for the warehouse
 * Title: Data contracts for the warehouse
 * Date: January 2023
 * Authors:
-  + Chad Sanderson
+  * Chad Sanderson
     ([Chad Sanderson on LinkedIn](https://www.linkedin.com/in/chad-sanderson/),
     [Chad Sanderson on Substack](https://substack.com/profile/12566999-chad-sanderson))
-  + Daniel Dicker
+  * Daniel Dicker
     ([Daniel Dicker on LinkedIn](https://www.linkedin.com/in/danieldicker/),
     [Daniel Dicker on Substack](https://substack.com/profile/48987754-daniel-dicker))
 * Link to the web site/blog:
@@ -493,27 +518,14 @@ In the future, individual teams will own their own data. Data engineering will o
 * Note that Andrea Gioia is the main contributor of
   [OpenDataMesh](#opendatamesh)
 
-### Anatomy of a Data Product
-* Title: Anatomy of a Data Product
-* Date: December 2022
-* Author: Jesse Paquette (
-  [Jesse Paquette on LinkedIn](https://www.linkedin.com/in/jessepaquette/),
-  [Jesse Paquette on Medium](https://jessepaquette.medium.com/))
-* Link to the articles:
-  + Part 1: https://jessepaquette.medium.com/anatomy-of-a-data-product-part-one-5afa99609699
-  + Part 2: https://jessepaquette.medium.com/anatomy-of-a-data-product-part-two-9d0c19e4307b
-  + Part 3: https://jessepaquette.medium.com/anatomy-of-a-data-product-part-three-801782b2f4bf
-  + Part 4: https://jessepaquette.medium.com/anatomy-of-a-data-product-part-four-e69706c156e6
-  + Part 5: https://jessepaquette.medium.com/anatomy-of-a-data-product-part-five-9a1f47c12db4
-
 ### An Engineer's guide to Data Contracts
 * Title: An Engineer's guide to Data Contracts
 * Date: October 2022
 * Authors:
-  + Chad Sanderson
+  * Chad Sanderson
     ([Chad Sanderson on LinkedIn](https://www.linkedin.com/in/chad-sanderson/),
     [Chad Sanderson on Substack](https://substack.com/profile/12566999-chad-sanderson))
-  + Adrian Kreuziger
+  * Adrian Kreuziger
 * Part 1:
   https://dataproducts.substack.com/p/an-engineers-guide-to-data-contracts
 * Part 2:
