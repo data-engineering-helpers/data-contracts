@@ -351,7 +351,7 @@ these companies.
 * Title: Data Quality at Petabyte Scale: Building Trust in the Data Lifecycle
 * Date: Feb. 2025
 * Author: Zakariah Siyaji
-  ([Zakariah Siyaji on LinkedIn](),
+  ([Zakariah Siyaji on LinkedIn](https://www.linkedin.com/in/zakariah-siyaji/),
   [Zakariah Siyaji on Medium](https://medium.com/@zaki.siyaji))
 * Link to the post on LinkedIn by Chad Sanderson:
   https://www.linkedin.com/posts/chad-sanderson_many-companies-talk-about-implementing-data-activity-7296212049565515777-dnCn/
