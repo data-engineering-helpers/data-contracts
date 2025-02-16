@@ -4,6 +4,7 @@ Data contracts
 # Table of Contents
 * [Data contracts](#data-contracts)
 * [Overview](#overview)
+  * [Other repositories of Data Engineering helpers](#other-repositories-of-data-engineering-helpers)
 * [Specifications](#specifications)
 * [Definitions](#definitions)
    * [Definition by Andrew Jones](#definition-by-andrew-jones)
@@ -100,6 +101,17 @@ while having both parties taking responsibility for their respective parts.
 Even though the members of the GitHub organization may be employed by
 some companies, they speak on their personal behalf and do not represent
 these companies.
+
+## Other repositories of Data Engineering helpers
+* [Data Engineering Helpers - Knowledge Sharing - Data life cycle](https://github.com/data-engineering-helpers/data-life-cycle)
+* [Data Engineering Helpers - Knowledge Sharing - Data products](https://github.com/data-engineering-helpers/data-products)
+* [Data Engineering Helpers - Knowledge Sharing - Data quality](https://github.com/data-engineering-helpers/data-quality)
+* [Data Engineering Helpers - Knowledge Sharing - Data pipeline deployment](https://github.com/data-engineering-helpers/data-pipeline-deployment)
+* [Data Engineering Helpers - Knowledge Sharing - Data lakehouse](https://github.com/data-engineering-helpers/data-lakehouse)
+* [Data Engineering Helpers - Knowledge Sharing - Data management](https://github.com/data-engineering-helpers/data-management)
+* [Data Engineering Helpers - Knowledge Sharing - Metadata](https://github.com/data-engineering-helpers/metadata)
+* [Data Engineering Helpers - Knowledge Sharing - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles)
+* [Data Engineering Helpers - Knowledge Sharing - Semantic layer](https://github.com/data-engineering-helpers/semantic-layer)
 
 # Specifications
 * Open Data Contract Specification (ODCS)
