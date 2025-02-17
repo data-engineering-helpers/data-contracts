@@ -372,6 +372,12 @@ these companies.
 * Also referenced in
   [Data Engineering Helpers - Knowledge Sharing - Data life cycle](https://github.com/data-engineering-helpers/data-life-cycle/blob/main/README.md#data-quality-at-petabyte-scale-building-trust-in-the-data-lifecycle)
 
+### Behind the scene of data contracts
+* Author: Pietro La Torre
+* Date: Nov. 2024
+* Link to the Substack article:
+  https://open.substack.com/pub/dataware/p/behind-the-scenes-of-data-contracts
+
 ### Data as a Product and Data Contract
 * Title: Data-as-a-Product and Data-Contract: An evolutionary approach to data maturity
 * Date: April 2024
