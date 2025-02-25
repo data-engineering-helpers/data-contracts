@@ -32,6 +32,7 @@ Data contracts
    * [Articles](#articles)
       * [Data Contracts The Key to reliable and product-oriented data](#data-contracts-the-key-to-reliable-and-product-oriented-data)
       * [Data Quality at Petabyte Scale: Building Trust in the Data Lifecycle](#data-quality-at-petabyte-scale-building-trust-in-the-data-lifecycle)
+      * [Behind the scene of data contracts](#behind-the-scene-of-data-contracts)
       * [Data as a Product and Data Contract](#data-as-a-product-and-data-contract)
       * [Data Contract 101](#data-contract-101)
       * [Data Contracts: the Mesh Glue](#data-contracts-the-mesh-glue)
@@ -383,6 +384,7 @@ these companies.
   [Data Engineering Helpers - Knowledge Sharing - Data life cycle](https://github.com/data-engineering-helpers/data-life-cycle/blob/main/README.md#data-quality-at-petabyte-scale-building-trust-in-the-data-lifecycle)
 
 ### Behind the scene of data contracts
+* Title: Behind the scene of data contracts
 * Author: Pietro La Torre
 * Date: Nov. 2024
 * Link to the Substack article:
