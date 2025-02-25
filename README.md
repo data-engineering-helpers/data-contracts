@@ -30,6 +30,7 @@ Data contracts
       * [Anatomy of a Data Product](#anatomy-of-a-data-product)
       * [Awesome data contracts](#awesome-data-contracts)
    * [Articles](#articles)
+      * [Data Contracts The Key to reliable and product-oriented data](#data-contracts-the-key-to-reliable-and-product-oriented-data)
       * [Data Quality at Petabyte Scale: Building Trust in the Data Lifecycle](#data-quality-at-petabyte-scale-building-trust-in-the-data-lifecycle)
       * [Data as a Product and Data Contract](#data-as-a-product-and-data-contract)
       * [Data Contract 101](#data-contract-101)
@@ -358,6 +359,15 @@ these companies.
    https://github.com/AltimateAI/awesome-data-contracts
 
 ## Articles
+
+### Data Contracts: The Key to reliable and product-oriented data
+* Title: Data Contracts: The Key to reliable and product-oriented data
+* Date: Feb. 2025
+* Authors:
+  * Pierre-Yves Bonnefoy
+  * Gaëlle Seret
+* Link to the article on Substack:
+  https://cleandataarchitecture.substack.com/p/data-contracts-the-key-to-reliable
 
 ### Data Quality at Petabyte Scale: Building Trust in the Data Lifecycle
 * Title: Data Quality at Petabyte Scale: Building Trust in the Data Lifecycle
