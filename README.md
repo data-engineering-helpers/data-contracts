@@ -30,6 +30,7 @@ Data contracts
       * [Anatomy of a Data Product](#anatomy-of-a-data-product)
       * [Awesome data contracts](#awesome-data-contracts)
    * [Articles](#articles)
+      * [Data Contract Implementation Patterns](#data-contract-implementation-patterns)
       * [Data Contracts The Key to reliable and product-oriented data](#data-contracts-the-key-to-reliable-and-product-oriented-data)
       * [Data Quality at Petabyte Scale: Building Trust in the Data Lifecycle](#data-quality-at-petabyte-scale-building-trust-in-the-data-lifecycle)
       * [Behind the scene of data contracts](#behind-the-scene-of-data-contracts)
@@ -360,6 +361,15 @@ these companies.
    https://github.com/AltimateAI/awesome-data-contracts
 
 ## Articles
+
+### Data Contract Implementation Patterns
+* Title: Data Contract Implementation Patterns
+* Date: Mar. 2025
+* Author: Paolo Platter
+  ([Paolo Platter on LinkedIn](https://www.linkedin.com/in/paoloplatter/),
+  [Paolo Platter on Medium](https://p-platter.medium.com/))
+* Link to the article on Medium:
+  https://medium.com/agile-lab-engineering/data-contract-implementation-patterns-bf4b6d4f21e9
 
 ### Data Contracts: The Key to reliable and product-oriented data
 * Title: Data Contracts: The Key to reliable and product-oriented data
