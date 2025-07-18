@@ -859,7 +859,29 @@ data profiling, and data linage instead of technical tooling or platform.
 
 ## DataMesh Manager
 * Home page: https://datamesh-manager.com
-  
+
+# Alternatives to data contracts
+* Some of the following frameworks were listed in the following post on LinkedIn,
+  by [Matthias Buchhorn-Roth](https://www.linkedin.com/in/mbuchhorn/):
+  https://www.linkedin.com/feed/update/urn:li:activity:7351302864566214656/
+
+## Data Space Protocol (DSP)
+* Home page: https://internationaldataspaces.org/offers/dataspace-protocol/
+* Organization: [GitHub - International Data Spaces Association (IDSA)](https://github.com/International-Data-Spaces-Association)
+  * [Statement paper (PDF)](https://internationaldataspaces.org/dataspace-protocol-statement-paper/)
+  * Specifications for International Data Spaces (IDS): https://github.com/International-Data-Spaces-Association/ids-specification
+  * Motto:
+> We bring global innovators together to create a future where trusted partners, of all sizes and from all industries, can securely share data
+
+## Eclipse Dataspace Components (EDC)
+* Home page: https://projects.eclipse.org/projects/technology.edc
+* GitHub organization: https://github.com/eclipse-edc
+* Components:
+  * [GitHub - Connector](https://github.com/eclipse-edc/Connector)
+  * [GitHub - FederatedCatalog](https://github.com/eclipse-edc/FederatedCatalog)
+  * [GitHub - Samples](https://github.com/eclipse-edc/Samples)
+    * [GitHub - Samples - Basic](https://github.com/eclipse-edc/Samples/blob/main/basic/README.md)
+    * [GitHub - Samples - Transfer](https://github.com/eclipse-edc/Samples/blob/main/transfer/README.md)
 
 # Exploration / Proof-of-Concept (PoC)
 * [GitHub - Smithy - Quickstart guide](smithy/quickstart/)
