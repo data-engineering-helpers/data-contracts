@@ -29,6 +29,7 @@ Data contracts
     * [Anatomy of a Data Product](#anatomy-of-a-data-product)
     * [Awesome data contracts](#awesome-data-contracts)
   * [Articles](#articles)
+    * [Data contracts - Hype or real solution](#data-contracts-hype-or-real-solution)
     * [Data Contract Implementation Patterns](#data-contract-implementation-patterns)
     * [Data Contracts: The Key to reliable and product\-oriented data](#data-contracts-the-key-to-reliable-and-product-oriented-data)
     * [Data Quality at Petabyte Scale: Building Trust in the Data Lifecycle](#data-quality-at-petabyte-scale-building-trust-in-the-data-lifecycle)
@@ -363,6 +364,14 @@ these companies.
    https://github.com/AltimateAI/awesome-data-contracts
 
 ## Articles
+
+### Data contracts - Hype or real solution
+* Title: Data contracts - Hype or real solution
+* Date: July 2025
+* Author: Mengyu Shi
+  ([Mengyu Shi on LinkedIn](https://www.linkedin.com/in/mengyu-shi-175304129/))
+* Link to the LinlkedIn post:
+  https://www.linkedin.com/posts/mengyu-shi-175304129_datacontracts-datagovernance-databricks-activity-7354035125958918145-_55J/
 
 ### Data Contract Implementation Patterns
 * Title: Data Contract Implementation Patterns
