@@ -20,6 +20,7 @@ Data contracts
     * [Data contracts demystified, by Atlan](#data-contracts-demystified-by-atlan)
     * [Bitol organization](#bitol-organization)
   * [Books and collections of articles](#books-and-collections-of-articles)
+    * [The Complete Guide to Data Products](#the-complete-guide-to-data-products)
     * [Data Contracts: Developing Production\-Grade Pipelines at Scale](#data-contracts-developing-production-grade-pipelines-at-scale)
     * [Implementing Data Mesh](#implementing-data-mesh)
     * [Illustrated Guide to Data Products in Action](#illustrated-guide-to-data-products-in-action)
@@ -273,6 +274,16 @@ these companies.
   * 2023-05-01 - [PayPal open sources its data contract template](https://jgp.ai/2023/05/01/paypal-open-sources-its-data-contract-template/)
 
 ## Books and collections of articles
+
+### The Complete Guide to Data Products
+
+* Title: The Complete Guide to Data Products
+* Author: [Animesh Kumar](https://www.linkedin.com/in/anismiles/)
+* Date: May 2026
+* [Modern Data 101 blog post](https://www.moderndata101.com/blogs/what-are-data-products-the-complete-guide)
+* Overview:
+
+> A Practical, End-to-End Guide to Architecture, Ownership, Metrics, and Business Impact of Productised Data Management
 
 ### Data Contracts: Developing Production-Grade Pipelines at Scale
 * Title: Data Contracts: Developing Production-Grade Pipelines at Scale
